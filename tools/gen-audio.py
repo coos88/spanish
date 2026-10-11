@@ -5,7 +5,7 @@ Usage:  python tools/gen-audio.py --voices-dir DIR [--only es] [--espeak-dir DIR
         --espeak-dir: some piper-tts wheels fail to find their bundled espeak data ("Error processing file .../phontab");
         copy site-packages/piper/espeak-ng-data to DIR/espeak-ng-data and pass DIR.
 Needs:  pip install piper-tts   (GPL-3 engine; never vendored here, output audio is not a derivative)
-Voices: es_ES-davefx-medium (CC0) -> audio/es/   es_MX-ald-medium (Unlicense) -> audio/mx/
+Voice:  es_ES-davefx-medium (CC0 data, see NOTICE for lineage) -> audio/es/
 Output: audio/<voice>/<id>.m4a  (+ <id>-slow.m4a for phrases), audio/manifest.json (text hashes, so unchanged items are skipped)
 """
 import argparse, hashlib, json, subprocess, sys, tempfile, wave
@@ -14,7 +14,7 @@ from pathlib import Path
 from piper import PiperVoice, SynthesisConfig
 
 ROOT = Path(__file__).resolve().parent.parent
-VOICES = {"es": "es_ES-davefx-medium", "mx": "es_MX-ald-medium"}
+VOICES = {"es": "es_ES-davefx-medium"}
 SLOW = 1.4  # length_scale; >1 = slower
 
 

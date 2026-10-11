@@ -13,7 +13,7 @@ Inspired by [rust-for-java-devs](https://github.com/coos88/rust-for-java-devs): 
 
 ## The app
 Flashcards (spaced repetition), quiz (hear it / EN→ES / ES→EN, pick or type), present-tense verb drill, a browsable phrasebook, and a *Say it* box that speaks any text.
-Spain and Mexico voices. Progress lives in your browser only (localStorage).
+Spain Spanish voice. Progress lives in your browser only (localStorage).
 
 Audio is pre-generated with [Piper](https://github.com/OHF-Voice/piper1-gpl) (see [NOTICE](NOTICE)) so it sounds the same on every device. Only the *Say it* box uses your browser's own speech voices.
 

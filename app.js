@@ -7,7 +7,7 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem('es.' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem('es.' + k, JSON.stringify(v)); } catch { /* ignore */ } },
 };
-const settings = { voice: store.get('voice', 'es'), accents: store.get('accents', true) };
+const settings = { accents: store.get('accents', true) };
 
 // ---------- data ----------
 const load = (f) => fetch(`data/${f}.json`).then((r) => r.json());
@@ -45,7 +45,7 @@ function speakTTS(text) {
   if (!('speechSynthesis' in window)) return showNotice('This browser has no speech synthesis. Pre-recorded words still work.');
   const voices = speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith('es'));
   if (!voices.length) return showNotice('No Spanish voice found on this device. Install one in your system settings (e.g. Spanish in macOS Spoken Content, or Google TTS on Android).');
-  const want = settings.voice === 'mx' ? 'es-mx' : 'es-es';
+  const want = 'es-es';
   const v = voices.find((x) => x.lang.toLowerCase().replace('_', '-') === want) || voices[0];
   speechSynthesis.cancel();
   // Safari drops events right after cancel(); a short delay avoids a silent first utterance.
@@ -65,7 +65,7 @@ function showNotice(msg) {
 /** Play pre-generated audio for an id; fall back to browser TTS if the file is missing. */
 function say(id, text, { slow = false } = {}) {
   current?.pause();
-  const a = new Audio(`audio/${settings.voice}/${id}${slow ? '-slow' : ''}.m4a`);
+  const a = new Audio(`audio/es/${id}${slow ? '-slow' : ''}.m4a`);
   current = a;
   // A failed clip fires both the 'error' event and a play() rejection: fall back exactly once,
   // and not at all if a newer click already replaced this clip (AbortError).
@@ -281,9 +281,8 @@ function show(tab) {
   store.set('tab', tab);
 }
 $('#tabs').addEventListener('click', (e) => { const b = e.target.closest('button[data-tab]'); if (b) show(b.dataset.tab); });
-const voiceSel = $('#voice'), accSel = $('#accents');
-voiceSel.value = settings.voice; accSel.checked = settings.accents;
-voiceSel.onchange = () => { settings.voice = voiceSel.value; store.set('voice', settings.voice); };
+const accSel = $('#accents');
+accSel.checked = settings.accents;
 accSel.onchange = () => { settings.accents = accSel.checked; store.set('accents', settings.accents); };
 show(views[store.get('tab', 'cards')] ? store.get('tab', 'cards') : 'cards');
 
