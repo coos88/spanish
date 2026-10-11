@@ -67,8 +67,15 @@ function say(id, text, { slow = false } = {}) {
   current?.pause();
   const a = new Audio(`audio/${settings.voice}/${id}${slow ? '-slow' : ''}.m4a`);
   current = a;
-  a.addEventListener('error', () => speakTTS(text), { once: true });
-  a.play().catch(() => speakTTS(text));
+  // A failed clip fires both the 'error' event and a play() rejection: fall back exactly once,
+  // and not at all if a newer click already replaced this clip (AbortError).
+  let fell = false;
+  const fallback = (e) => {
+    if (fell || current !== a || e?.name === 'AbortError') return;
+    fell = true; speakTTS(text);
+  };
+  a.addEventListener('error', fallback, { once: true });
+  a.play().catch(fallback);
 }
 const speakBtn = (id, text, slowOk = false) => [
   el('button', { class: 'speak', title: 'Listen', 'aria-label': `Listen: ${text}`, onclick: (e) => { e.stopPropagation(); say(id, text); } }, '🔊'),
