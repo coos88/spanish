@@ -1,6 +1,6 @@
 // Offline support. All URLs are relative to the SW scope so this works on /spanish/ (GitHub Pages) and / (Docker).
 // Bump CACHE on every deploy that changes the shell, otherwise old files can linger.
-const CACHE = 'es-v5';
+const CACHE = 'es-v6';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icon.svg',
   'data/vocab.json', 'data/phrases.json', 'data/verbs.json', 'data/ch1.json', 'data/ch2.json', 'data/ch3.json'];
 

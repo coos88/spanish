@@ -67,7 +67,7 @@ Spain eats later than most: breakfast 7-9, a mid-morning snack, **lunch (la comi
 - Listen daily, even if you understand 10%. Spanish pronunciation is regular, so reading along with audio is a fast way to train your ear. The app's *Hear it → English* quiz is built for this.
 
 ## How to study with this repo (15 min/day)
-1. 5 min: flashcards in the app (only what's due).
-2. 5 min: one quiz round, alternate *hear it* and *type it*.
-3. 5 min: the next lesson in the app's Learn tab (or a verb drill).
+1. 5 min: the Review card on Today (only what's due).
+2. 5 min: the next lesson (Continue on Today).
+3. 5 min: *More practice*: a verb drill, or a quiz alternating *hear it* and *type it*.
 4. Once a week: repeat one weak exercise from scratch without looking.

@@ -18,9 +18,12 @@ Each chapter folder has `GRAMMAR.md`, `EXERCISES.md` (answers hidden), `VOCAB.md
 - [In practice](PRACTICE.md): Spain vs LatAm, false friends, habits to unlearn, how to study
 
 ## The app
-- **Learn**: lessons with rule cards, example sentences with audio, dialogues, and 6-10 drills per lesson (gap-fill, pick the answer, build the sentence, translate)
-- **Flashcards** (spaced repetition), **Quiz** (hear it / EN→ES / ES→EN), **Verbs** (present, past, imperfect, present perfect), **Browse**, and a **Say it** box that speaks any text
-- A chapter filter limits words and quizzes to what you've covered. Progress lives in your browser only (localStorage).
+Three places and two guided sessions, no menus to configure:
+- **Today**: one "continue" card for your next lesson, one "review" card for what's due, a light streak.
+- **Course**: the 25 lessons by chapter. Each lesson is a guided run: rule cards with audio, a dialogue, then drills (gap-fill, pick, build the sentence, translate).
+- **Review**: a daily spaced-repetition session that picks the exercise type for you (flip, pick, listen, type, dictation).
+- **Library**: all words, phrases, verb tables (present, past, imperfect, perfect) and a *Say it* box. *More practice* on Today has flashcards, quick quiz, verb drill and weak spots.
+- Settings (gear on Today): forgive missing accents, review ceiling, reset. Progress lives in your browser only (localStorage).
 
 Audio is pre-generated with [Piper](https://github.com/OHF-Voice/piper1-gpl) (see [NOTICE](NOTICE) for licences and lineage) so it sounds the same on every device. Only the *Say it* box, and verb forms without recordings, use your browser's own speech voices.
 
