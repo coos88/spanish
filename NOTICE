@@ -1,0 +1,7 @@
+Audio (audio/) is generated offline with Piper TTS (https://github.com/OHF-Voice/piper1-gpl, GPL-3.0; used only as a
+build tool, no Piper code is included in this repository) using these voice models:
+
+  es_ES-davefx-medium  (CC0 1.0)      https://huggingface.co/rhasspy/piper-voices/tree/main/es/es_ES/davefx
+  es_MX-ald-medium     (Unlicense)    https://huggingface.co/rhasspy/piper-voices/tree/main/es/es_MX/ald
+
+Check each voice's MODEL_CARD upstream for the dataset credits.

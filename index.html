@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spanish basics</title>
+<meta name="description" content="Learn Spanish basics: flashcards, quizzes, verb drills and spoken audio.">
+<meta name="theme-color" content="#c0392b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>¡Hola! <span>Spanish basics</span></h1>
+  <div class="settings">
+    <label>Voice
+      <select id="voice">
+        <option value="es">Spain 🇪🇸</option>
+        <option value="mx">Mexico 🇲🇽</option>
+      </select>
+    </label>
+    <label class="check"><input type="checkbox" id="accents" checked> Ignore accents when typing</label>
+  </div>
+  <nav id="tabs" role="tablist">
+    <button role="tab" data-tab="cards" aria-selected="true">Flashcards</button>
+    <button role="tab" data-tab="quiz">Quiz</button>
+    <button role="tab" data-tab="verbs">Verbs</button>
+    <button role="tab" data-tab="browse">Browse</button>
+    <button role="tab" data-tab="say">Say it</button>
+  </nav>
+</header>
+<main id="view" aria-live="polite"></main>
+<footer>
+  <p>Audio: Piper TTS voices (es_ES davefx, CC0 · es_MX ald, Unlicense). Progress is stored only in this browser.
+  <a href="https://github.com/coos88/spanish">Source</a></p>
+</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

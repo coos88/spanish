@@ -1,0 +1,336 @@
+{
+  "themes": {
+    "intro": "Introductions",
+    "basics": "Getting by",
+    "food": "Eating & drinking",
+    "shopping": "Shopping",
+    "directions": "Directions & transport",
+    "help": "Help & emergencies"
+  },
+  "items": [
+    {
+      "id": "p-como-te-llamas",
+      "es": "¿Cómo te llamas?",
+      "en": "What's your name? (informal)",
+      "t": "intro"
+    },
+    {
+      "id": "p-me-llamo",
+      "es": "Me llamo Coos.",
+      "en": "My name is Coos.",
+      "t": "intro"
+    },
+    {
+      "id": "p-como-esta-usted",
+      "es": "¿Cómo está usted?",
+      "en": "How are you? (formal)",
+      "t": "intro"
+    },
+    {
+      "id": "p-como-estas",
+      "es": "¿Cómo estás?",
+      "en": "How are you? (informal)",
+      "t": "intro"
+    },
+    {
+      "id": "p-estoy-bien",
+      "es": "Estoy bien, gracias. ¿Y tú?",
+      "en": "I'm fine, thanks. And you?",
+      "t": "intro"
+    },
+    {
+      "id": "p-de-donde-eres",
+      "es": "¿De dónde eres?",
+      "en": "Where are you from? (informal)",
+      "t": "intro"
+    },
+    {
+      "id": "p-soy-de",
+      "es": "Soy de los Países Bajos.",
+      "en": "I'm from the Netherlands.",
+      "t": "intro"
+    },
+    {
+      "id": "p-tengo-anos",
+      "es": "Tengo treinta años.",
+      "en": "I am thirty years old.",
+      "t": "intro"
+    },
+    {
+      "id": "p-vivo-en",
+      "es": "Vivo en una ciudad pequeña.",
+      "en": "I live in a small city.",
+      "t": "intro"
+    },
+    {
+      "id": "p-hablo-poco",
+      "es": "Hablo un poco de español.",
+      "en": "I speak a little Spanish.",
+      "t": "intro"
+    },
+    {
+      "id": "p-no-entiendo",
+      "es": "No entiendo.",
+      "en": "I don't understand.",
+      "t": "basics"
+    },
+    {
+      "id": "p-mas-despacio",
+      "es": "Más despacio, por favor.",
+      "en": "More slowly, please.",
+      "t": "basics"
+    },
+    {
+      "id": "p-repetir",
+      "es": "¿Puede repetir, por favor?",
+      "en": "Can you repeat, please? (formal)",
+      "t": "basics"
+    },
+    {
+      "id": "p-habla-ingles",
+      "es": "¿Habla inglés?",
+      "en": "Do you speak English? (formal)",
+      "t": "basics"
+    },
+    {
+      "id": "p-como-se-dice",
+      "es": "¿Cómo se dice esto en español?",
+      "en": "How do you say this in Spanish?",
+      "t": "basics"
+    },
+    {
+      "id": "p-que-significa",
+      "es": "¿Qué significa esto?",
+      "en": "What does this mean?",
+      "t": "basics"
+    },
+    {
+      "id": "p-no-se",
+      "es": "No sé.",
+      "en": "I don't know.",
+      "t": "basics"
+    },
+    {
+      "id": "p-que-hora-es",
+      "es": "¿Qué hora es?",
+      "en": "What time is it?",
+      "t": "basics"
+    },
+    {
+      "id": "p-hay-wifi",
+      "es": "¿Hay wifi aquí?",
+      "en": "Is there wifi here?",
+      "t": "basics"
+    },
+    {
+      "id": "p-donde-esta-bano",
+      "es": "¿Dónde está el baño?",
+      "en": "Where is the bathroom?",
+      "t": "basics"
+    },
+    {
+      "id": "p-una-mesa",
+      "es": "Una mesa para dos, por favor.",
+      "en": "A table for two, please.",
+      "t": "food"
+    },
+    {
+      "id": "p-quisiera",
+      "es": "Quisiera un café con leche.",
+      "en": "I would like a coffee with milk.",
+      "t": "food"
+    },
+    {
+      "id": "p-me-pone",
+      "es": "¿Me pone una cerveza, por favor?",
+      "en": "Could I have a beer, please? (Spain, at a bar)",
+      "t": "food"
+    },
+    {
+      "id": "p-que-recomienda",
+      "es": "¿Qué recomienda?",
+      "en": "What do you recommend? (formal)",
+      "t": "food"
+    },
+    {
+      "id": "p-soy-vegetariano",
+      "es": "Soy vegetariano.",
+      "en": "I'm vegetarian. (f: vegetariana)",
+      "t": "food"
+    },
+    {
+      "id": "p-sin-carne",
+      "es": "Sin carne, por favor.",
+      "en": "Without meat, please.",
+      "t": "food"
+    },
+    {
+      "id": "p-esta-delicioso",
+      "es": "Está muy rico.",
+      "en": "It's really tasty. (¡Está delicioso! is more formal)",
+      "t": "food"
+    },
+    {
+      "id": "p-la-cuenta",
+      "es": "La cuenta, por favor.",
+      "en": "The bill, please.",
+      "t": "food"
+    },
+    {
+      "id": "p-tengo-sed",
+      "es": "Tengo sed.",
+      "en": "I'm thirsty.",
+      "t": "food"
+    },
+    {
+      "id": "p-tengo-hambre",
+      "es": "Tengo hambre.",
+      "en": "I'm hungry.",
+      "t": "food"
+    },
+    {
+      "id": "p-cuanto-cuesta",
+      "es": "¿Cuánto cuesta?",
+      "en": "How much does it cost?",
+      "t": "shopping"
+    },
+    {
+      "id": "p-es-muy-caro",
+      "es": "Es muy caro.",
+      "en": "It's very expensive.",
+      "t": "shopping"
+    },
+    {
+      "id": "p-solo-mirando",
+      "es": "Solo estoy mirando, gracias.",
+      "en": "I'm just looking, thanks.",
+      "t": "shopping"
+    },
+    {
+      "id": "p-me-lo-llevo",
+      "es": "Me lo llevo.",
+      "en": "I'll take it.",
+      "t": "shopping"
+    },
+    {
+      "id": "p-puedo-pagar-tarjeta",
+      "es": "¿Puedo pagar con tarjeta?",
+      "en": "Can I pay by card?",
+      "t": "shopping"
+    },
+    {
+      "id": "p-tiene-talla",
+      "es": "¿Tiene una talla más grande?",
+      "en": "Do you have a bigger size?",
+      "t": "shopping"
+    },
+    {
+      "id": "p-necesito",
+      "es": "Necesito una bolsa.",
+      "en": "I need a bag.",
+      "t": "shopping"
+    },
+    {
+      "id": "p-donde-esta-estacion",
+      "es": "¿Dónde está la estación?",
+      "en": "Where is the station?",
+      "t": "directions"
+    },
+    {
+      "id": "p-esta-lejos",
+      "es": "¿Está lejos de aquí?",
+      "en": "Is it far from here?",
+      "t": "directions"
+    },
+    {
+      "id": "p-esta-cerca",
+      "es": "Está cerca.",
+      "en": "It's close.",
+      "t": "directions"
+    },
+    {
+      "id": "p-gire-derecha",
+      "es": "Gire a la derecha.",
+      "en": "Turn right.",
+      "t": "directions"
+    },
+    {
+      "id": "p-siga-recto",
+      "es": "Siga todo recto.",
+      "en": "Keep going straight ahead.",
+      "t": "directions"
+    },
+    {
+      "id": "p-un-billete",
+      "es": "Un billete para Madrid, por favor.",
+      "en": "A ticket to Madrid, please. (LatAm: boleto)",
+      "t": "directions"
+    },
+    {
+      "id": "p-a-que-hora-sale",
+      "es": "¿A qué hora sale el tren?",
+      "en": "What time does the train leave?",
+      "t": "directions"
+    },
+    {
+      "id": "p-voy-a",
+      "es": "Voy a la playa.",
+      "en": "I'm going to the beach.",
+      "t": "directions"
+    },
+    {
+      "id": "p-reserva",
+      "es": "Tengo una reserva a nombre de Coos.",
+      "en": "I have a reservation under the name Coos. (LatAm: reservación)",
+      "t": "directions"
+    },
+    {
+      "id": "p-ayuda",
+      "es": "¡Socorro!",
+      "en": "Help! (¡Ayuda! also works)",
+      "t": "help"
+    },
+    {
+      "id": "p-necesito-ayuda",
+      "es": "Necesito ayuda.",
+      "en": "I need help.",
+      "t": "help"
+    },
+    {
+      "id": "p-llame-medico",
+      "es": "Llame a un médico, por favor.",
+      "en": "Call a doctor, please.",
+      "t": "help"
+    },
+    {
+      "id": "p-me-duele",
+      "es": "Me duele la cabeza.",
+      "en": "My head hurts.",
+      "t": "help"
+    },
+    {
+      "id": "p-estoy-perdido",
+      "es": "Estoy perdido.",
+      "en": "I'm lost. (f: perdida)",
+      "t": "help"
+    },
+    {
+      "id": "p-he-perdido",
+      "es": "He perdido mi pasaporte.",
+      "en": "I've lost my passport. (Spain; LatAm: Perdí mi pasaporte)",
+      "t": "help"
+    },
+    {
+      "id": "p-policia",
+      "es": "Llame a la policía.",
+      "en": "Call the police.",
+      "t": "help"
+    },
+    {
+      "id": "p-no-me-siento-bien",
+      "es": "No me siento bien.",
+      "en": "I don't feel well.",
+      "t": "help"
+    }
+  ]
+}

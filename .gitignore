@@ -1,0 +1,4 @@
+.playwright-mcp/
+.idea/
+.DS_Store
+__pycache__/

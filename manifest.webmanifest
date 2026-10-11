@@ -1,0 +1,10 @@
+{
+  "name": "Spanish basics",
+  "short_name": "Español",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#c0392b",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,223 @@
+{
+  "pronouns": [
+    "yo",
+    "tú",
+    "él / ella / usted",
+    "nosotros/as",
+    "vosotros/as (Spain; LatAm: ustedes)",
+    "ellos / ellas / ustedes"
+  ],
+  "items": [
+    {
+      "id": "v-hablar",
+      "inf": "hablar",
+      "en": "to speak",
+      "type": "regular -ar",
+      "forms": [
+        "hablo",
+        "hablas",
+        "habla",
+        "hablamos",
+        "habláis",
+        "hablan"
+      ]
+    },
+    {
+      "id": "v-comer",
+      "inf": "comer",
+      "en": "to eat",
+      "type": "regular -er",
+      "forms": [
+        "como",
+        "comes",
+        "come",
+        "comemos",
+        "coméis",
+        "comen"
+      ]
+    },
+    {
+      "id": "v-vivir",
+      "inf": "vivir",
+      "en": "to live",
+      "type": "regular -ir",
+      "forms": [
+        "vivo",
+        "vives",
+        "vive",
+        "vivimos",
+        "vivís",
+        "viven"
+      ]
+    },
+    {
+      "id": "v-trabajar",
+      "inf": "trabajar",
+      "en": "to work",
+      "type": "regular -ar",
+      "forms": [
+        "trabajo",
+        "trabajas",
+        "trabaja",
+        "trabajamos",
+        "trabajáis",
+        "trabajan"
+      ]
+    },
+    {
+      "id": "v-beber",
+      "inf": "beber",
+      "en": "to drink",
+      "type": "regular -er",
+      "forms": [
+        "bebo",
+        "bebes",
+        "bebe",
+        "bebemos",
+        "bebéis",
+        "beben"
+      ]
+    },
+    {
+      "id": "v-ser",
+      "inf": "ser",
+      "en": "to be (identity / description)",
+      "type": "irregular",
+      "forms": [
+        "soy",
+        "eres",
+        "es",
+        "somos",
+        "sois",
+        "son"
+      ]
+    },
+    {
+      "id": "v-estar",
+      "inf": "estar",
+      "en": "to be (state / location)",
+      "type": "irregular",
+      "forms": [
+        "estoy",
+        "estás",
+        "está",
+        "estamos",
+        "estáis",
+        "están"
+      ]
+    },
+    {
+      "id": "v-tener",
+      "inf": "tener",
+      "en": "to have",
+      "type": "irregular (yo) + e→ie",
+      "forms": [
+        "tengo",
+        "tienes",
+        "tiene",
+        "tenemos",
+        "tenéis",
+        "tienen"
+      ]
+    },
+    {
+      "id": "v-ir",
+      "inf": "ir",
+      "en": "to go",
+      "type": "irregular",
+      "forms": [
+        "voy",
+        "vas",
+        "va",
+        "vamos",
+        "vais",
+        "van"
+      ]
+    },
+    {
+      "id": "v-hacer",
+      "inf": "hacer",
+      "en": "to do / make",
+      "type": "irregular",
+      "forms": [
+        "hago",
+        "haces",
+        "hace",
+        "hacemos",
+        "hacéis",
+        "hacen"
+      ]
+    },
+    {
+      "id": "v-querer",
+      "inf": "querer",
+      "en": "to want",
+      "type": "stem-changing e→ie",
+      "forms": [
+        "quiero",
+        "quieres",
+        "quiere",
+        "queremos",
+        "queréis",
+        "quieren"
+      ]
+    },
+    {
+      "id": "v-poder",
+      "inf": "poder",
+      "en": "to be able to",
+      "type": "stem-changing o→ue",
+      "forms": [
+        "puedo",
+        "puedes",
+        "puede",
+        "podemos",
+        "podéis",
+        "pueden"
+      ]
+    },
+    {
+      "id": "v-venir",
+      "inf": "venir",
+      "en": "to come",
+      "type": "irregular (yo) + e→ie",
+      "forms": [
+        "vengo",
+        "vienes",
+        "viene",
+        "venimos",
+        "venís",
+        "vienen"
+      ]
+    },
+    {
+      "id": "v-saber",
+      "inf": "saber",
+      "en": "to know (facts)",
+      "type": "irregular (yo)",
+      "forms": [
+        "sé",
+        "sabes",
+        "sabe",
+        "sabemos",
+        "sabéis",
+        "saben"
+      ]
+    },
+    {
+      "id": "v-llamarse",
+      "inf": "llamarse",
+      "en": "to be called",
+      "type": "reflexive",
+      "forms": [
+        "me llamo",
+        "te llamas",
+        "se llama",
+        "nos llamamos",
+        "os llamáis",
+        "se llaman"
+      ]
+    }
+  ],
+  "tense": "present indicative"
+}

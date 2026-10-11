@@ -1,0 +1,1066 @@
+{
+  "themes": {
+    "greetings": "Greetings & politeness",
+    "people": "People & family",
+    "food": "Food & drink",
+    "places": "Places & travel",
+    "time": "Time, days & work",
+    "numbers": "Numbers",
+    "colors": "Colors",
+    "adjectives": "Common adjectives",
+    "verbs": "Common verbs",
+    "question": "Question words & little words"
+  },
+  "items": [
+    {
+      "id": "hola",
+      "es": "hola",
+      "en": "hello",
+      "t": "greetings"
+    },
+    {
+      "id": "adios",
+      "es": "adiós",
+      "en": "goodbye",
+      "t": "greetings"
+    },
+    {
+      "id": "hasta-luego",
+      "es": "hasta luego",
+      "en": "see you later",
+      "t": "greetings"
+    },
+    {
+      "id": "buenos-dias",
+      "es": "buenos días",
+      "en": "good morning",
+      "t": "greetings"
+    },
+    {
+      "id": "buenas-tardes",
+      "es": "buenas tardes",
+      "en": "good afternoon",
+      "t": "greetings"
+    },
+    {
+      "id": "buenas-noches",
+      "es": "buenas noches",
+      "en": "good evening / good night",
+      "t": "greetings"
+    },
+    {
+      "id": "por-favor",
+      "es": "por favor",
+      "en": "please",
+      "t": "greetings"
+    },
+    {
+      "id": "gracias",
+      "es": "gracias",
+      "en": "thank you",
+      "t": "greetings"
+    },
+    {
+      "id": "de-nada",
+      "es": "de nada",
+      "en": "you're welcome",
+      "t": "greetings"
+    },
+    {
+      "id": "perdon",
+      "es": "perdón",
+      "en": "sorry / excuse me",
+      "t": "greetings"
+    },
+    {
+      "id": "lo-siento",
+      "es": "lo siento",
+      "en": "I'm sorry",
+      "t": "greetings"
+    },
+    {
+      "id": "si",
+      "es": "sí",
+      "en": "yes",
+      "t": "greetings"
+    },
+    {
+      "id": "no",
+      "es": "no",
+      "en": "no",
+      "t": "greetings"
+    },
+    {
+      "id": "mucho-gusto",
+      "es": "mucho gusto",
+      "en": "nice to meet you",
+      "t": "greetings"
+    },
+    {
+      "id": "el-hombre",
+      "es": "el hombre",
+      "en": "the man",
+      "t": "people"
+    },
+    {
+      "id": "la-mujer",
+      "es": "la mujer",
+      "en": "the woman",
+      "t": "people"
+    },
+    {
+      "id": "el-nino",
+      "es": "el niño",
+      "en": "the boy / child",
+      "t": "people"
+    },
+    {
+      "id": "la-nina",
+      "es": "la niña",
+      "en": "the girl",
+      "t": "people"
+    },
+    {
+      "id": "el-amigo",
+      "es": "el amigo",
+      "en": "the friend (m)",
+      "t": "people"
+    },
+    {
+      "id": "la-amiga",
+      "es": "la amiga",
+      "en": "the friend (f)",
+      "t": "people"
+    },
+    {
+      "id": "la-familia",
+      "es": "la familia",
+      "en": "the family",
+      "t": "people"
+    },
+    {
+      "id": "el-padre",
+      "es": "el padre",
+      "en": "the father",
+      "t": "people"
+    },
+    {
+      "id": "la-madre",
+      "es": "la madre",
+      "en": "the mother",
+      "t": "people"
+    },
+    {
+      "id": "el-hermano",
+      "es": "el hermano",
+      "en": "the brother",
+      "t": "people"
+    },
+    {
+      "id": "la-hermana",
+      "es": "la hermana",
+      "en": "the sister",
+      "t": "people"
+    },
+    {
+      "id": "el-hijo",
+      "es": "el hijo",
+      "en": "the son",
+      "t": "people"
+    },
+    {
+      "id": "la-hija",
+      "es": "la hija",
+      "en": "the daughter",
+      "t": "people"
+    },
+    {
+      "id": "el-marido",
+      "es": "el marido",
+      "en": "the husband (LatAm: el esposo)",
+      "t": "people"
+    },
+    {
+      "id": "la-esposa",
+      "es": "la esposa",
+      "en": "the wife (Spain also: la mujer)",
+      "t": "people"
+    },
+    {
+      "id": "el-senor",
+      "es": "el señor",
+      "en": "sir / gentleman / Mr",
+      "t": "people"
+    },
+    {
+      "id": "la-senora",
+      "es": "la señora",
+      "en": "the lady / Mrs",
+      "t": "people"
+    },
+    {
+      "id": "el-agua",
+      "es": "el agua",
+      "en": "the water (feminine, but takes el: el agua fría)",
+      "t": "food"
+    },
+    {
+      "id": "el-pan",
+      "es": "el pan",
+      "en": "the bread",
+      "t": "food"
+    },
+    {
+      "id": "la-leche",
+      "es": "la leche",
+      "en": "the milk",
+      "t": "food"
+    },
+    {
+      "id": "el-cafe",
+      "es": "el café",
+      "en": "the coffee",
+      "t": "food"
+    },
+    {
+      "id": "el-te",
+      "es": "el té",
+      "en": "the tea",
+      "t": "food"
+    },
+    {
+      "id": "el-vino",
+      "es": "el vino",
+      "en": "the wine",
+      "t": "food"
+    },
+    {
+      "id": "la-cerveza",
+      "es": "la cerveza",
+      "en": "the beer",
+      "t": "food"
+    },
+    {
+      "id": "el-zumo",
+      "es": "el zumo",
+      "en": "the juice (Spain; LatAm: el jugo)",
+      "t": "food"
+    },
+    {
+      "id": "la-carne",
+      "es": "la carne",
+      "en": "the meat",
+      "t": "food"
+    },
+    {
+      "id": "el-pollo",
+      "es": "el pollo",
+      "en": "the chicken",
+      "t": "food"
+    },
+    {
+      "id": "el-pescado",
+      "es": "el pescado",
+      "en": "the fish (as food)",
+      "t": "food"
+    },
+    {
+      "id": "el-huevo",
+      "es": "el huevo",
+      "en": "the egg",
+      "t": "food"
+    },
+    {
+      "id": "el-queso",
+      "es": "el queso",
+      "en": "the cheese",
+      "t": "food"
+    },
+    {
+      "id": "la-fruta",
+      "es": "la fruta",
+      "en": "the fruit",
+      "t": "food"
+    },
+    {
+      "id": "la-manzana",
+      "es": "la manzana",
+      "en": "the apple",
+      "t": "food"
+    },
+    {
+      "id": "la-naranja",
+      "es": "la naranja",
+      "en": "the orange",
+      "t": "food"
+    },
+    {
+      "id": "el-arroz",
+      "es": "el arroz",
+      "en": "the rice",
+      "t": "food"
+    },
+    {
+      "id": "la-sopa",
+      "es": "la sopa",
+      "en": "the soup",
+      "t": "food"
+    },
+    {
+      "id": "la-ensalada",
+      "es": "la ensalada",
+      "en": "the salad",
+      "t": "food"
+    },
+    {
+      "id": "el-desayuno",
+      "es": "el desayuno",
+      "en": "breakfast",
+      "t": "food"
+    },
+    {
+      "id": "el-almuerzo",
+      "es": "el almuerzo",
+      "en": "lunch (LatAm; Spain usually: la comida)",
+      "t": "food"
+    },
+    {
+      "id": "la-cena",
+      "es": "la cena",
+      "en": "dinner",
+      "t": "food"
+    },
+    {
+      "id": "la-cuenta",
+      "es": "la cuenta",
+      "en": "the bill",
+      "t": "food"
+    },
+    {
+      "id": "el-menu",
+      "es": "el menú",
+      "en": "the menu",
+      "t": "food"
+    },
+    {
+      "id": "la-casa",
+      "es": "la casa",
+      "en": "the house",
+      "t": "places"
+    },
+    {
+      "id": "la-ciudad",
+      "es": "la ciudad",
+      "en": "the city",
+      "t": "places"
+    },
+    {
+      "id": "la-calle",
+      "es": "la calle",
+      "en": "the street",
+      "t": "places"
+    },
+    {
+      "id": "la-tienda",
+      "es": "la tienda",
+      "en": "the shop",
+      "t": "places"
+    },
+    {
+      "id": "el-supermercado",
+      "es": "el supermercado",
+      "en": "the supermarket",
+      "t": "places"
+    },
+    {
+      "id": "el-restaurante",
+      "es": "el restaurante",
+      "en": "the restaurant",
+      "t": "places"
+    },
+    {
+      "id": "el-hotel",
+      "es": "el hotel",
+      "en": "the hotel",
+      "t": "places"
+    },
+    {
+      "id": "la-playa",
+      "es": "la playa",
+      "en": "the beach",
+      "t": "places"
+    },
+    {
+      "id": "el-banco",
+      "es": "el banco",
+      "en": "the bank",
+      "t": "places"
+    },
+    {
+      "id": "el-aeropuerto",
+      "es": "el aeropuerto",
+      "en": "the airport",
+      "t": "places"
+    },
+    {
+      "id": "la-estacion",
+      "es": "la estación",
+      "en": "the station",
+      "t": "places"
+    },
+    {
+      "id": "el-tren",
+      "es": "el tren",
+      "en": "the train",
+      "t": "places"
+    },
+    {
+      "id": "el-autobus",
+      "es": "el autobús",
+      "en": "the bus (Spain; LatAm varies: camión, colectivo, guagua)",
+      "t": "places"
+    },
+    {
+      "id": "el-coche",
+      "es": "el coche",
+      "en": "the car (Spain; LatAm: el carro)",
+      "t": "places"
+    },
+    {
+      "id": "el-bano",
+      "es": "el baño",
+      "en": "the bathroom (in Spanish bars: los servicios / el aseo)",
+      "t": "places"
+    },
+    {
+      "id": "el-trabajo",
+      "es": "el trabajo",
+      "en": "work / job (the workplace)",
+      "t": "time"
+    },
+    {
+      "id": "la-escuela",
+      "es": "la escuela",
+      "en": "the school",
+      "t": "places"
+    },
+    {
+      "id": "el-hospital",
+      "es": "el hospital",
+      "en": "the hospital",
+      "t": "places"
+    },
+    {
+      "id": "la-farmacia",
+      "es": "la farmacia",
+      "en": "the pharmacy",
+      "t": "places"
+    },
+    {
+      "id": "a-la-derecha",
+      "es": "a la derecha",
+      "en": "to the right",
+      "t": "places"
+    },
+    {
+      "id": "a-la-izquierda",
+      "es": "a la izquierda",
+      "en": "to the left",
+      "t": "places"
+    },
+    {
+      "id": "todo-recto",
+      "es": "todo recto",
+      "en": "straight ahead (Spain; LatAm: derecho)",
+      "t": "places"
+    },
+    {
+      "id": "hoy",
+      "es": "hoy",
+      "en": "today",
+      "t": "time"
+    },
+    {
+      "id": "manana-adv",
+      "es": "mañana",
+      "en": "tomorrow",
+      "t": "time"
+    },
+    {
+      "id": "ayer",
+      "es": "ayer",
+      "en": "yesterday",
+      "t": "time"
+    },
+    {
+      "id": "ahora",
+      "es": "ahora",
+      "en": "now",
+      "t": "time"
+    },
+    {
+      "id": "despues",
+      "es": "después",
+      "en": "afterwards / after (later = más tarde)",
+      "t": "time"
+    },
+    {
+      "id": "siempre",
+      "es": "siempre",
+      "en": "always",
+      "t": "time"
+    },
+    {
+      "id": "nunca",
+      "es": "nunca",
+      "en": "never",
+      "t": "time"
+    },
+    {
+      "id": "la-hora",
+      "es": "la hora",
+      "en": "the hour / time",
+      "t": "time"
+    },
+    {
+      "id": "el-dia",
+      "es": "el día",
+      "en": "the day",
+      "t": "time"
+    },
+    {
+      "id": "la-semana",
+      "es": "la semana",
+      "en": "the week",
+      "t": "time"
+    },
+    {
+      "id": "el-mes",
+      "es": "el mes",
+      "en": "the month",
+      "t": "time"
+    },
+    {
+      "id": "el-ano",
+      "es": "el año",
+      "en": "the year",
+      "t": "time"
+    },
+    {
+      "id": "lunes",
+      "es": "lunes",
+      "en": "Monday",
+      "t": "time"
+    },
+    {
+      "id": "martes",
+      "es": "martes",
+      "en": "Tuesday",
+      "t": "time"
+    },
+    {
+      "id": "miercoles",
+      "es": "miércoles",
+      "en": "Wednesday",
+      "t": "time"
+    },
+    {
+      "id": "jueves",
+      "es": "jueves",
+      "en": "Thursday",
+      "t": "time"
+    },
+    {
+      "id": "viernes",
+      "es": "viernes",
+      "en": "Friday",
+      "t": "time"
+    },
+    {
+      "id": "sabado",
+      "es": "sábado",
+      "en": "Saturday",
+      "t": "time"
+    },
+    {
+      "id": "domingo",
+      "es": "domingo",
+      "en": "Sunday",
+      "t": "time"
+    },
+    {
+      "id": "uno",
+      "es": "uno",
+      "en": "one",
+      "t": "numbers"
+    },
+    {
+      "id": "dos",
+      "es": "dos",
+      "en": "two",
+      "t": "numbers"
+    },
+    {
+      "id": "tres",
+      "es": "tres",
+      "en": "three",
+      "t": "numbers"
+    },
+    {
+      "id": "cuatro",
+      "es": "cuatro",
+      "en": "four",
+      "t": "numbers"
+    },
+    {
+      "id": "cinco",
+      "es": "cinco",
+      "en": "five",
+      "t": "numbers"
+    },
+    {
+      "id": "seis",
+      "es": "seis",
+      "en": "six",
+      "t": "numbers"
+    },
+    {
+      "id": "siete",
+      "es": "siete",
+      "en": "seven",
+      "t": "numbers"
+    },
+    {
+      "id": "ocho",
+      "es": "ocho",
+      "en": "eight",
+      "t": "numbers"
+    },
+    {
+      "id": "nueve",
+      "es": "nueve",
+      "en": "nine",
+      "t": "numbers"
+    },
+    {
+      "id": "diez",
+      "es": "diez",
+      "en": "ten",
+      "t": "numbers"
+    },
+    {
+      "id": "once",
+      "es": "once",
+      "en": "eleven",
+      "t": "numbers"
+    },
+    {
+      "id": "doce",
+      "es": "doce",
+      "en": "twelve",
+      "t": "numbers"
+    },
+    {
+      "id": "quince",
+      "es": "quince",
+      "en": "fifteen",
+      "t": "numbers"
+    },
+    {
+      "id": "veinte",
+      "es": "veinte",
+      "en": "twenty",
+      "t": "numbers"
+    },
+    {
+      "id": "treinta",
+      "es": "treinta",
+      "en": "thirty",
+      "t": "numbers"
+    },
+    {
+      "id": "cincuenta",
+      "es": "cincuenta",
+      "en": "fifty",
+      "t": "numbers"
+    },
+    {
+      "id": "cien",
+      "es": "cien",
+      "en": "one hundred",
+      "t": "numbers"
+    },
+    {
+      "id": "rojo",
+      "es": "rojo",
+      "en": "red",
+      "t": "colors"
+    },
+    {
+      "id": "azul",
+      "es": "azul",
+      "en": "blue",
+      "t": "colors"
+    },
+    {
+      "id": "verde",
+      "es": "verde",
+      "en": "green",
+      "t": "colors"
+    },
+    {
+      "id": "amarillo",
+      "es": "amarillo",
+      "en": "yellow",
+      "t": "colors"
+    },
+    {
+      "id": "negro",
+      "es": "negro",
+      "en": "black",
+      "t": "colors"
+    },
+    {
+      "id": "blanco",
+      "es": "blanco",
+      "en": "white",
+      "t": "colors"
+    },
+    {
+      "id": "grande",
+      "es": "grande",
+      "en": "big",
+      "t": "adjectives"
+    },
+    {
+      "id": "pequeno",
+      "es": "pequeño",
+      "en": "small",
+      "t": "adjectives"
+    },
+    {
+      "id": "bueno",
+      "es": "bueno",
+      "en": "good",
+      "t": "adjectives"
+    },
+    {
+      "id": "malo",
+      "es": "malo",
+      "en": "bad",
+      "t": "adjectives"
+    },
+    {
+      "id": "nuevo",
+      "es": "nuevo",
+      "en": "new",
+      "t": "adjectives"
+    },
+    {
+      "id": "viejo",
+      "es": "viejo",
+      "en": "old (things; for people use mayor)",
+      "t": "adjectives"
+    },
+    {
+      "id": "caliente",
+      "es": "caliente",
+      "en": "hot (things only; people/weather: tengo calor, hace calor)",
+      "t": "adjectives"
+    },
+    {
+      "id": "frio",
+      "es": "frío",
+      "en": "cold (things; people: tengo frío)",
+      "t": "adjectives"
+    },
+    {
+      "id": "barato",
+      "es": "barato",
+      "en": "cheap",
+      "t": "adjectives"
+    },
+    {
+      "id": "caro",
+      "es": "caro",
+      "en": "expensive",
+      "t": "adjectives"
+    },
+    {
+      "id": "facil",
+      "es": "fácil",
+      "en": "easy",
+      "t": "adjectives"
+    },
+    {
+      "id": "dificil",
+      "es": "difícil",
+      "en": "difficult",
+      "t": "adjectives"
+    },
+    {
+      "id": "cansado",
+      "es": "cansado",
+      "en": "tired",
+      "t": "adjectives"
+    },
+    {
+      "id": "contento",
+      "es": "contento",
+      "en": "happy / pleased",
+      "t": "adjectives"
+    },
+    {
+      "id": "rapido",
+      "es": "rápido",
+      "en": "fast",
+      "t": "adjectives"
+    },
+    {
+      "id": "lento",
+      "es": "lento",
+      "en": "slow",
+      "t": "adjectives"
+    },
+    {
+      "id": "bonito",
+      "es": "bonito",
+      "en": "pretty / nice",
+      "t": "adjectives"
+    },
+    {
+      "id": "ser",
+      "es": "ser",
+      "en": "to be (identity / description)",
+      "t": "verbs"
+    },
+    {
+      "id": "estar",
+      "es": "estar",
+      "en": "to be (state / location)",
+      "t": "verbs"
+    },
+    {
+      "id": "tener",
+      "es": "tener",
+      "en": "to have",
+      "t": "verbs"
+    },
+    {
+      "id": "hacer",
+      "es": "hacer",
+      "en": "to do / make",
+      "t": "verbs"
+    },
+    {
+      "id": "ir",
+      "es": "ir",
+      "en": "to go",
+      "t": "verbs"
+    },
+    {
+      "id": "venir",
+      "es": "venir",
+      "en": "to come",
+      "t": "verbs"
+    },
+    {
+      "id": "querer",
+      "es": "querer",
+      "en": "to want (also: to love)",
+      "t": "verbs"
+    },
+    {
+      "id": "poder",
+      "es": "poder",
+      "en": "to be able to / can",
+      "t": "verbs"
+    },
+    {
+      "id": "saber",
+      "es": "saber",
+      "en": "to know (a fact / how to)",
+      "t": "verbs"
+    },
+    {
+      "id": "conocer",
+      "es": "conocer",
+      "en": "to know (a person / place)",
+      "t": "verbs"
+    },
+    {
+      "id": "hablar",
+      "es": "hablar",
+      "en": "to speak",
+      "t": "verbs"
+    },
+    {
+      "id": "comer",
+      "es": "comer",
+      "en": "to eat",
+      "t": "verbs"
+    },
+    {
+      "id": "beber",
+      "es": "beber",
+      "en": "to drink",
+      "t": "verbs"
+    },
+    {
+      "id": "vivir",
+      "es": "vivir",
+      "en": "to live",
+      "t": "verbs"
+    },
+    {
+      "id": "trabajar",
+      "es": "trabajar",
+      "en": "to work",
+      "t": "verbs"
+    },
+    {
+      "id": "necesitar",
+      "es": "necesitar",
+      "en": "to need",
+      "t": "verbs"
+    },
+    {
+      "id": "comprar",
+      "es": "comprar",
+      "en": "to buy",
+      "t": "verbs"
+    },
+    {
+      "id": "ver",
+      "es": "ver",
+      "en": "to see",
+      "t": "verbs"
+    },
+    {
+      "id": "dar",
+      "es": "dar",
+      "en": "to give",
+      "t": "verbs"
+    },
+    {
+      "id": "decir",
+      "es": "decir",
+      "en": "to say / tell",
+      "t": "verbs"
+    },
+    {
+      "id": "entender",
+      "es": "entender",
+      "en": "to understand",
+      "t": "verbs"
+    },
+    {
+      "id": "llamarse",
+      "es": "llamarse",
+      "en": "to be called",
+      "t": "verbs"
+    },
+    {
+      "id": "que",
+      "es": "¿qué?",
+      "en": "what?",
+      "t": "question"
+    },
+    {
+      "id": "quien",
+      "es": "¿quién?",
+      "en": "who?",
+      "t": "question"
+    },
+    {
+      "id": "donde",
+      "es": "¿dónde?",
+      "en": "where?",
+      "t": "question"
+    },
+    {
+      "id": "cuando",
+      "es": "¿cuándo?",
+      "en": "when?",
+      "t": "question"
+    },
+    {
+      "id": "como",
+      "es": "¿cómo?",
+      "en": "how?",
+      "t": "question"
+    },
+    {
+      "id": "por-que",
+      "es": "¿por qué?",
+      "en": "why?",
+      "t": "question"
+    },
+    {
+      "id": "cuanto",
+      "es": "¿cuánto?",
+      "en": "how much?",
+      "t": "question"
+    },
+    {
+      "id": "cual",
+      "es": "¿cuál?",
+      "en": "which?",
+      "t": "question"
+    },
+    {
+      "id": "y",
+      "es": "y",
+      "en": "and",
+      "t": "question"
+    },
+    {
+      "id": "pero",
+      "es": "pero",
+      "en": "but",
+      "t": "question"
+    },
+    {
+      "id": "porque",
+      "es": "porque",
+      "en": "because",
+      "t": "question"
+    },
+    {
+      "id": "muy",
+      "es": "muy",
+      "en": "very",
+      "t": "question"
+    },
+    {
+      "id": "mas",
+      "es": "más",
+      "en": "more",
+      "t": "question"
+    },
+    {
+      "id": "menos",
+      "es": "menos",
+      "en": "less",
+      "t": "question"
+    },
+    {
+      "id": "aqui",
+      "es": "aquí",
+      "en": "here",
+      "t": "question"
+    },
+    {
+      "id": "alli",
+      "es": "allí",
+      "en": "there",
+      "t": "question"
+    },
+    {
+      "id": "tambien",
+      "es": "también",
+      "en": "also / too",
+      "t": "question"
+    }
+  ]
+}
