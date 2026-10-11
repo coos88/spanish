@@ -16,8 +16,8 @@
     },
     {
       "id": "p-me-llamo",
-      "es": "Me llamo Coos.",
-      "en": "My name is Coos.",
+      "es": "Me llamo Ana.",
+      "en": "My name is Ana.",
       "t": "intro"
     },
     {
@@ -280,8 +280,8 @@
     },
     {
       "id": "p-reserva",
-      "es": "Tengo una reserva a nombre de Coos.",
-      "en": "I have a reservation under the name Coos. (LatAm: reservación)",
+      "es": "Tengo una reserva a nombre de Ana.",
+      "en": "I have a reservation under the name Ana. (LatAm: reservación)",
       "t": "directions"
     },
     {

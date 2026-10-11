@@ -1,21 +1,28 @@
 # Spanish basics
 
-Compact Spanish reference and exercises for English speakers, plus a small app with spoken audio.
+Compact Spanish course for English speakers: three chapters of grammar lessons, drills and dialogues, a cheat sheet, and an app with spoken audio.
 Inspired by [rust-for-java-devs](https://github.com/coos88/rust-for-java-devs): terse tables, no fluff.
 
 **App: https://coos88.github.io/spanish/** (installable, works offline)
 
-- [Cheat sheet](CHEATSHEET.md): pronunciation, gender, present tense, ser/estar, questions, numbers, gustar, ir a...
+## The course
+| Chapter | Goal | You can... |
+|---|---|---|
+| [1: Survive and introduce yourself](chapters/1/README.md) | A1: sounds, gender, present tense, ser/estar, tener/hay, questions, numbers, time, gustar | greet, introduce yourself, order, ask the way, tell the time |
+| [2: Daily life and plans](chapters/2/README.md) | A1→A2: stem-changers, reflexives, ir a / tener que, estar + gerund, object pronouns | describe your routine, make plans, say what hurts |
+| [3: Tell what happened](chapters/3/README.md) | A2: past tenses, connectors, directions | narrate yesterday or a holiday, report a problem |
+
+Each chapter folder has `GRAMMAR.md`, `EXERCISES.md` (answers hidden), `VOCAB.md` and `PHRASES.md`, all generated from the same data as the app.
+
+- [Cheat sheet](CHEATSHEET.md): the whole present-tense grammar on one page (reference)
 - [In practice](PRACTICE.md): Spain vs LatAm, false friends, habits to unlearn, how to study
-- [Vocab](VOCAB.md): 175 words by theme (generated)
-- [Phrases](PHRASES.md): 54 survival phrases (generated)
-- [Exercises](exercises/README.md): 6 short worksheets with answer keys
 
 ## The app
-Flashcards (spaced repetition), quiz (hear it / EN→ES / ES→EN, pick or type), present-tense verb drill, a browsable phrasebook, and a *Say it* box that speaks any text.
-Spain Spanish voice. Progress lives in your browser only (localStorage).
+- **Learn**: lessons with rule cards, example sentences with audio, dialogues, and 6-10 drills per lesson (gap-fill, pick the answer, build the sentence, translate)
+- **Flashcards** (spaced repetition), **Quiz** (hear it / EN→ES / ES→EN), **Verbs** (present, past, imperfect, present perfect), **Browse**, and a **Say it** box that speaks any text
+- A chapter filter limits words and quizzes to what you've covered. Progress lives in your browser only (localStorage).
 
-Audio is pre-generated with [Piper](https://github.com/OHF-Voice/piper1-gpl) (see [NOTICE](NOTICE)) so it sounds the same on every device. Only the *Say it* box uses your browser's own speech voices.
+Audio is pre-generated with [Piper](https://github.com/OHF-Voice/piper1-gpl) (see [NOTICE](NOTICE) for licences and lineage) so it sounds the same on every device. Only the *Say it* box, and verb forms without recordings, use your browser's own speech voices.
 
 ## Run it
 It's static files; no build step.
@@ -26,9 +33,10 @@ docker compose up -d --build       # or: nginx on http://localhost:8080 (NAS)
 Deploys to GitHub Pages on every push to `main` (`.github/workflows/pages.yml`).
 
 ## Change the content
-Everything is in `data/*.json`.
+All content is data: see [tools/SCHEMA.md](tools/SCHEMA.md). Chapter 1's lessons are authored in `tools/build-ch1.py`; chapters 2 and 3 are edited directly in `data/ch2.json` / `data/ch3.json`.
 ```
-node tools/gen-docs.js                                   # regenerate VOCAB.md / PHRASES.md
+node tools/validate.js                                   # check ids, answers, schema
+node tools/gen-docs.js                                   # regenerate chapters/*/ docs
 pip install piper-tts                                     # GPL build tool, not vendored
 python tools/gen-audio.py --voices-dir ./voices          # only changed items are regenerated; see script header
 ```

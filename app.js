@@ -7,19 +7,40 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem('es.' + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem('es.' + k, JSON.stringify(v)); } catch { /* ignore */ } },
 };
-const settings = { accents: store.get('accents', true) };
+const settings = { accents: store.get('accents', true), chapter: store.get('chapter', 1) };
 
 // ---------- data ----------
-const load = (f) => fetch(`data/${f}.json`).then((r) => r.json());
-const [vocab, phrases, verbs] = await Promise.all([load('vocab'), load('phrases'), load('verbs')]);
-const words = vocab.items;
-const all = [...words, ...phrases.items];
-const themeName = { ...vocab.themes, ...phrases.themes };
+// Chapter 1's words live in vocab/phrases/verbs.json; every chapter has chN.json (lessons, drills, dialogues, new words).
+const load = (f) => fetch(`data/${f}.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+const [vocab0, phrases0, verbs0, ...chFiles] = await Promise.all(['vocab', 'phrases', 'verbs', 'ch1', 'ch2', 'ch3'].map(load));
+const chapters = chFiles.filter(Boolean);
+const maxCh = chapters.length || 1;
+if (settings.chapter > maxCh) settings.chapter = maxCh;
+const themeName = Object.assign({}, vocab0.themes, phrases0.themes, ...chapters.map((c) => c.themes || {}));
+const tag = (items, ch) => items.map((i) => ({ ...i, ch }));
+const allWords = [...tag(vocab0.items, 1), ...chapters.flatMap((c) => tag(c.vocab || [], c.id))];
+const allPhrases = [...tag(phrases0.items, 1), ...chapters.flatMap((c) => tag(c.phrases || [], c.id))];
+// A later chapter may re-declare a verb to add tenses (same infinitive): it replaces the earlier entry
+// but keeps the earlier chapter number, so there is one row per verb everywhere.
+const allVerbs = [...new Map([...tag(verbs0.items, 1), ...chapters.flatMap((c) => tag(c.verbs || [], c.id))]
+  .reduce((m, v) => m.set(v.inf, { ...v, ch: Math.min(v.ch, m.get(v.inf)?.ch ?? v.ch) }), new Map())).values()];
+const lessonsAll = chapters.flatMap((c) => (c.lessons || []).map((l) => ({ ...l, ch: c.id })));
+const drillById = new Map(chapters.flatMap((c) => c.drills || []).map((d) => [d.id, d]));
+const dialogueById = new Map(chapters.flatMap((c) => c.dialogues || []).map((d) => [d.id, d]));
+const verbs = { pronouns: verbs0.pronouns, items: allVerbs };
+const inCh = (it) => it.ch <= settings.chapter;
+// views read these at build time, so they always reflect the chapter filter
+let words, phrasesList, all;
+function applyChapter() {
+  words = allWords.filter(inCh); phrasesList = allPhrases.filter(inCh); all = [...words, ...phrasesList];
+}
+applyChapter();
 
 // ---------- helpers ----------
 function el(tag, props = {}, ...kids) {
   const n = document.createElement(tag);
   for (const [k, v] of Object.entries(props)) {
+    if (v == null || v === false) continue;
     if (k === 'class') n.className = v;
     else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
     else n.setAttribute(k, v);
@@ -81,7 +102,7 @@ const speakBtn = (id, text, slowOk = false) => [
   el('button', { class: 'speak', title: 'Listen', 'aria-label': `Listen: ${text}`, onclick: (e) => { e.stopPropagation(); say(id, text); } }, '🔊'),
   slowOk && el('button', { class: 'speak slow', title: 'Listen slowly', 'aria-label': `Listen slowly: ${text}`, onclick: (e) => { e.stopPropagation(); say(id, text, { slow: true }); } }, '🐢'),
 ];
-const isPhrase = (it) => it.id.startsWith('p-');
+const isPhrase = (it) => it.id.startsWith('p-') || it.id.startsWith('dlg-');
 
 // ---------- spaced repetition (Leitner) ----------
 const DAY = 86400000;
@@ -113,8 +134,7 @@ views.cards = () => {
   let deck, flipped;
   const start = () => {
     store.set('deck', setSel.value); store.set('dir', dirSel.value);
-    const pool = setSel.value === 'words' ? words : setSel.value === 'phrases' ? phrases.items : all;
-    deck = buildDeck(pool); next();
+    deck = buildDeck(pickPool()); next();
   };
   const next = () => {
     flipped = false;
@@ -127,7 +147,7 @@ views.cards = () => {
     }
     render();
   };
-  const pickPool = () => (setSel.value === 'words' ? words : setSel.value === 'phrases' ? phrases.items : all);
+  const pickPool = () => (setSel.value === 'words' ? words : setSel.value === 'phrases' ? phrasesList : all);
   const render = () => {
     const it = deck[0], front = dirSel.value === 'es-en' ? it.es : it.en, back = dirSel.value === 'es-en' ? it.en : it.es;
     const card = el('div', { class: 'card', tabindex: '0', role: 'button', 'aria-label': 'Flip card', onclick: flip, onkeydown: (e) => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); } } },
@@ -217,31 +237,41 @@ views.quiz = () => {
 };
 
 views.verbs = () => {
-  const sel = el('select', { 'aria-label': 'Verb' }, el('option', { value: '' }, 'Mixed'),
-    ...verbs.items.map((v) => el('option', { value: v.id }, `${v.inf} (${v.en})`)));
+  const TENSES = { pres: 'Present', pret: 'Past: indefinido', imp: 'Past: imperfect', perf: 'Present perfect' };
+  const SUBJ = ['yo', 'tú', 'él', 'nosotros', 'vosotros', 'ellos'], HABER = ['he', 'has', 'ha', 'hemos', 'habéis', 'han'];
+  const formsOf = (v, t) => (t === 'pres' ? v.forms : t === 'perf' ? HABER.map((h) => `${h} ${v.tenses.part}`) : v.tenses[t]);
+  const spoken = (v, t, k) => (v.type === 'reflexive' && t === 'pres' ? formsOf(v, t)[k] : `${SUBJ[k]} ${formsOf(v, t)[k]}`);
+  const hear = (v, t, k) => (t === 'pres' ? say(`${v.id}-${k}`, spoken(v, t, k)) : t === 'pret' ? say(`${v.id}-pret-${k}`, spoken(v, t, k)) : speakTTS(spoken(v, t, k)));
+  const anyTenses = verbs.items.some((v) => v.tenses && inCh(v));
+  const tenseSel = el('select', { 'aria-label': 'Tense' }, ...Object.entries(TENSES).filter(([t]) => t === 'pres' || anyTenses).map(([t, n]) => el('option', { value: t }, n)));
+  const sel = el('select', { 'aria-label': 'Verb' });
+  const pool = () => verbs.items.filter((v) => inCh(v) && (tenseSel.value === 'pres' || v.tenses));
+  const fillSel = () => sel.replaceChildren(el('option', { value: '' }, 'Mixed'), ...pool().map((v) => el('option', { value: v.id }, `${v.inf} (${v.en})`)));
   const box = el('div');
-  const table = (v) => el('table', {}, el('tbody', {}, verbs.pronouns.map((p, k) =>
-    el('tr', {}, el('th', {}, p), el('td', {}, v.forms[k]), el('td', {}, el('button', { class: 'speak', 'aria-label': `Listen: ${v.forms[k]}`, onclick: () => say(`${v.id}-${k}`, v.forms[k]) }, '🔊'))))));
+  const table = (v, t) => el('table', {}, el('tbody', {}, verbs.pronouns.map((p, k) =>
+    el('tr', {}, el('th', {}, p), el('td', {}, formsOf(v, t)[k]), el('td', {}, el('button', { class: 'speak', 'aria-label': `Listen: ${formsOf(v, t)[k]}`, onclick: () => hear(v, t, k) }, '🔊'))))));
   const drill = () => {
-    const v = sel.value ? verbs.items.find((x) => x.id === sel.value) : pick(verbs.items, 1)[0];
-    const k = Math.floor(Math.random() * 6), ans = v.forms[k];
+    const t = tenseSel.value, list = pool();
+    const v = (sel.value && list.find((x) => x.id === sel.value)) || pick(list, 1)[0];
+    const k = Math.floor(Math.random() * 6), ans = formsOf(v, t)[k];
     const field = el('input', { type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'Verb form' });
     const fb = el('div', { class: 'feedback' });
     const form = el('form', { class: 'row', onsubmit: (e) => {
       e.preventDefault();
       if (field.disabled) { drill(); return; }
       field.disabled = true;
-      const ok = norm(field.value) === norm(ans) || (v.type === 'reflexive' && norm(field.value) === norm(ans.split(' ').pop()));
+      const ok = norm(field.value) === norm(ans) || (v.type === 'reflexive' && t === 'pres' && norm(field.value) === norm(ans.split(' ').pop()));
       fb.className = 'feedback ' + (ok ? 'good' : 'bad'); fb.textContent = ok ? '¡Correcto!' : `Not quite: ${ans}`;
-      say(`${v.id}-${k}`, ans); form.querySelector('button').textContent = 'Next →'; form.querySelector('button').focus();
+      hear(v, t, k); form.querySelector('button').textContent = 'Next →'; form.querySelector('button').focus();
     } }, field, el('button', { class: 'primary' }, 'Check'));
     box.replaceChildren(
-      el('div', { class: 'card', style: 'cursor:default' }, el('div', { class: 'big' }, `${verbs.pronouns[k]} + ${v.inf}`), el('div', { class: 'hint' }, `${v.en} · ${v.type} · present tense`)),
-      form, fb, el('h2', {}, `${v.inf} (reference)`), table(v));
+      el('div', { class: 'card', style: 'cursor:default' }, el('div', { class: 'big' }, `${verbs.pronouns[k]} + ${v.inf}`), el('div', { class: 'hint' }, `${v.en} · ${v.type} · ${TENSES[t].toLowerCase()}`)),
+      form, fb, el('h2', {}, `${v.inf} (reference)`), table(v, t));
     field.focus();
   };
-  sel.onchange = drill; drill();
-  return [el('p', { class: 'muted' }, 'Type the present-tense form. Press Enter to check, Enter again for the next one.'), el('div', { class: 'row' }, sel), box];
+  fillSel();
+  sel.onchange = drill; tenseSel.onchange = () => { fillSel(); drill(); }; drill();
+  return [el('p', { class: 'muted' }, 'Type the form. Press Enter to check, Enter again for the next one.'), el('div', { class: 'row' }, tenseSel, sel), box];
 };
 
 views.browse = () => {
@@ -249,7 +279,7 @@ views.browse = () => {
   const q = el('input', { type: 'text', placeholder: 'Search…', 'aria-label': 'Search', style: 'max-width:220px' });
   const box = el('div');
   const draw = () => {
-    const src = kind.value === 'words' ? vocab : phrases, term = q.value.toLowerCase(), t = strip(term);
+    const src = { items: kind.value === 'words' ? words : phrasesList, themes: themeName }, term = q.value.toLowerCase(), t = strip(term);
     const items = src.items.filter((x) => !term || strip(x.es).includes(t) || x.en.toLowerCase().includes(term));
     const out = [];
     for (const [k, name] of Object.entries(src.themes)) {
@@ -273,18 +303,162 @@ views.say = () => {
     ta, el('div', { class: 'row' }, btn, el('label', {}, 'Speed ', rate))];
 };
 
+// ---------- learn: lessons, dialogues, drills ----------
+const lessonsState = () => store.get('lessons', {});
+let openLesson = null;
+const fmt = (text) => text.split(/\*\*(.+?)\*\*/g).map((part, i) => (i % 2 ? el('strong', {}, part) : part));
+const tokens = (sentence) => sentence.replace(/[¿?¡!.,;:]/g, '').split(/\s+/).filter(Boolean).map((w) => w.toLowerCase());
+
+function exampleRow(e) {
+  return el('div', { class: 'item' }, speakBtn(e.id, e.es)[0], el('div', { class: 'txt' }, el('div', { class: 'es' }, e.es), el('div', { class: 'muted' }, e.en)));
+}
+
+function dialogueBlock(d) {
+  const play = el('button', { class: 'ghost' }, '▶ Play dialogue');
+  play.onclick = async () => {
+    play.disabled = true;
+    for (const line of d.lines) {
+      await new Promise((res) => { const a = new Audio(`audio/es/${line.id}.m4a`); current = a; a.onended = res; a.onerror = res; a.play().catch(res); });
+      await new Promise((r) => setTimeout(r, 250));
+    }
+    play.disabled = false;
+  };
+  return el('div', {}, el('h2', {}, `Dialogue: ${d.title}`), play,
+    ...d.lines.map((l) => el('div', { class: 'item' }, speakBtn(l.id, l.es, true), el('div', { class: 'txt' },
+      el('div', { class: 'es' }, el('span', { class: 'muted' }, `${l.who}: `), l.es), el('div', { class: 'muted' }, l.en)))));
+}
+
+/** Runs a list of drills in `box`; calls onDone(score, total) when finished. */
+function runDrills(box, ids, onDone) {
+  const qs = shuffle(ids).slice(0, 10).map((id) => drillById.get(id)).filter(Boolean);
+  let i = 0, score = 0;
+  const ask = () => {
+    if (i >= qs.length) { onDone(score, qs.length); return; }
+    const d = qs[i];
+    let finished = false;
+    const fb = el('div', { class: 'feedback' });
+    const extra = el('div', { class: 'row' });
+    const finish = (ok, shown) => {
+      if (finished) return; finished = true;
+      if (ok) score++;
+      fb.className = 'feedback ' + (ok ? 'good' : 'bad');
+      fb.textContent = ok ? '¡Correcto!' : `Not quite: ${shown ?? d.answer[0]}`;
+      extra.replaceChildren(el('div', { class: 'muted' }, d.explain), el('div', { style: 'flex-basis:100%' }),
+        ...speakBtn(d.full.id, d.full.es), el('span', { class: 'es' }, d.full.es),
+        el('button', { class: 'primary', onclick: () => { i++; ask(); } }, i + 1 >= qs.length ? 'Finish' : 'Next →'));
+      extra.querySelector('.primary').focus();
+      say(d.full.id, d.full.es);
+    };
+    const head = [el('div', { class: 'stats' }, `Drill ${i + 1} of ${qs.length} · ${score} correct`),
+      el('div', { class: 'card', style: 'cursor:default' }, el('div', { class: 'big' }, d.prompt), d.hint ? el('div', { class: 'hint' }, `(${d.hint})`) : null)];
+    let body;
+    if (d.type === 'choose') {
+      const btns = shuffle(d.options).map((o) => {
+        const b = el('button', { class: 'opt', onclick: () => {
+          box.querySelectorAll('.opt').forEach((x) => { x.disabled = true; });
+          b.classList.add(o === d.answer[0] ? 'right' : 'wrong');
+          if (o !== d.answer[0]) [...box.querySelectorAll('.opt')].find((x) => x.textContent === d.answer[0])?.classList.add('right');
+          finish(o === d.answer[0]);
+        } }, o);
+        return b;
+      });
+      body = el('div', { class: 'opts' }, btns);
+    } else if (d.type === 'build') {
+      const target = tokens(d.answer[0]);
+      let bank = shuffle(target.map((w, k) => ({ w, k })));
+      if (bank.map((x) => x.w).join(' ') === target.join(' ')) bank = bank.reverse();
+      const chosen = [];
+      const line = el('div', { class: 'row tiles', 'aria-label': 'Your sentence', style: 'min-height:48px;border-bottom:2px solid var(--line)' });
+      const pool = el('div', { class: 'row tiles' });
+      const draw = () => {
+        line.replaceChildren(...chosen.map((t) => el('button', { class: 'opt', disabled: finished ? '' : null, onclick: () => { chosen.splice(chosen.indexOf(t), 1); bank.push(t); draw(); } }, t.w)));
+        pool.replaceChildren(...bank.map((t) => el('button', { class: 'opt', disabled: finished ? '' : null, onclick: () => { bank.splice(bank.indexOf(t), 1); chosen.push(t); draw(); } }, t.w)));
+      };
+      draw();
+      const check = el('button', { class: 'primary', onclick: () => {
+        const got = chosen.map((t) => t.w).join(' ');
+        const ok = d.answer.some((a) => norm(tokens(a).join(' ')) === norm(got));
+        finish(ok); draw();
+      } }, 'Check');
+      body = el('div', {}, line, pool, el('div', { class: 'row' }, check));
+    } else { // gap | translate: typed
+      const field = el('input', { type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'Your answer' });
+      const form = el('form', { class: 'row', onsubmit: (e) => {
+        e.preventDefault(); if (finished) return;
+        field.disabled = true;
+        const ok = d.answer.some((a) => matchEs(field.value, a));
+        finish(ok);
+        if (!ok && d.type === 'translate') {
+          const self = el('button', { class: 'ghost good', type: 'button', onclick: () => { score++; fb.className = 'feedback good'; fb.textContent = 'Counted as correct.'; self.remove(); } }, 'I was right ✓');
+          extra.prepend(self);
+        }
+      } }, field, el('button', { class: 'primary' }, 'Check'));
+      body = form;
+      queueMicrotask(() => field.focus());
+    }
+    box.replaceChildren(...head, body, fb, extra);
+  };
+  ask();
+}
+
+function lessonPage(l) {
+  const st = lessonsState(); st[l.id] = { ...st[l.id], read: Date.now() }; store.set('lessons', st);
+  const drillBox = el('div');
+  const practice = el('button', { class: 'primary', onclick: () => {
+    runDrills(drillBox, l.drills, (score, total) => {
+      const s2 = lessonsState(); s2[l.id] = { ...s2[l.id], best: Math.max(s2[l.id]?.best ?? 0, Math.round((score / total) * 10)) }; store.set('lessons', s2);
+      drillBox.replaceChildren(el('div', { class: 'card' }, el('div', { class: 'big' }, `${score} / ${total}`),
+        el('div', { class: 'hint' }, score / total >= 0.8 ? '¡Muy bien! Lesson done.' : 'Practice again; repetition works.')),
+        el('div', { class: 'row' }, el('button', { class: 'primary', onclick: () => practice.click() }, 'Practise again'),
+          el('button', { class: 'ghost', onclick: () => { openLesson = null; show('learn'); } }, '← All lessons')));
+    });
+    practice.scrollIntoView?.({ block: 'nearest' });
+  } }, `Practise (${Math.min(10, l.drills.length)} drills)`);
+  return [
+    el('button', { class: 'ghost', onclick: () => { openLesson = null; show('learn'); } }, '← All lessons'),
+    el('h2', {}, l.title), el('p', { class: 'muted' }, l.summary),
+    ...l.cards.map((c) => el('div', { class: 'lesson-card' }, el('p', {}, fmt(c.rule)), ...(c.examples || []).map(exampleRow),
+      c.trap ? el('div', { class: 'notice' }, '⚠ ', fmt(c.trap)) : null, c.note ? el('p', { class: 'muted' }, 'ℹ ', fmt(c.note)) : null)),
+    l.dialogue && dialogueById.has(l.dialogue) ? dialogueBlock(dialogueById.get(l.dialogue)) : null,
+    el('div', { class: 'row' }, practice), drillBox];
+}
+
+views.learn = () => {
+  if (openLesson) { const l = lessonsAll.find((x) => x.id === openLesson); if (l) return lessonPage(l); openLesson = null; }
+  const st = lessonsState();
+  const next = lessonsAll.find((l) => (st[l.id]?.best ?? 0) < 8);
+  const out = [];
+  for (const c of chapters) {
+    const ls = lessonsAll.filter((l) => l.ch === c.id);
+    out.push(el('h2', {}, `Chapter ${c.id}: ${c.title}`), el('p', { class: 'muted' }, c.goal),
+      el('ul', { class: 'candos' }, c.canDo.map((x) => el('li', {}, x))));
+    for (const l of ls) {
+      const best = st[l.id]?.best;
+      out.push(el('button', { class: 'ghost lesson-row' + (l === next ? ' next' : ''), onclick: () => { openLesson = l.id; show('learn'); } },
+        el('span', {}, best >= 8 ? '✓ ' : l === next ? '→ ' : '', el('strong', {}, l.title), el('span', { class: 'muted' }, ` · ${l.summary}`)),
+        el('span', { class: 'muted' }, best != null ? `${best}/10` : '')));
+    }
+  }
+  return out.length ? out : [el('p', {}, 'No lessons yet.')];
+};
+
 // ---------- shell ----------
+let currentTab = 'learn';
 function show(tab) {
-  notice = null; current?.pause(); speechSynthesis?.cancel?.();
+  currentTab = tab; notice = null; current?.pause(); speechSynthesis?.cancel?.();
   document.querySelectorAll('#tabs button').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === tab)));
   view.replaceChildren(...[views[tab]()].flat());
   store.set('tab', tab);
 }
 $('#tabs').addEventListener('click', (e) => { const b = e.target.closest('button[data-tab]'); if (b) show(b.dataset.tab); });
+const chSel = $('#chapter');
+for (let c = 1; c <= maxCh; c++) chSel.append(el('option', { value: String(c) }, c === 1 ? 'Chapter 1 only' : `Chapters 1–${c}`));
+chSel.value = String(settings.chapter);
+chSel.onchange = () => { settings.chapter = Number(chSel.value); store.set('chapter', settings.chapter); applyChapter(); show(currentTab); };
 const accSel = $('#accents');
 accSel.checked = settings.accents;
 accSel.onchange = () => { settings.accents = accSel.checked; store.set('accents', settings.accents); };
-show(views[store.get('tab', 'cards')] ? store.get('tab', 'cards') : 'cards');
+show(views[store.get('tab', 'learn')] ? store.get('tab', 'learn') : 'learn');
 
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});

@@ -1,0 +1,3022 @@
+{
+ "id": 2,
+ "title": "Daily life and plans",
+ "goal": "Talk about your daily routine, make plans, say what hurts and compare things, using the irregular present tense and object pronouns.",
+ "canDo": [
+  "Describe your daily routine from getting up to going to bed",
+  "Make, accept and refuse a plan with a friend (ir a, tener que, querer, poder)",
+  "Tell a doctor what hurts and understand simple advice",
+  "Buy clothes in your size and compare two items"
+ ],
+ "themes": {
+  "routine": "Daily routine",
+  "house": "House",
+  "body": "Body and health",
+  "clothes": "Clothes and sizes",
+  "weather": "Weather",
+  "city": "City and transport",
+  "plans": "Plans and free time"
+ },
+ "vocab": [
+  {
+   "id": "despertarse",
+   "es": "despertarse",
+   "en": "to wake up",
+   "t": "routine"
+  },
+  {
+   "id": "levantarse",
+   "es": "levantarse",
+   "en": "to get up",
+   "t": "routine"
+  },
+  {
+   "id": "ducharse",
+   "es": "ducharse",
+   "en": "to shower",
+   "t": "routine"
+  },
+  {
+   "id": "lavarse",
+   "es": "lavarse",
+   "en": "to wash (oneself)",
+   "t": "routine"
+  },
+  {
+   "id": "vestirse",
+   "es": "vestirse",
+   "en": "to get dressed",
+   "t": "routine"
+  },
+  {
+   "id": "desayunar",
+   "es": "desayunar",
+   "en": "to have breakfast",
+   "t": "routine"
+  },
+  {
+   "id": "cenar",
+   "es": "cenar",
+   "en": "to have dinner",
+   "t": "routine"
+  },
+  {
+   "id": "acostarse",
+   "es": "acostarse",
+   "en": "to go to bed",
+   "t": "routine"
+  },
+  {
+   "id": "dormirse",
+   "es": "dormirse",
+   "en": "to fall asleep",
+   "t": "routine"
+  },
+  {
+   "id": "sentarse",
+   "es": "sentarse",
+   "en": "to sit down",
+   "t": "routine"
+  },
+  {
+   "id": "descansar",
+   "es": "descansar",
+   "en": "to rest",
+   "t": "routine"
+  },
+  {
+   "id": "la-manana",
+   "es": "la mañana",
+   "en": "the morning",
+   "t": "routine"
+  },
+  {
+   "id": "la-tarde",
+   "es": "la tarde",
+   "en": "the afternoon / evening",
+   "t": "routine"
+  },
+  {
+   "id": "la-noche",
+   "es": "la noche",
+   "en": "the night",
+   "t": "routine"
+  },
+  {
+   "id": "temprano",
+   "es": "temprano",
+   "en": "early",
+   "t": "routine"
+  },
+  {
+   "id": "tarde-adv",
+   "es": "tarde",
+   "en": "late",
+   "t": "routine"
+  },
+  {
+   "id": "luego",
+   "es": "luego",
+   "en": "later, then",
+   "t": "routine"
+  },
+  {
+   "id": "antes",
+   "es": "antes",
+   "en": "before",
+   "t": "routine"
+  },
+  {
+   "id": "el-fin-de-semana",
+   "es": "el fin de semana",
+   "en": "the weekend",
+   "t": "routine"
+  },
+  {
+   "id": "todos-los-dias",
+   "es": "todos los días",
+   "en": "every day",
+   "t": "routine"
+  },
+  {
+   "id": "el-minuto",
+   "es": "el minuto",
+   "en": "the minute",
+   "t": "time"
+  },
+  {
+   "id": "el-piso",
+   "es": "el piso",
+   "en": "the flat (Spain; LatAm: el apartamento)",
+   "t": "house"
+  },
+  {
+   "id": "la-habitacion",
+   "es": "la habitación",
+   "en": "the room, bedroom",
+   "t": "house"
+  },
+  {
+   "id": "la-cocina",
+   "es": "la cocina",
+   "en": "the kitchen",
+   "t": "house"
+  },
+  {
+   "id": "el-salon",
+   "es": "el salón",
+   "en": "the living room",
+   "t": "house"
+  },
+  {
+   "id": "la-cama",
+   "es": "la cama",
+   "en": "the bed",
+   "t": "house"
+  },
+  {
+   "id": "la-silla",
+   "es": "la silla",
+   "en": "the chair",
+   "t": "house"
+  },
+  {
+   "id": "la-puerta",
+   "es": "la puerta",
+   "en": "the door",
+   "t": "house"
+  },
+  {
+   "id": "la-ventana",
+   "es": "la ventana",
+   "en": "the window",
+   "t": "house"
+  },
+  {
+   "id": "la-llave",
+   "es": "la llave",
+   "en": "the key",
+   "t": "house"
+  },
+  {
+   "id": "el-ordenador",
+   "es": "el ordenador",
+   "en": "the computer (Spain; LatAm: la computadora)",
+   "t": "house"
+  },
+  {
+   "id": "el-movil",
+   "es": "el móvil",
+   "en": "the mobile phone (Spain; LatAm: el celular)",
+   "t": "house"
+  },
+  {
+   "id": "la-television",
+   "es": "la televisión",
+   "en": "the television",
+   "t": "house"
+  },
+  {
+   "id": "la-nevera",
+   "es": "la nevera",
+   "en": "the fridge",
+   "t": "house"
+  },
+  {
+   "id": "el-vaso",
+   "es": "el vaso",
+   "en": "the glass (for drinking)",
+   "t": "house"
+  },
+  {
+   "id": "la-cabeza",
+   "es": "la cabeza",
+   "en": "the head",
+   "t": "body"
+  },
+  {
+   "id": "el-pelo",
+   "es": "el pelo",
+   "en": "the hair",
+   "t": "body"
+  },
+  {
+   "id": "el-ojo",
+   "es": "el ojo",
+   "en": "the eye",
+   "t": "body"
+  },
+  {
+   "id": "la-nariz",
+   "es": "la nariz",
+   "en": "the nose",
+   "t": "body"
+  },
+  {
+   "id": "la-boca",
+   "es": "la boca",
+   "en": "the mouth",
+   "t": "body"
+  },
+  {
+   "id": "el-diente",
+   "es": "el diente",
+   "en": "the tooth",
+   "t": "body"
+  },
+  {
+   "id": "la-garganta",
+   "es": "la garganta",
+   "en": "the throat",
+   "t": "body"
+  },
+  {
+   "id": "el-brazo",
+   "es": "el brazo",
+   "en": "the arm",
+   "t": "body"
+  },
+  {
+   "id": "la-mano",
+   "es": "la mano",
+   "en": "the hand",
+   "t": "body"
+  },
+  {
+   "id": "la-espalda",
+   "es": "la espalda",
+   "en": "the back",
+   "t": "body"
+  },
+  {
+   "id": "el-estomago",
+   "es": "el estómago",
+   "en": "the stomach",
+   "t": "body"
+  },
+  {
+   "id": "la-pierna",
+   "es": "la pierna",
+   "en": "the leg",
+   "t": "body"
+  },
+  {
+   "id": "el-pie",
+   "es": "el pie",
+   "en": "the foot",
+   "t": "body"
+  },
+  {
+   "id": "la-fiebre",
+   "es": "la fiebre",
+   "en": "the fever",
+   "t": "body"
+  },
+  {
+   "id": "la-tos",
+   "es": "la tos",
+   "en": "the cough",
+   "t": "body"
+  },
+  {
+   "id": "el-dolor",
+   "es": "el dolor",
+   "en": "the pain",
+   "t": "body"
+  },
+  {
+   "id": "enfermo",
+   "es": "enfermo",
+   "en": "ill, sick",
+   "t": "body"
+  },
+  {
+   "id": "la-pastilla",
+   "es": "la pastilla",
+   "en": "the pill, tablet",
+   "t": "body"
+  },
+  {
+   "id": "la-cita",
+   "es": "la cita",
+   "en": "the appointment",
+   "t": "body"
+  },
+  {
+   "id": "la-ropa",
+   "es": "la ropa",
+   "en": "the clothes",
+   "t": "clothes"
+  },
+  {
+   "id": "la-camisa",
+   "es": "la camisa",
+   "en": "the shirt",
+   "t": "clothes"
+  },
+  {
+   "id": "la-camiseta",
+   "es": "la camiseta",
+   "en": "the T-shirt",
+   "t": "clothes"
+  },
+  {
+   "id": "los-pantalones",
+   "es": "los pantalones",
+   "en": "the trousers",
+   "t": "clothes"
+  },
+  {
+   "id": "el-vestido",
+   "es": "el vestido",
+   "en": "the dress",
+   "t": "clothes"
+  },
+  {
+   "id": "la-falda",
+   "es": "la falda",
+   "en": "the skirt",
+   "t": "clothes"
+  },
+  {
+   "id": "la-chaqueta",
+   "es": "la chaqueta",
+   "en": "the jacket",
+   "t": "clothes"
+  },
+  {
+   "id": "el-abrigo",
+   "es": "el abrigo",
+   "en": "the coat",
+   "t": "clothes"
+  },
+  {
+   "id": "el-jersey",
+   "es": "el jersey",
+   "en": "the sweater (Spain; LatAm: el suéter)",
+   "t": "clothes"
+  },
+  {
+   "id": "los-zapatos",
+   "es": "los zapatos",
+   "en": "the shoes",
+   "t": "clothes"
+  },
+  {
+   "id": "la-talla",
+   "es": "la talla",
+   "en": "the size (clothes)",
+   "t": "clothes"
+  },
+  {
+   "id": "el-probador",
+   "es": "el probador",
+   "en": "the fitting room",
+   "t": "clothes"
+  },
+  {
+   "id": "corto",
+   "es": "corto",
+   "en": "short",
+   "t": "clothes"
+  },
+  {
+   "id": "largo",
+   "es": "largo",
+   "en": "long",
+   "t": "clothes"
+  },
+  {
+   "id": "llevar",
+   "es": "llevar",
+   "en": "to wear, to carry",
+   "t": "clothes"
+  },
+  {
+   "id": "probarse",
+   "es": "probarse",
+   "en": "to try on",
+   "t": "clothes"
+  },
+  {
+   "id": "el-tiempo",
+   "es": "el tiempo",
+   "en": "the weather; time",
+   "t": "weather"
+  },
+  {
+   "id": "hace-sol",
+   "es": "hace sol",
+   "en": "it's sunny",
+   "t": "weather"
+  },
+  {
+   "id": "hace-calor",
+   "es": "hace calor",
+   "en": "it's hot",
+   "t": "weather"
+  },
+  {
+   "id": "hace-frio",
+   "es": "hace frío",
+   "en": "it's cold",
+   "t": "weather"
+  },
+  {
+   "id": "hace-viento",
+   "es": "hace viento",
+   "en": "it's windy",
+   "t": "weather"
+  },
+  {
+   "id": "llover",
+   "es": "llover",
+   "en": "to rain (llueve = it rains)",
+   "t": "weather"
+  },
+  {
+   "id": "nevar",
+   "es": "nevar",
+   "en": "to snow (nieva = it snows)",
+   "t": "weather"
+  },
+  {
+   "id": "esta-nublado",
+   "es": "está nublado",
+   "en": "it's cloudy",
+   "t": "weather"
+  },
+  {
+   "id": "la-primavera",
+   "es": "la primavera",
+   "en": "spring",
+   "t": "weather"
+  },
+  {
+   "id": "el-verano",
+   "es": "el verano",
+   "en": "summer",
+   "t": "weather"
+  },
+  {
+   "id": "el-otono",
+   "es": "el otoño",
+   "en": "autumn",
+   "t": "weather"
+  },
+  {
+   "id": "el-invierno",
+   "es": "el invierno",
+   "en": "winter",
+   "t": "weather"
+  },
+  {
+   "id": "el-metro",
+   "es": "el metro",
+   "en": "the underground, metro",
+   "t": "city"
+  },
+  {
+   "id": "la-parada",
+   "es": "la parada",
+   "en": "the (bus) stop",
+   "t": "city"
+  },
+  {
+   "id": "el-billete",
+   "es": "el billete",
+   "en": "the ticket (Spain; LatAm: el boleto)",
+   "t": "city"
+  },
+  {
+   "id": "el-taxi",
+   "es": "el taxi",
+   "en": "the taxi",
+   "t": "city"
+  },
+  {
+   "id": "el-centro",
+   "es": "el centro",
+   "en": "the centre",
+   "t": "city"
+  },
+  {
+   "id": "la-plaza",
+   "es": "la plaza",
+   "en": "the square",
+   "t": "city"
+  },
+  {
+   "id": "el-parque",
+   "es": "el parque",
+   "en": "the park",
+   "t": "city"
+  },
+  {
+   "id": "el-museo",
+   "es": "el museo",
+   "en": "the museum",
+   "t": "city"
+  },
+  {
+   "id": "el-cine",
+   "es": "el cine",
+   "en": "the cinema",
+   "t": "city"
+  },
+  {
+   "id": "andar",
+   "es": "andar",
+   "en": "to walk",
+   "t": "city"
+  },
+  {
+   "id": "a-pie",
+   "es": "a pie",
+   "en": "on foot",
+   "t": "city"
+  },
+  {
+   "id": "delante-de",
+   "es": "delante de",
+   "en": "in front of",
+   "t": "city"
+  },
+  {
+   "id": "tardar",
+   "es": "tardar",
+   "en": "to take (time)",
+   "t": "city"
+  },
+  {
+   "id": "el-plan",
+   "es": "el plan",
+   "en": "the plan",
+   "t": "plans"
+  },
+  {
+   "id": "la-pelicula",
+   "es": "la película",
+   "en": "the film",
+   "t": "plans"
+  },
+  {
+   "id": "quedar",
+   "es": "quedar",
+   "en": "to meet up (Spain)",
+   "t": "plans"
+  },
+  {
+   "id": "quedarse",
+   "es": "quedarse",
+   "en": "to stay",
+   "t": "plans"
+  },
+  {
+   "id": "tomar",
+   "es": "tomar",
+   "en": "to take; to have (a drink)",
+   "t": "plans"
+  },
+  {
+   "id": "estudiar",
+   "es": "estudiar",
+   "en": "to study",
+   "t": "plans"
+  },
+  {
+   "id": "leer",
+   "es": "leer",
+   "en": "to read",
+   "t": "plans"
+  },
+  {
+   "id": "esperar",
+   "es": "esperar",
+   "en": "to wait (for)",
+   "t": "plans"
+  },
+  {
+   "id": "buscar",
+   "es": "buscar",
+   "en": "to look for",
+   "t": "plans"
+  },
+  {
+   "id": "libre",
+   "es": "libre",
+   "en": "free (not busy)",
+   "t": "plans"
+  },
+  {
+   "id": "ocupado",
+   "es": "ocupado",
+   "en": "busy",
+   "t": "plans"
+  },
+  {
+   "id": "vale",
+   "es": "vale",
+   "en": "OK (Spain)",
+   "t": "plans"
+  },
+  {
+   "id": "pensar",
+   "es": "pensar",
+   "en": "to think",
+   "t": "verbs"
+  },
+  {
+   "id": "preferir",
+   "es": "preferir",
+   "en": "to prefer",
+   "t": "verbs"
+  },
+  {
+   "id": "empezar",
+   "es": "empezar",
+   "en": "to start",
+   "t": "verbs"
+  },
+  {
+   "id": "dormir",
+   "es": "dormir",
+   "en": "to sleep",
+   "t": "verbs"
+  },
+  {
+   "id": "volver",
+   "es": "volver",
+   "en": "to come back",
+   "t": "verbs"
+  },
+  {
+   "id": "costar",
+   "es": "costar",
+   "en": "to cost",
+   "t": "verbs"
+  },
+  {
+   "id": "pedir",
+   "es": "pedir",
+   "en": "to ask for, to order",
+   "t": "verbs"
+  },
+  {
+   "id": "poner",
+   "es": "poner",
+   "en": "to put",
+   "t": "verbs"
+  },
+  {
+   "id": "salir",
+   "es": "salir",
+   "en": "to go out, to leave",
+   "t": "verbs"
+  },
+  {
+   "id": "traer",
+   "es": "traer",
+   "en": "to bring",
+   "t": "verbs"
+  },
+  {
+   "id": "deber",
+   "es": "deber",
+   "en": "should, must",
+   "t": "verbs"
+  },
+  {
+   "id": "doler",
+   "es": "doler",
+   "en": "to hurt",
+   "t": "verbs"
+  },
+  {
+   "id": "encantar",
+   "es": "encantar",
+   "en": "to love (something)",
+   "t": "verbs"
+  },
+  {
+   "id": "interesar",
+   "es": "interesar",
+   "en": "to interest",
+   "t": "verbs"
+  },
+  {
+   "id": "mejor",
+   "es": "mejor",
+   "en": "better",
+   "t": "adjectives"
+  },
+  {
+   "id": "peor",
+   "es": "peor",
+   "en": "worse",
+   "t": "adjectives"
+  },
+  {
+   "id": "mayor",
+   "es": "mayor",
+   "en": "older, bigger",
+   "t": "adjectives"
+  },
+  {
+   "id": "menor",
+   "es": "menor",
+   "en": "younger, smaller",
+   "t": "adjectives"
+  },
+  {
+   "id": "este",
+   "es": "este",
+   "en": "this",
+   "t": "adjectives"
+  },
+  {
+   "id": "ese",
+   "es": "ese",
+   "en": "that",
+   "t": "adjectives"
+  },
+  {
+   "id": "aquel",
+   "es": "aquel",
+   "en": "that (over there)",
+   "t": "adjectives"
+  },
+  {
+   "id": "algo",
+   "es": "algo",
+   "en": "something",
+   "t": "question"
+  },
+  {
+   "id": "nada",
+   "es": "nada",
+   "en": "nothing",
+   "t": "question"
+  },
+  {
+   "id": "desde",
+   "es": "desde",
+   "en": "since, from",
+   "t": "question"
+  },
+  {
+   "id": "otro",
+   "es": "otro",
+   "en": "other, another",
+   "t": "question"
+  }
+ ],
+ "phrases": [
+  {
+   "id": "p-me-levanto-temprano",
+   "es": "Me levanto temprano.",
+   "en": "I get up early.",
+   "t": "routine"
+  },
+  {
+   "id": "p-a-que-hora-te-levantas",
+   "es": "¿A qué hora te levantas?",
+   "en": "What time do you get up?",
+   "t": "routine"
+  },
+  {
+   "id": "p-que-haces-por-la-tarde",
+   "es": "¿Qué haces por la tarde?",
+   "en": "What do you do in the afternoon?",
+   "t": "routine"
+  },
+  {
+   "id": "p-voy-al-trabajo-en-metro",
+   "es": "Voy al trabajo en metro.",
+   "en": "I go to work by metro.",
+   "t": "routine"
+  },
+  {
+   "id": "p-me-acuesto-tarde",
+   "es": "Me acuesto tarde los sábados.",
+   "en": "I go to bed late on Saturdays.",
+   "t": "routine"
+  },
+  {
+   "id": "p-que-vas-a-hacer",
+   "es": "¿Qué vas a hacer este fin de semana?",
+   "en": "What are you going to do this weekend?",
+   "t": "plans"
+  },
+  {
+   "id": "p-quedamos-a-las-ocho",
+   "es": "¿Quedamos a las ocho?",
+   "en": "Shall we meet at eight?",
+   "t": "plans"
+  },
+  {
+   "id": "p-tengo-que-trabajar",
+   "es": "Tengo que trabajar.",
+   "en": "I have to work.",
+   "t": "plans"
+  },
+  {
+   "id": "p-no-puedo-lo-siento",
+   "es": "No puedo, lo siento.",
+   "en": "I can't, sorry.",
+   "t": "plans"
+  },
+  {
+   "id": "p-me-encanta-la-idea",
+   "es": "Me encanta la idea.",
+   "en": "I love the idea.",
+   "t": "plans"
+  },
+  {
+   "id": "p-estoy-ocupado",
+   "es": "Estoy ocupado hoy.",
+   "en": "I'm busy today. (m; f: ocupada)",
+   "t": "plans"
+  },
+  {
+   "id": "p-vale-hasta-manana",
+   "es": "Vale, hasta mañana.",
+   "en": "OK, see you tomorrow.",
+   "t": "plans"
+  },
+  {
+   "id": "p-me-duele-el-estomago",
+   "es": "Me duele el estómago.",
+   "en": "My stomach hurts.",
+   "t": "body"
+  },
+  {
+   "id": "p-tengo-fiebre",
+   "es": "Tengo fiebre.",
+   "en": "I have a fever.",
+   "t": "body"
+  },
+  {
+   "id": "p-tengo-tos",
+   "es": "Tengo tos.",
+   "en": "I have a cough.",
+   "t": "body"
+  },
+  {
+   "id": "p-que-le-pasa",
+   "es": "¿Qué le pasa?",
+   "en": "What's the matter? (formal)",
+   "t": "body"
+  },
+  {
+   "id": "p-tengo-cita",
+   "es": "Tengo cita con el médico a las diez.",
+   "en": "I have a doctor's appointment at ten.",
+   "t": "body"
+  },
+  {
+   "id": "p-estoy-enfermo",
+   "es": "Estoy enfermo.",
+   "en": "I'm ill. (m; f: enferma)",
+   "t": "body"
+  },
+  {
+   "id": "p-necesito-algo-para",
+   "es": "Necesito algo para el dolor de cabeza.",
+   "en": "I need something for a headache.",
+   "t": "body"
+  },
+  {
+   "id": "p-que-talla-tiene",
+   "es": "¿Qué talla tiene?",
+   "en": "What size are you? (formal)",
+   "t": "clothes"
+  },
+  {
+   "id": "p-puedo-probarmelo",
+   "es": "¿Puedo probármelo?",
+   "en": "Can I try it on?",
+   "t": "clothes"
+  },
+  {
+   "id": "p-me-queda-bien",
+   "es": "Me queda bien.",
+   "en": "It fits me well.",
+   "t": "clothes"
+  },
+  {
+   "id": "p-me-queda-pequeno",
+   "es": "Me queda pequeño.",
+   "en": "It's too small for me.",
+   "t": "clothes"
+  },
+  {
+   "id": "p-lo-tiene-en-otro-color",
+   "es": "¿Lo tiene en otro color?",
+   "en": "Do you have it in another colour?",
+   "t": "clothes"
+  },
+  {
+   "id": "p-busco-una-camisa",
+   "es": "Busco una camisa blanca.",
+   "en": "I'm looking for a white shirt.",
+   "t": "clothes"
+  },
+  {
+   "id": "p-que-tiempo-hace",
+   "es": "¿Qué tiempo hace hoy?",
+   "en": "What's the weather like today?",
+   "t": "weather"
+  },
+  {
+   "id": "p-hace-mucho-calor",
+   "es": "Hace mucho calor.",
+   "en": "It's very hot.",
+   "t": "weather"
+  },
+  {
+   "id": "p-esta-lloviendo",
+   "es": "Está lloviendo.",
+   "en": "It's raining.",
+   "t": "weather"
+  },
+  {
+   "id": "p-hace-buen-tiempo",
+   "es": "Hace buen tiempo.",
+   "en": "The weather is nice.",
+   "t": "weather"
+  },
+  {
+   "id": "p-tengo-frio",
+   "es": "Tengo frío.",
+   "en": "I'm cold.",
+   "t": "weather"
+  },
+  {
+   "id": "p-donde-esta-parada",
+   "es": "¿Dónde está la parada del autobús?",
+   "en": "Where is the bus stop?",
+   "t": "city"
+  },
+  {
+   "id": "p-cuanto-tarda",
+   "es": "¿Cuánto tarda el autobús?",
+   "en": "How long does the bus take?",
+   "t": "city"
+  },
+  {
+   "id": "p-voy-a-pie",
+   "es": "Voy a pie.",
+   "en": "I'm going on foot.",
+   "t": "city"
+  },
+  {
+   "id": "p-esta-a-diez-minutos",
+   "es": "Está a diez minutos andando.",
+   "en": "It's ten minutes on foot.",
+   "t": "city"
+  },
+  {
+   "id": "p-este-autobus-va-al-centro",
+   "es": "¿Este autobús va al centro?",
+   "en": "Does this bus go to the centre?",
+   "t": "city"
+  }
+ ],
+ "verbs": [
+  {
+   "id": "v-pensar",
+   "inf": "pensar",
+   "en": "to think",
+   "type": "stem-changing e→ie",
+   "forms": [
+    "pienso",
+    "piensas",
+    "piensa",
+    "pensamos",
+    "pensáis",
+    "piensan"
+   ]
+  },
+  {
+   "id": "v-preferir",
+   "inf": "preferir",
+   "en": "to prefer",
+   "type": "stem-changing e→ie",
+   "forms": [
+    "prefiero",
+    "prefieres",
+    "prefiere",
+    "preferimos",
+    "preferís",
+    "prefieren"
+   ]
+  },
+  {
+   "id": "v-dormir",
+   "inf": "dormir",
+   "en": "to sleep",
+   "type": "stem-changing o→ue",
+   "forms": [
+    "duermo",
+    "duermes",
+    "duerme",
+    "dormimos",
+    "dormís",
+    "duermen"
+   ]
+  },
+  {
+   "id": "v-volver",
+   "inf": "volver",
+   "en": "to come back",
+   "type": "stem-changing o→ue",
+   "forms": [
+    "vuelvo",
+    "vuelves",
+    "vuelve",
+    "volvemos",
+    "volvéis",
+    "vuelven"
+   ]
+  },
+  {
+   "id": "v-pedir",
+   "inf": "pedir",
+   "en": "to ask for, to order",
+   "type": "stem-changing e→i",
+   "forms": [
+    "pido",
+    "pides",
+    "pide",
+    "pedimos",
+    "pedís",
+    "piden"
+   ]
+  },
+  {
+   "id": "v-poner",
+   "inf": "poner",
+   "en": "to put",
+   "type": "irregular (yo)",
+   "forms": [
+    "pongo",
+    "pones",
+    "pone",
+    "ponemos",
+    "ponéis",
+    "ponen"
+   ]
+  },
+  {
+   "id": "v-salir",
+   "inf": "salir",
+   "en": "to go out, to leave",
+   "type": "irregular (yo)",
+   "forms": [
+    "salgo",
+    "sales",
+    "sale",
+    "salimos",
+    "salís",
+    "salen"
+   ]
+  },
+  {
+   "id": "v-conocer",
+   "inf": "conocer",
+   "en": "to know (people, places)",
+   "type": "irregular (yo)",
+   "forms": [
+    "conozco",
+    "conoces",
+    "conoce",
+    "conocemos",
+    "conocéis",
+    "conocen"
+   ]
+  },
+  {
+   "id": "v-levantarse",
+   "inf": "levantarse",
+   "en": "to get up",
+   "type": "reflexive",
+   "forms": [
+    "me levanto",
+    "te levantas",
+    "se levanta",
+    "nos levantamos",
+    "os levantáis",
+    "se levantan"
+   ]
+  },
+  {
+   "id": "v-acostarse",
+   "inf": "acostarse",
+   "en": "to go to bed",
+   "type": "reflexive + o→ue",
+   "forms": [
+    "me acuesto",
+    "te acuestas",
+    "se acuesta",
+    "nos acostamos",
+    "os acostáis",
+    "se acuestan"
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "id": "l-stem-changers",
+   "title": "Stem-changing verbs",
+   "summary": "pienso, duermo, pido: the vowel in the stem changes, except for nosotros and vosotros.",
+   "cards": [
+    {
+     "rule": "Some verbs change the stem vowel **e → ie** in every form except **nosotros** and **vosotros**: pensar → **pienso, piensas, piensa**, pensamos, pensáis, **piensan**. Same pattern: preferir, empezar, entender, querer.",
+     "examples": [
+      {
+       "id": "s-pienso-en-mi-familia",
+       "es": "Pienso mucho en mi familia.",
+       "en": "I think about my family a lot."
+      },
+      {
+       "id": "s-prefiero-el-te",
+       "es": "Prefiero el té.",
+       "en": "I prefer tea."
+      },
+      {
+       "id": "s-empezamos-a-las-nueve",
+       "es": "Empezamos a las nueve.",
+       "en": "We start at nine."
+      }
+     ],
+     "trap": "The change follows the stress. Nosotros and vosotros stress the ending, so the stem stays: *pensamos*, not *piensamos*."
+    },
+    {
+     "rule": "**o → ue** works the same way: dormir → **duermo, duermes, duerme**, dormimos, dormís, **duermen**. Also volver, poder, costar, encontrar. One odd one: jugar has **u → ue** (juego).",
+     "examples": [
+      {
+       "id": "s-duermo-ocho-horas",
+       "es": "Duermo ocho horas.",
+       "en": "I sleep eight hours."
+      },
+      {
+       "id": "s-vuelves-tarde-hoy",
+       "es": "¿Vuelves tarde hoy?",
+       "en": "Are you coming back late today?"
+      },
+      {
+       "id": "s-cuanto-cuestan-los-zapatos",
+       "es": "¿Cuánto cuestan los zapatos?",
+       "en": "How much do the shoes cost?"
+      }
+     ],
+     "note": "*Volver a casa* = to go home. In LatAm you will also hear *regresar* for the same thing."
+    },
+    {
+     "rule": "A small group of **-ir** verbs changes **e → i**: pedir → **pido, pides, pide**, pedimos, pedís, **piden**. Also servir, repetir, vestirse. Use *pedir* for ordering food and asking for things.",
+     "examples": [
+      {
+       "id": "s-pido-una-cerveza",
+       "es": "Pido una cerveza.",
+       "en": "I order a beer."
+      },
+      {
+       "id": "s-sirven-el-desayuno",
+       "es": "Sirven el desayuno a las ocho.",
+       "en": "They serve breakfast at eight."
+      },
+      {
+       "id": "s-mi-amigo-pide-la-cuenta",
+       "es": "Mi amigo pide la cuenta.",
+       "en": "My friend asks for the bill."
+      }
+     ],
+     "trap": "*pedir* = ask for a thing. *preguntar* = ask a question. *Pido un café*, but *pregunto la hora*."
+    }
+   ],
+   "drills": [
+    "d-stem-1",
+    "d-stem-2",
+    "d-stem-3",
+    "d-stem-4",
+    "d-stem-5",
+    "d-stem-6",
+    "d-stem-7",
+    "d-stem-8"
+   ]
+  },
+  {
+   "id": "l-yo-irregulars",
+   "title": "Verbs irregular only in yo",
+   "summary": "hago, pongo, salgo, traigo, sé, veo, doy, conozco: one odd form, the rest is regular.",
+   "cards": [
+    {
+     "rule": "Some verbs are irregular only in the **yo** form, often ending in **-go**: hacer → **hago**, poner → **pongo**, salir → **salgo**, traer → **traigo**. All other forms are regular: haces, pones, sales, traes.",
+     "examples": [
+      {
+       "id": "s-hago-deporte",
+       "es": "Hago deporte por la mañana.",
+       "en": "I do sport in the morning."
+      },
+      {
+       "id": "s-pongo-la-mesa",
+       "es": "Pongo la mesa para la cena.",
+       "en": "I set the table for dinner."
+      },
+      {
+       "id": "s-salgo-con-mis-amigos",
+       "es": "Salgo con mis amigos el sábado.",
+       "en": "I go out with my friends on Saturday."
+      }
+     ],
+     "trap": "Only *yo* changes. Don't say *tú salgues*: it is **sales**. *Hago* but *hacemos*."
+    },
+    {
+     "rule": "More yo forms to memorise: saber → **sé**, ver → **veo**, dar → **doy**, conocer → **conozco**. The rest is regular: sabes, ves, das, conoces. *saber* = facts and skills, *conocer* = people and places.",
+     "examples": [
+      {
+       "id": "s-no-se-donde-esta-la-llave",
+       "es": "No sé dónde está la llave.",
+       "en": "I don't know where the key is."
+      },
+      {
+       "id": "s-veo-la-television",
+       "es": "Veo la televisión por la noche.",
+       "en": "I watch television in the evening."
+      },
+      {
+       "id": "s-conozco-madrid",
+       "es": "Conozco Madrid muy bien.",
+       "en": "I know Madrid very well."
+      }
+     ],
+     "trap": "Both mean 'to know'. *Sé nadar* (I can swim), *sé la hora*; but *conozco a Ana*, *conozco Madrid*."
+    },
+    {
+     "rule": "When the direct object is a **person**, add **a** before it: *Veo **a** Marta. Conozco **a** tu hermano.* Not with things: *Veo el coche.* This 'personal a' has no translation.",
+     "examples": [
+      {
+       "id": "s-veo-a-marta",
+       "es": "Veo a Marta en la calle.",
+       "en": "I see Marta in the street."
+      },
+      {
+       "id": "s-conozco-a-tu-hermano",
+       "es": "Conozco a tu hermano.",
+       "en": "I know your brother."
+      },
+      {
+       "id": "s-veo-el-coche-de-luis",
+       "es": "Veo el coche de Luis.",
+       "en": "I see Luis's car."
+      }
+     ],
+     "trap": "English speakers drop it: *Veo Marta* sounds wrong to a Spanish ear. Say *Veo a Marta*."
+    }
+   ],
+   "drills": [
+    "d-yo-1",
+    "d-yo-2",
+    "d-yo-3",
+    "d-yo-4",
+    "d-yo-5",
+    "d-yo-6",
+    "d-yo-7",
+    "d-yo-8"
+   ]
+  },
+  {
+   "id": "l-reflexives",
+   "title": "Reflexive verbs and daily routine",
+   "summary": "me levanto, te duchas, se acuesta: the pronoun goes before the verb and matches the subject.",
+   "cards": [
+    {
+     "rule": "Reflexive verbs end in **-se**: levantarse, ducharse. Conjugate the verb and put the pronoun **before** it: **me** levanto, **te** levantas, **se** levanta, **nos** levantamos, **os** levantáis, **se** levantan.",
+     "examples": [
+      {
+       "id": "s-me-levanto-a-las-siete",
+       "es": "Me levanto a las siete.",
+       "en": "I get up at seven."
+      },
+      {
+       "id": "s-te-duchas-por-la-manana",
+       "es": "¿Te duchas por la mañana o por la noche?",
+       "en": "Do you shower in the morning or at night?"
+      },
+      {
+       "id": "s-nos-acostamos-a-las-once",
+       "es": "Nos acostamos a las once.",
+       "en": "We go to bed at eleven."
+      }
+     ],
+     "trap": "The pronoun is not optional and is not 'myself': *Me ducho* = I shower. *Ducho* alone is wrong."
+    },
+    {
+     "rule": "Many routine verbs are also stem-changing: acostarse → **me acuesto**, despertarse → **me despierto**, vestirse → **me visto**, sentarse → **me siento**. With body parts use **el/la**, not *mi*: *Me lavo las manos.*",
+     "examples": [
+      {
+       "id": "s-me-despierto-a-las-seis",
+       "es": "Me despierto a las seis y media.",
+       "en": "I wake up at half past six."
+      },
+      {
+       "id": "s-me-lavo-los-dientes",
+       "es": "Me lavo los dientes después de desayunar.",
+       "en": "I brush my teeth after breakfast."
+      },
+      {
+       "id": "s-mi-hijo-se-viste-rapido",
+       "es": "Mi hijo se viste muy rápido.",
+       "en": "My son gets dressed very fast."
+      }
+     ],
+     "trap": "*Me lavo las manos*, not *mis manos*. The pronoun already says whose hands they are."
+    },
+    {
+     "rule": "With an infinitive, the pronoun goes **before** the first verb or is **attached** to the infinitive. It still matches the subject: *Me voy a duchar* = *Voy a ducharme*. *Tienes que levantarte.*",
+     "examples": [
+      {
+       "id": "s-voy-a-ducharme-ahora",
+       "es": "Voy a ducharme ahora.",
+       "en": "I'm going to shower now."
+      },
+      {
+       "id": "s-quiero-acostarme-temprano",
+       "es": "Quiero acostarme temprano.",
+       "en": "I want to go to bed early."
+      },
+      {
+       "id": "s-tienes-que-levantarte-temprano",
+       "es": "Tienes que levantarte temprano.",
+       "en": "You have to get up early."
+      }
+     ],
+     "note": "In Spain you *te duchas*; *bañarse* means a bath or a swim. In much of LatAm *bañarse* is also used for showering."
+    }
+   ],
+   "drills": [
+    "d-refl-1",
+    "d-refl-2",
+    "d-refl-3",
+    "d-refl-4",
+    "d-refl-5",
+    "d-refl-6",
+    "d-refl-7",
+    "d-refl-8"
+   ],
+   "dialogue": "dlg-day"
+  },
+  {
+   "id": "l-modals",
+   "title": "Plans, obligations and wants",
+   "summary": "ir a, tener que, deber, querer, poder + infinitive: the second verb never changes.",
+   "cards": [
+    {
+     "rule": "**ir a + infinitive** = going to: **voy a** salir, **vas a** ver, **vamos a** comer. Add a time: *mañana, esta tarde, el sábado, este fin de semana*. Ask with *¿Qué vas a hacer?*",
+     "examples": [
+      {
+       "id": "s-esta-noche-voy-a-salir",
+       "es": "Esta noche voy a salir con Ana.",
+       "en": "Tonight I'm going out with Ana."
+      },
+      {
+       "id": "s-que-vas-a-hacer-el-domingo",
+       "es": "¿Qué vas a hacer el domingo?",
+       "en": "What are you going to do on Sunday?"
+      },
+      {
+       "id": "s-vamos-a-ver-una-pelicula",
+       "es": "Vamos a ver una película.",
+       "en": "We're going to watch a film."
+      }
+     ],
+     "note": "*Vamos a comer* also means 'let's eat'. Context tells you which one it is."
+    },
+    {
+     "rule": "**tener que + infinitive** = have to: *Tengo que trabajar.* **deber + infinitive** = should, softer: *Debes descansar.* **hay que + infinitive** = one has to, no subject: *Hay que comer bien.*",
+     "examples": [
+      {
+       "id": "s-manana-tengo-que-trabajar",
+       "es": "Mañana tengo que trabajar.",
+       "en": "Tomorrow I have to work."
+      },
+      {
+       "id": "s-debes-descansar-mas",
+       "es": "Debes descansar más.",
+       "en": "You should rest more."
+      },
+      {
+       "id": "s-hay-que-comprar-pan",
+       "es": "Hay que comprar pan.",
+       "en": "We need to buy bread. (someone has to)"
+      }
+     ],
+     "trap": "*tener que* needs **que**: *Tengo que ir*, never *Tengo ir*. *Deber* takes no *que*: *Debo ir*."
+    },
+    {
+     "rule": "**querer + infinitive** = want to, **poder + infinitive** = can. Invite with *¿Quieres...?*, refuse with *No puedo, tengo que...*. Both are stem-changers: quiero, puedo; queremos, podemos.",
+     "examples": [
+      {
+       "id": "s-quieres-tomar-un-cafe",
+       "es": "¿Quieres tomar un café?",
+       "en": "Do you want to have a coffee?"
+      },
+      {
+       "id": "s-no-puedo-tengo-que-estudiar",
+       "es": "No puedo, tengo que estudiar.",
+       "en": "I can't, I have to study."
+      },
+      {
+       "id": "s-podemos-quedar-el-viernes",
+       "es": "¿Podemos quedar el viernes?",
+       "en": "Can we meet up on Friday?"
+      }
+     ],
+     "note": "*quedar* (to meet up) is very Spanish. In LatAm you hear *verse* or *juntarse*: *¿Nos vemos el viernes?*"
+    }
+   ],
+   "drills": [
+    "d-modal-1",
+    "d-modal-2",
+    "d-modal-3",
+    "d-modal-4",
+    "d-modal-5",
+    "d-modal-6",
+    "d-modal-7",
+    "d-modal-8"
+   ],
+   "dialogue": "dlg-plan"
+  },
+  {
+   "id": "l-gerund",
+   "title": "What is happening now: estar + gerund",
+   "summary": "estoy comiendo, está lloviendo: -ando / -iendo for actions in progress right now.",
+   "cards": [
+    {
+     "rule": "For what is happening **right now**, use **estar + gerund**. -ar → **-ando**, -er/-ir → **-iendo**: *Estoy hablando. Estás comiendo. Están viviendo en Madrid.* Only *estar* changes with the person.",
+     "examples": [
+      {
+       "id": "s-estoy-trabajando-ahora",
+       "es": "Estoy trabajando ahora.",
+       "en": "I'm working now."
+      },
+      {
+       "id": "s-esta-lloviendo",
+       "es": "Está lloviendo.",
+       "en": "It's raining."
+      },
+      {
+       "id": "s-estamos-comiendo-llama-luego",
+       "es": "Estamos comiendo, ¿puedes llamar luego?",
+       "en": "We're eating, can you call later?"
+      }
+     ],
+     "trap": "No gerund for the future or for habits. 'I'm leaving tomorrow' = *Mañana salgo* or *Mañana voy a salir*."
+    },
+    {
+     "rule": "Some gerunds change: dormir → **durmiendo**, pedir → **pidiendo**, decir → **diciendo**. After a vowel, -iendo becomes **-yendo**: leer → **leyendo**, oír → **oyendo**, ir → **yendo**.",
+     "examples": [
+      {
+       "id": "s-el-nino-esta-durmiendo",
+       "es": "El niño está durmiendo.",
+       "en": "The boy is sleeping."
+      },
+      {
+       "id": "s-estoy-leyendo-un-libro",
+       "es": "Estoy leyendo un libro.",
+       "en": "I'm reading a book."
+      },
+      {
+       "id": "s-que-estas-haciendo",
+       "es": "¿Qué estás haciendo?",
+       "en": "What are you doing?"
+      }
+     ],
+     "note": "A reflexive pronoun goes before *estar* or on the end of the gerund: *Me estoy duchando* = *Estoy duchándome* (note the accent)."
+    }
+   ],
+   "drills": [
+    "d-ger-1",
+    "d-ger-2",
+    "d-ger-3",
+    "d-ger-4",
+    "d-ger-5",
+    "d-ger-6",
+    "d-ger-7",
+    "d-ger-8"
+   ]
+  },
+  {
+   "id": "l-direct-objects",
+   "title": "Direct object pronouns: lo, la, los, las",
+   "summary": "Lo tengo, la veo, quiero comprarlos: 'it, him, her, them' go before the verb or stick to the infinitive.",
+   "cards": [
+    {
+     "rule": "Direct object pronouns replace a thing or person: **lo** (him, it m.), **la** (her, it f.), **los**, **las**. They go **before** the conjugated verb: *¿El libro? **Lo** tengo. ¿Las llaves? No **las** veo.*",
+     "examples": [
+      {
+       "id": "s-el-abrigo-lo-compro",
+       "es": "¿El abrigo? Lo compro.",
+       "en": "The coat? I'll buy it."
+      },
+      {
+       "id": "s-ves-a-marta-la-veo",
+       "es": "¿Ves a Marta? Sí, la veo.",
+       "en": "Do you see Marta? Yes, I see her."
+      },
+      {
+       "id": "s-las-llaves-no-las-tengo",
+       "es": "¿Las llaves? No las tengo.",
+       "en": "The keys? I don't have them."
+      }
+     ],
+     "trap": "The order flips: English 'I have it', Spanish *Lo tengo* (it I-have). *Tengo lo* is wrong."
+    },
+    {
+     "rule": "With an infinitive or gerund, put the pronoun **before** the first verb or **attach** it to the end: *Lo quiero comprar* = *Quiero comprarlo*. *La voy a ver* = *Voy a verla*.",
+     "examples": [
+      {
+       "id": "s-quiero-comprarlo",
+       "es": "Quiero comprarlo.",
+       "en": "I want to buy it."
+      },
+      {
+       "id": "s-lo-voy-a-hacer-manana",
+       "es": "Lo voy a hacer mañana.",
+       "en": "I'll do it tomorrow."
+      },
+      {
+       "id": "s-los-zapatos-voy-a-comprarlos",
+       "es": "Los zapatos son bonitos. Voy a comprarlos.",
+       "en": "The shoes are nice. I'm going to buy them."
+      }
+     ],
+     "trap": "Never put the pronoun between the two verbs: *Quiero lo comprar* is wrong. Before both or on the end."
+    },
+    {
+     "rule": "**me, te, nos, os** also work as direct objects: *¿Me ves? Te llamo mañana. Nos esperan.* And **lo** can mean 'it' for a whole idea: *¿Sabes la hora? No lo sé.*",
+     "examples": [
+      {
+       "id": "s-te-llamo-manana",
+       "es": "Te llamo mañana.",
+       "en": "I'll call you tomorrow."
+      },
+      {
+       "id": "s-no-lo-se",
+       "es": "No lo sé.",
+       "en": "I don't know (it)."
+      },
+      {
+       "id": "s-nos-esperan-en-el-restaurante",
+       "es": "Nos esperan en el restaurante.",
+       "en": "They're waiting for us at the restaurant."
+      }
+     ],
+     "note": "In Spain many people say *le* instead of *lo* for 'him' (*le veo*). Both are heard; *lo* is the standard form."
+    }
+   ],
+   "drills": [
+    "d-do-1",
+    "d-do-2",
+    "d-do-3",
+    "d-do-4",
+    "d-do-5",
+    "d-do-6",
+    "d-do-7",
+    "d-do-8"
+   ]
+  },
+  {
+   "id": "l-indirect-objects",
+   "title": "Indirect objects and the gustar family",
+   "summary": "me, te, le, nos, os, les: to whom. Me gusta, me encanta, me duele all use them.",
+   "cards": [
+    {
+     "rule": "Indirect object pronouns say **to or for whom**: **me, te, le, nos, os, les**. They go before the verb: *Le doy el libro. ¿Me traes un café?* Add *a + person* to make *le/les* clear.",
+     "examples": [
+      {
+       "id": "s-le-doy-las-llaves-a-luis",
+       "es": "Le doy las llaves a Luis.",
+       "en": "I give Luis the keys."
+      },
+      {
+       "id": "s-me-traes-un-vaso-de-agua",
+       "es": "¿Me traes un vaso de agua?",
+       "en": "Can you bring me a glass of water?"
+      },
+      {
+       "id": "s-nos-trae-la-cuenta",
+       "es": "¿Nos trae la cuenta, por favor?",
+       "en": "Can you bring us the bill, please? (formal)"
+      }
+     ],
+     "trap": "*le* means 'to him', 'to her' and 'to you' (formal). Add *a él / a ella / a usted* when it is not clear."
+    },
+    {
+     "rule": "**gustar** uses the same pronouns: *Me gusta el café* (coffee pleases me). Plural thing → **gustan**. Same pattern: **encantar** (love), **interesar** (interest), **quedar** (fit): *Me queda bien.*",
+     "examples": [
+      {
+       "id": "s-me-encanta-la-playa",
+       "es": "Me encanta la playa.",
+       "en": "I love the beach."
+      },
+      {
+       "id": "s-te-interesan-los-museos",
+       "es": "¿Te interesan los museos?",
+       "en": "Are you interested in museums?"
+      },
+      {
+       "id": "s-nos-encanta-dormir-hasta-tarde",
+       "es": "Nos encanta dormir hasta tarde.",
+       "en": "We love sleeping in."
+      }
+     ],
+     "trap": "No *mucho* with *encantar*: it already means 'love'. *Me encanta*, not *me encanta mucho*."
+    },
+    {
+     "rule": "**doler** (o → ue) for pain: *Me duele la cabeza* (one thing), *Me duelen los pies* (plural). Use **el/la**, never *mi*. The doctor asks *¿Qué le pasa?* or *¿Qué le duele?*",
+     "examples": [
+      {
+       "id": "s-me-duele-el-estomago",
+       "es": "Me duele el estómago.",
+       "en": "My stomach hurts."
+      },
+      {
+       "id": "s-a-mi-madre-le-duelen-los-pies",
+       "es": "A mi madre le duelen los pies.",
+       "en": "My mother's feet hurt."
+      },
+      {
+       "id": "s-que-te-duele",
+       "es": "¿Qué te duele?",
+       "en": "What hurts? (informal)"
+      }
+     ],
+     "note": "Everywhere: *Me duele la cabeza*, never *Mi cabeza duele*. The part of the body is the subject of *doler*."
+    }
+   ],
+   "drills": [
+    "d-io-1",
+    "d-io-2",
+    "d-io-3",
+    "d-io-4",
+    "d-io-5",
+    "d-io-6",
+    "d-io-7",
+    "d-io-8"
+   ],
+   "dialogue": "dlg-doctor"
+  },
+  {
+   "id": "l-demonstratives",
+   "title": "This, that and comparing things",
+   "summary": "este, ese, aquel; más/menos ... que; mejor, peor, mayor, menor.",
+   "cards": [
+    {
+     "rule": "**este** (this, near me), **ese** (that, near you), **aquel** (that one over there). They agree: este/esta/estos/estas, ese/esa/esos/esas, aquel/aquella/aquellos/aquellas. Alone, *esto / eso* = this / that (thing).",
+     "examples": [
+      {
+       "id": "s-esta-camisa-es-bonita",
+       "es": "Esta camisa es muy bonita.",
+       "en": "This shirt is very pretty."
+      },
+      {
+       "id": "s-cuanto-cuestan-esos-zapatos",
+       "es": "¿Cuánto cuestan esos zapatos?",
+       "en": "How much are those shoes?"
+      },
+      {
+       "id": "s-aquella-tienda-es-mas-barata",
+       "es": "Aquella tienda es más barata.",
+       "en": "That shop over there is cheaper."
+      }
+     ],
+     "trap": "*este* ends in -e but is masculine: *este coche*, *esta casa*. Don't say *esto coche*."
+    },
+    {
+     "rule": "**más + adjective + que** = more ... than. **menos ... que** = less ... than. **tan ... como** = as ... as. *El tren es más rápido que el autobús. Mi piso es tan grande como tu casa.*",
+     "examples": [
+      {
+       "id": "s-el-tren-es-mas-rapido",
+       "es": "El tren es más rápido que el autobús.",
+       "en": "The train is faster than the bus."
+      },
+      {
+       "id": "s-el-metro-es-menos-caro",
+       "es": "El metro es menos caro que el taxi.",
+       "en": "The metro is less expensive than the taxi."
+      },
+      {
+       "id": "s-mi-piso-es-tan-grande-como",
+       "es": "Mi piso es tan grande como tu casa.",
+       "en": "My flat is as big as your house."
+      }
+     ],
+     "trap": "Say *más grande que*, not *más grande de*. *Más de* is only for numbers: *más de diez euros*."
+    },
+    {
+     "rule": "Four irregulars: **mejor** (better), **peor** (worse), **mayor** (older), **menor** (younger). *Este café es mejor que ese.* Superlative = **el/la más + adjective (+ de)**: *la tienda más barata de la ciudad*.",
+     "examples": [
+      {
+       "id": "s-este-jersey-es-mejor",
+       "es": "Este jersey es mejor que ese.",
+       "en": "This sweater is better than that one."
+      },
+      {
+       "id": "s-mi-hermano-es-mayor-que-yo",
+       "es": "Mi hermano es mayor que yo.",
+       "en": "My brother is older than me."
+      },
+      {
+       "id": "s-la-tienda-mas-barata",
+       "es": "Es la tienda más barata de la ciudad.",
+       "en": "It's the cheapest shop in the city."
+      }
+     ],
+     "note": "'Than me' is *que yo*, not *que mí*. You will hear *más bueno* in speech, but learn *mejor / peor*."
+    }
+   ],
+   "drills": [
+    "d-dem-1",
+    "d-dem-2",
+    "d-dem-3",
+    "d-dem-4",
+    "d-dem-5",
+    "d-dem-6",
+    "d-dem-7",
+    "d-dem-8"
+   ],
+   "dialogue": "dlg-clothes"
+  }
+ ],
+ "drills": [
+  {
+   "id": "d-stem-1",
+   "type": "gap",
+   "prompt": "Yo ___ en español.",
+   "hint": "pensar, yo",
+   "answer": [
+    "pienso"
+   ],
+   "explain": "e → ie in the yo form: pienso.",
+   "full": {
+    "id": "d-stem-1-f",
+    "es": "Yo pienso en español."
+   }
+  },
+  {
+   "id": "d-stem-2",
+   "type": "gap",
+   "prompt": "Nosotros ___ el café.",
+   "hint": "preferir, nosotros",
+   "answer": [
+    "preferimos"
+   ],
+   "explain": "No stem change for nosotros: preferimos.",
+   "full": {
+    "id": "d-stem-2-f",
+    "es": "Nosotros preferimos el café."
+   }
+  },
+  {
+   "id": "d-stem-3",
+   "type": "choose",
+   "prompt": "Mi hermano ___ mucho los domingos.",
+   "options": [
+    "duerme",
+    "dorme",
+    "duermo",
+    "duermes"
+   ],
+   "answer": [
+    "duerme"
+   ],
+   "explain": "Third person, o → ue: duerme.",
+   "full": {
+    "id": "d-stem-3-f",
+    "es": "Mi hermano duerme mucho los domingos."
+   }
+  },
+  {
+   "id": "d-stem-4",
+   "type": "choose",
+   "prompt": "¿A qué hora ___ vosotros a casa?",
+   "options": [
+    "volvéis",
+    "vuelvéis",
+    "volvemos",
+    "vuelven"
+   ],
+   "answer": [
+    "volvéis"
+   ],
+   "explain": "Vosotros keeps the stem: volvéis.",
+   "full": {
+    "id": "d-stem-4-f",
+    "es": "¿A qué hora volvéis vosotros a casa?"
+   }
+  },
+  {
+   "id": "d-stem-5",
+   "type": "gap",
+   "prompt": "Ella siempre ___ pescado en el restaurante.",
+   "hint": "pedir, ella",
+   "answer": [
+    "pide"
+   ],
+   "explain": "e → i: pide. Pedir is for ordering food.",
+   "full": {
+    "id": "d-stem-5-f",
+    "es": "Ella siempre pide pescado en el restaurante."
+   }
+  },
+  {
+   "id": "d-stem-6",
+   "type": "build",
+   "prompt": "The shoes cost fifty euros.",
+   "answer": [
+    "Los zapatos cuestan cincuenta euros."
+   ],
+   "explain": "Plural subject, o → ue: cuestan.",
+   "full": {
+    "id": "d-stem-6-f",
+    "es": "Los zapatos cuestan cincuenta euros."
+   }
+  },
+  {
+   "id": "d-stem-7",
+   "type": "translate",
+   "prompt": "I prefer tea.",
+   "answer": [
+    "Prefiero el té.",
+    "Yo prefiero el té."
+   ],
+   "explain": "e → ie: prefiero. Spanish keeps the article: el té.",
+   "full": {
+    "id": "d-stem-7-f",
+    "es": "Prefiero el té."
+   }
+  },
+  {
+   "id": "d-stem-8",
+   "type": "gap",
+   "prompt": "¿___ español?",
+   "hint": "entender, tú",
+   "answer": [
+    "Entiendes"
+   ],
+   "explain": "entender is e → ie: entiendes.",
+   "full": {
+    "id": "d-stem-8-f",
+    "es": "¿Entiendes español?"
+   }
+  },
+  {
+   "id": "d-yo-1",
+   "type": "gap",
+   "prompt": "Yo ___ la cena todos los días.",
+   "hint": "hacer, yo",
+   "answer": [
+    "hago"
+   ],
+   "explain": "hacer → hago in the yo form.",
+   "full": {
+    "id": "d-yo-1-f",
+    "es": "Yo hago la cena todos los días."
+   }
+  },
+  {
+   "id": "d-yo-2",
+   "type": "choose",
+   "prompt": "Los sábados yo ___ con mis amigos.",
+   "options": [
+    "salgo",
+    "salo",
+    "sales",
+    "salimos"
+   ],
+   "answer": [
+    "salgo"
+   ],
+   "explain": "salir → salgo. Only yo is irregular.",
+   "full": {
+    "id": "d-yo-2-f",
+    "es": "Los sábados yo salgo con mis amigos."
+   }
+  },
+  {
+   "id": "d-yo-3",
+   "type": "gap",
+   "prompt": "No ___ dónde está mi móvil.",
+   "hint": "saber, yo",
+   "answer": [
+    "sé"
+   ],
+   "explain": "saber → sé (with accent, to differ from se).",
+   "full": {
+    "id": "d-yo-3-f",
+    "es": "No sé dónde está mi móvil."
+   }
+  },
+  {
+   "id": "d-yo-4",
+   "type": "choose",
+   "prompt": "Yo no ___ a tu hermano.",
+   "options": [
+    "conozco",
+    "conoces",
+    "sé",
+    "conoce"
+   ],
+   "answer": [
+    "conozco"
+   ],
+   "explain": "People take conocer, and yo → conozco.",
+   "full": {
+    "id": "d-yo-4-f",
+    "es": "Yo no conozco a tu hermano."
+   }
+  },
+  {
+   "id": "d-yo-5",
+   "type": "gap",
+   "prompt": "Yo ___ las llaves en la mesa.",
+   "hint": "poner, yo",
+   "answer": [
+    "pongo"
+   ],
+   "explain": "poner → pongo.",
+   "full": {
+    "id": "d-yo-5-f",
+    "es": "Yo pongo las llaves en la mesa."
+   }
+  },
+  {
+   "id": "d-yo-6",
+   "type": "build",
+   "prompt": "I see Marta every day.",
+   "answer": [
+    "Veo a Marta todos los días.",
+    "Todos los días veo a Marta."
+   ],
+   "explain": "Personal a before a person: veo a Marta.",
+   "full": {
+    "id": "d-yo-6-f",
+    "es": "Veo a Marta todos los días."
+   }
+  },
+  {
+   "id": "d-yo-7",
+   "type": "translate",
+   "prompt": "I don't know.",
+   "answer": [
+    "No sé.",
+    "No lo sé.",
+    "Yo no sé."
+   ],
+   "explain": "saber → sé. 'No lo sé' is the fuller form.",
+   "full": {
+    "id": "d-yo-7-f",
+    "es": "No sé."
+   }
+  },
+  {
+   "id": "d-yo-8",
+   "type": "choose",
+   "prompt": "Mi padre ___ la televisión por la noche.",
+   "options": [
+    "ve",
+    "veo",
+    "vee",
+    "ves"
+   ],
+   "answer": [
+    "ve"
+   ],
+   "explain": "Third person of ver is regular: ve.",
+   "full": {
+    "id": "d-yo-8-f",
+    "es": "Mi padre ve la televisión por la noche."
+   }
+  },
+  {
+   "id": "d-refl-1",
+   "type": "gap",
+   "prompt": "Yo ___ a las siete.",
+   "hint": "levantarse, yo",
+   "answer": [
+    "me levanto"
+   ],
+   "explain": "Pronoun me before the verb: me levanto.",
+   "full": {
+    "id": "d-refl-1-f",
+    "es": "Yo me levanto a las siete."
+   }
+  },
+  {
+   "id": "d-refl-2",
+   "type": "choose",
+   "prompt": "Mi hermana ___ ducha por la noche.",
+   "options": [
+    "se",
+    "me",
+    "te",
+    "le"
+   ],
+   "answer": [
+    "se"
+   ],
+   "explain": "Third person reflexive pronoun is se.",
+   "full": {
+    "id": "d-refl-2-f",
+    "es": "Mi hermana se ducha por la noche."
+   }
+  },
+  {
+   "id": "d-refl-3",
+   "type": "gap",
+   "prompt": "Nosotros ___ a las once.",
+   "hint": "acostarse, nosotros",
+   "answer": [
+    "nos acostamos"
+   ],
+   "explain": "nos + acostamos; no stem change for nosotros.",
+   "full": {
+    "id": "d-refl-3-f",
+    "es": "Nosotros nos acostamos a las once."
+   }
+  },
+  {
+   "id": "d-refl-4",
+   "type": "choose",
+   "prompt": "¿A qué hora ___ vosotros?",
+   "options": [
+    "os levantáis",
+    "os levantás",
+    "se levantáis",
+    "nos levantáis"
+   ],
+   "answer": [
+    "os levantáis"
+   ],
+   "explain": "Vosotros: os + levantáis.",
+   "full": {
+    "id": "d-refl-4-f",
+    "es": "¿A qué hora os levantáis vosotros?"
+   }
+  },
+  {
+   "id": "d-refl-5",
+   "type": "gap",
+   "prompt": "Me lavo ___ manos antes de comer.",
+   "hint": "the",
+   "answer": [
+    "las"
+   ],
+   "explain": "Body parts take el/la/los/las, not mis.",
+   "full": {
+    "id": "d-refl-5-f",
+    "es": "Me lavo las manos antes de comer."
+   }
+  },
+  {
+   "id": "d-refl-6",
+   "type": "build",
+   "prompt": "I go to bed early every day.",
+   "answer": [
+    "Me acuesto temprano todos los días.",
+    "Todos los días me acuesto temprano."
+   ],
+   "explain": "acostarse is o → ue: me acuesto.",
+   "full": {
+    "id": "d-refl-6-f",
+    "es": "Me acuesto temprano todos los días."
+   }
+  },
+  {
+   "id": "d-refl-7",
+   "type": "translate",
+   "prompt": "I'm going to shower now.",
+   "answer": [
+    "Voy a ducharme ahora.",
+    "Me voy a duchar ahora.",
+    "Ahora voy a ducharme.",
+    "Ahora me voy a duchar."
+   ],
+   "explain": "Pronoun before ir or attached to the infinitive.",
+   "full": {
+    "id": "d-refl-7-f",
+    "es": "Voy a ducharme ahora."
+   }
+  },
+  {
+   "id": "d-refl-8",
+   "type": "gap",
+   "prompt": "¿Cómo ___ tu madre?",
+   "hint": "llamarse, ella",
+   "answer": [
+    "se llama"
+   ],
+   "explain": "Third person: se llama.",
+   "full": {
+    "id": "d-refl-8-f",
+    "es": "¿Cómo se llama tu madre?"
+   }
+  },
+  {
+   "id": "d-modal-1",
+   "type": "gap",
+   "prompt": "Mañana ___ a comer con mis padres.",
+   "hint": "ir, yo",
+   "answer": [
+    "voy"
+   ],
+   "explain": "ir a + infinitive: voy a comer.",
+   "full": {
+    "id": "d-modal-1-f",
+    "es": "Mañana voy a comer con mis padres."
+   }
+  },
+  {
+   "id": "d-modal-2",
+   "type": "choose",
+   "prompt": "Tengo ___ trabajar el sábado.",
+   "options": [
+    "que",
+    "a",
+    "de",
+    "para"
+   ],
+   "answer": [
+    "que"
+   ],
+   "explain": "tener que + infinitive = have to.",
+   "full": {
+    "id": "d-modal-2-f",
+    "es": "Tengo que trabajar el sábado."
+   }
+  },
+  {
+   "id": "d-modal-3",
+   "type": "gap",
+   "prompt": "¿Qué ___ a hacer este fin de semana?",
+   "hint": "ir, tú",
+   "answer": [
+    "vas"
+   ],
+   "explain": "ir: voy, vas, va. Vas a hacer.",
+   "full": {
+    "id": "d-modal-3-f",
+    "es": "¿Qué vas a hacer este fin de semana?"
+   }
+  },
+  {
+   "id": "d-modal-4",
+   "type": "choose",
+   "prompt": "No ___ ir al cine, estoy cansado.",
+   "options": [
+    "puedo",
+    "podo",
+    "puedes",
+    "pueda"
+   ],
+   "answer": [
+    "puedo"
+   ],
+   "explain": "poder is o → ue: puedo.",
+   "full": {
+    "id": "d-modal-4-f",
+    "es": "No puedo ir al cine, estoy cansado."
+   }
+  },
+  {
+   "id": "d-modal-5",
+   "type": "choose",
+   "prompt": "___ descansar, estás enfermo.",
+   "options": [
+    "Debes",
+    "Deber",
+    "Debes que",
+    "Tienes"
+   ],
+   "answer": [
+    "Debes"
+   ],
+   "explain": "deber + infinitive, no que: debes descansar.",
+   "full": {
+    "id": "d-modal-5-f",
+    "es": "Debes descansar, estás enfermo."
+   }
+  },
+  {
+   "id": "d-modal-6",
+   "type": "build",
+   "prompt": "We are going to watch a film.",
+   "answer": [
+    "Vamos a ver una película."
+   ],
+   "explain": "vamos a + infinitive.",
+   "full": {
+    "id": "d-modal-6-f",
+    "es": "Vamos a ver una película."
+   }
+  },
+  {
+   "id": "d-modal-7",
+   "type": "translate",
+   "prompt": "I have to get up early.",
+   "answer": [
+    "Tengo que levantarme temprano.",
+    "Me tengo que levantar temprano."
+   ],
+   "explain": "tener que + infinitive; pronoun attached or before tengo.",
+   "full": {
+    "id": "d-modal-7-f",
+    "es": "Tengo que levantarme temprano."
+   }
+  },
+  {
+   "id": "d-modal-8",
+   "type": "gap",
+   "prompt": "¿___ quedar el viernes por la tarde?",
+   "hint": "poder, nosotros",
+   "answer": [
+    "Podemos"
+   ],
+   "explain": "Nosotros keeps the stem: podemos.",
+   "full": {
+    "id": "d-modal-8-f",
+    "es": "¿Podemos quedar el viernes por la tarde?"
+   }
+  },
+  {
+   "id": "d-ger-1",
+   "type": "gap",
+   "prompt": "Ahora ___ comiendo.",
+   "hint": "estar, yo",
+   "answer": [
+    "estoy"
+   ],
+   "explain": "estar + gerund: estoy comiendo.",
+   "full": {
+    "id": "d-ger-1-f",
+    "es": "Ahora estoy comiendo."
+   }
+  },
+  {
+   "id": "d-ger-2",
+   "type": "gap",
+   "prompt": "Luis está ___ con su madre.",
+   "hint": "hablar",
+   "answer": [
+    "hablando"
+   ],
+   "explain": "-ar verbs: -ando.",
+   "full": {
+    "id": "d-ger-2-f",
+    "es": "Luis está hablando con su madre."
+   }
+  },
+  {
+   "id": "d-ger-3",
+   "type": "choose",
+   "prompt": "Los niños están ___.",
+   "options": [
+    "durmiendo",
+    "dormiendo",
+    "duermiendo",
+    "dormando"
+   ],
+   "answer": [
+    "durmiendo"
+   ],
+   "explain": "dormir has an irregular gerund: durmiendo.",
+   "full": {
+    "id": "d-ger-3-f",
+    "es": "Los niños están durmiendo."
+   }
+  },
+  {
+   "id": "d-ger-4",
+   "type": "choose",
+   "prompt": "¿Qué ___ haciendo?",
+   "options": [
+    "estás",
+    "eres",
+    "es",
+    "estar"
+   ],
+   "answer": [
+    "estás"
+   ],
+   "explain": "Always estar with the gerund, never ser.",
+   "full": {
+    "id": "d-ger-4-f",
+    "es": "¿Qué estás haciendo?"
+   }
+  },
+  {
+   "id": "d-ger-5",
+   "type": "gap",
+   "prompt": "Estamos ___ un libro.",
+   "hint": "leer",
+   "answer": [
+    "leyendo"
+   ],
+   "explain": "After a vowel, -iendo becomes -yendo.",
+   "full": {
+    "id": "d-ger-5-f",
+    "es": "Estamos leyendo un libro."
+   }
+  },
+  {
+   "id": "d-ger-6",
+   "type": "build",
+   "prompt": "It is raining a lot now.",
+   "answer": [
+    "Está lloviendo mucho ahora.",
+    "Ahora está lloviendo mucho."
+   ],
+   "explain": "llover → lloviendo; no subject needed.",
+   "full": {
+    "id": "d-ger-6-f",
+    "es": "Está lloviendo mucho ahora."
+   }
+  },
+  {
+   "id": "d-ger-7",
+   "type": "translate",
+   "prompt": "I'm working.",
+   "answer": [
+    "Estoy trabajando.",
+    "Yo estoy trabajando."
+   ],
+   "explain": "estoy + trabajando.",
+   "full": {
+    "id": "d-ger-7-f",
+    "es": "Estoy trabajando."
+   }
+  },
+  {
+   "id": "d-ger-8",
+   "type": "choose",
+   "prompt": "Mi hermana ___ está duchando.",
+   "options": [
+    "se",
+    "me",
+    "te",
+    "le"
+   ],
+   "answer": [
+    "se"
+   ],
+   "explain": "Reflexive pronoun before estar: se está duchando.",
+   "full": {
+    "id": "d-ger-8-f",
+    "es": "Mi hermana se está duchando."
+   }
+  },
+  {
+   "id": "d-do-1",
+   "type": "choose",
+   "prompt": "¿El pan? ___ compro en el supermercado.",
+   "options": [
+    "Lo",
+    "La",
+    "Los",
+    "Le"
+   ],
+   "answer": [
+    "Lo"
+   ],
+   "explain": "el pan is masculine singular: lo.",
+   "full": {
+    "id": "d-do-1-f",
+    "es": "¿El pan? Lo compro en el supermercado."
+   }
+  },
+  {
+   "id": "d-do-2",
+   "type": "choose",
+   "prompt": "¿La chaqueta? No ___ quiero.",
+   "options": [
+    "la",
+    "lo",
+    "le",
+    "las"
+   ],
+   "answer": [
+    "la"
+   ],
+   "explain": "la chaqueta is feminine singular: la.",
+   "full": {
+    "id": "d-do-2-f",
+    "es": "¿La chaqueta? No la quiero."
+   }
+  },
+  {
+   "id": "d-do-3",
+   "type": "gap",
+   "prompt": "¿Las llaves? No ___ veo.",
+   "hint": "them",
+   "answer": [
+    "las"
+   ],
+   "explain": "Feminine plural: las. Before the verb.",
+   "full": {
+    "id": "d-do-3-f",
+    "es": "¿Las llaves? No las veo."
+   }
+  },
+  {
+   "id": "d-do-4",
+   "type": "gap",
+   "prompt": "¿Conoces a Pablo? Sí, ___ conozco.",
+   "hint": "him",
+   "answer": [
+    "lo",
+    "le"
+   ],
+   "explain": "lo = him. In Spain le is also common for people.",
+   "full": {
+    "id": "d-do-4-f",
+    "es": "¿Conoces a Pablo? Sí, lo conozco."
+   }
+  },
+  {
+   "id": "d-do-5",
+   "type": "build",
+   "prompt": "I want to buy it for my sister.",
+   "answer": [
+    "Quiero comprarlo para mi hermana."
+   ],
+   "explain": "Pronoun attached to the infinitive: comprarlo.",
+   "full": {
+    "id": "d-do-5-f",
+    "es": "Quiero comprarlo para mi hermana."
+   }
+  },
+  {
+   "id": "d-do-6",
+   "type": "translate",
+   "prompt": "I'll call you tomorrow.",
+   "answer": [
+    "Te llamo mañana.",
+    "Mañana te llamo.",
+    "Te voy a llamar mañana.",
+    "Voy a llamarte mañana.",
+    "Mañana te voy a llamar."
+   ],
+   "explain": "te = you (object), before the verb. Present tense works for near plans.",
+   "full": {
+    "id": "d-do-6-f",
+    "es": "Te llamo mañana."
+   }
+  },
+  {
+   "id": "d-do-7",
+   "type": "choose",
+   "prompt": "Los zapatos son bonitos. Voy a ___.",
+   "options": [
+    "comprarlos",
+    "comprarlo",
+    "los comprar",
+    "comprarles"
+   ],
+   "answer": [
+    "comprarlos"
+   ],
+   "explain": "Masculine plural los, attached to the infinitive.",
+   "full": {
+    "id": "d-do-7-f",
+    "es": "Los zapatos son bonitos. Voy a comprarlos."
+   }
+  },
+  {
+   "id": "d-do-8",
+   "type": "gap",
+   "prompt": "¿Me ves? Sí, ___ veo.",
+   "hint": "you",
+   "answer": [
+    "te"
+   ],
+   "explain": "te = you as a direct object.",
+   "full": {
+    "id": "d-do-8-f",
+    "es": "¿Me ves? Sí, te veo."
+   }
+  },
+  {
+   "id": "d-io-1",
+   "type": "choose",
+   "prompt": "___ gusta mucho el café.",
+   "options": [
+    "Me",
+    "Yo",
+    "Mi",
+    "A yo"
+   ],
+   "answer": [
+    "Me"
+   ],
+   "explain": "gustar takes the indirect pronoun: me gusta.",
+   "full": {
+    "id": "d-io-1-f",
+    "es": "Me gusta mucho el café."
+   }
+  },
+  {
+   "id": "d-io-2",
+   "type": "choose",
+   "prompt": "A Luis ___ duele la cabeza.",
+   "options": [
+    "le",
+    "lo",
+    "se",
+    "la"
+   ],
+   "answer": [
+    "le"
+   ],
+   "explain": "doler works like gustar: a Luis le duele.",
+   "full": {
+    "id": "d-io-2-f",
+    "es": "A Luis le duele la cabeza."
+   }
+  },
+  {
+   "id": "d-io-3",
+   "type": "gap",
+   "prompt": "Me ___ los pies.",
+   "hint": "doler",
+   "answer": [
+    "duelen"
+   ],
+   "explain": "los pies is plural, so duelen.",
+   "full": {
+    "id": "d-io-3-f",
+    "es": "Me duelen los pies."
+   }
+  },
+  {
+   "id": "d-io-4",
+   "type": "gap",
+   "prompt": "¿Te ___ los museos?",
+   "hint": "interesar",
+   "answer": [
+    "interesan"
+   ],
+   "explain": "Plural subject (los museos): interesan.",
+   "full": {
+    "id": "d-io-4-f",
+    "es": "¿Te interesan los museos?"
+   }
+  },
+  {
+   "id": "d-io-5",
+   "type": "choose",
+   "prompt": "___ doy el libro a mi hermana.",
+   "options": [
+    "Le",
+    "La",
+    "Lo",
+    "Les"
+   ],
+   "answer": [
+    "Le"
+   ],
+   "explain": "To my sister = indirect: le.",
+   "full": {
+    "id": "d-io-5-f",
+    "es": "Le doy el libro a mi hermana."
+   }
+  },
+  {
+   "id": "d-io-6",
+   "type": "build",
+   "prompt": "My head hurts a lot.",
+   "answer": [
+    "Me duele mucho la cabeza.",
+    "Me duele la cabeza mucho."
+   ],
+   "explain": "me duele + la cabeza (article, not mi).",
+   "full": {
+    "id": "d-io-6-f",
+    "es": "Me duele mucho la cabeza."
+   }
+  },
+  {
+   "id": "d-io-7",
+   "type": "translate",
+   "prompt": "I love the beach.",
+   "answer": [
+    "Me encanta la playa.",
+    "A mí me encanta la playa."
+   ],
+   "explain": "encantar works like gustar: me encanta.",
+   "full": {
+    "id": "d-io-7-f",
+    "es": "Me encanta la playa."
+   }
+  },
+  {
+   "id": "d-io-8",
+   "type": "gap",
+   "prompt": "¿___ traes un café, por favor?",
+   "hint": "to me",
+   "answer": [
+    "Me"
+   ],
+   "explain": "me = to me, before the verb.",
+   "full": {
+    "id": "d-io-8-f",
+    "es": "¿Me traes un café, por favor?"
+   }
+  },
+  {
+   "id": "d-dem-1",
+   "type": "choose",
+   "prompt": "___ camiseta es muy bonita.",
+   "options": [
+    "Esta",
+    "Este",
+    "Esto",
+    "Estas"
+   ],
+   "answer": [
+    "Esta"
+   ],
+   "explain": "camiseta is feminine singular: esta.",
+   "full": {
+    "id": "d-dem-1-f",
+    "es": "Esta camiseta es muy bonita."
+   }
+  },
+  {
+   "id": "d-dem-2",
+   "type": "choose",
+   "prompt": "Me gustan ___ zapatos.",
+   "options": [
+    "esos",
+    "esas",
+    "ese",
+    "eso"
+   ],
+   "answer": [
+    "esos"
+   ],
+   "explain": "zapatos is masculine plural: esos.",
+   "full": {
+    "id": "d-dem-2-f",
+    "es": "Me gustan esos zapatos."
+   }
+  },
+  {
+   "id": "d-dem-3",
+   "type": "gap",
+   "prompt": "El tren es ___ rápido que el autobús.",
+   "hint": "more",
+   "answer": [
+    "más"
+   ],
+   "explain": "más + adjective + que.",
+   "full": {
+    "id": "d-dem-3-f",
+    "es": "El tren es más rápido que el autobús."
+   }
+  },
+  {
+   "id": "d-dem-4",
+   "type": "gap",
+   "prompt": "Este hotel es ___ que aquel.",
+   "hint": "better",
+   "answer": [
+    "mejor"
+   ],
+   "explain": "Irregular comparative: mejor, not más bueno.",
+   "full": {
+    "id": "d-dem-4-f",
+    "es": "Este hotel es mejor que aquel."
+   }
+  },
+  {
+   "id": "d-dem-5",
+   "type": "choose",
+   "prompt": "Mi hermana es mayor ___ yo.",
+   "options": [
+    "que",
+    "de",
+    "como",
+    "a"
+   ],
+   "answer": [
+    "que"
+   ],
+   "explain": "Comparisons use que; 'than me' = que yo.",
+   "full": {
+    "id": "d-dem-5-f",
+    "es": "Mi hermana es mayor que yo."
+   }
+  },
+  {
+   "id": "d-dem-6",
+   "type": "gap",
+   "prompt": "Mi piso es ___ grande como tu casa.",
+   "hint": "as",
+   "answer": [
+    "tan"
+   ],
+   "explain": "tan + adjective + como = as ... as.",
+   "full": {
+    "id": "d-dem-6-f",
+    "es": "Mi piso es tan grande como tu casa."
+   }
+  },
+  {
+   "id": "d-dem-7",
+   "type": "build",
+   "prompt": "This shirt is cheaper than that one.",
+   "answer": [
+    "Esta camisa es más barata que esa."
+   ],
+   "explain": "más barata que; esa stands for 'that one' (f).",
+   "full": {
+    "id": "d-dem-7-f",
+    "es": "Esta camisa es más barata que esa."
+   }
+  },
+  {
+   "id": "d-dem-8",
+   "type": "translate",
+   "prompt": "That shop is worse.",
+   "answer": [
+    "Esa tienda es peor.",
+    "Aquella tienda es peor."
+   ],
+   "explain": "peor = worse; tienda is feminine: esa / aquella.",
+   "full": {
+    "id": "d-dem-8-f",
+    "es": "Esa tienda es peor."
+   }
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "dlg-day",
+   "title": "Describing your day",
+   "lines": [
+    {
+     "id": "dlg-day-1",
+     "who": "A",
+     "es": "¿A qué hora te levantas?",
+     "en": "What time do you get up?"
+    },
+    {
+     "id": "dlg-day-2",
+     "who": "B",
+     "es": "Me levanto a las siete. Me ducho y desayuno con mi familia.",
+     "en": "I get up at seven. I shower and have breakfast with my family."
+    },
+    {
+     "id": "dlg-day-3",
+     "who": "A",
+     "es": "¿Y cómo vas al trabajo?",
+     "en": "And how do you get to work?"
+    },
+    {
+     "id": "dlg-day-4",
+     "who": "B",
+     "es": "Voy en metro. Empiezo a las nueve y vuelvo a casa a las seis.",
+     "en": "I go by metro. I start at nine and come home at six."
+    },
+    {
+     "id": "dlg-day-5",
+     "who": "A",
+     "es": "¿Qué haces por la tarde?",
+     "en": "What do you do in the afternoon?"
+    },
+    {
+     "id": "dlg-day-6",
+     "who": "B",
+     "es": "Hago deporte o veo la televisión. Los jueves salgo con mis amigos.",
+     "en": "I do sport or watch television. On Thursdays I go out with my friends."
+    },
+    {
+     "id": "dlg-day-7",
+     "who": "A",
+     "es": "¿Y a qué hora te acuestas?",
+     "en": "And what time do you go to bed?"
+    },
+    {
+     "id": "dlg-day-8",
+     "who": "B",
+     "es": "Me acuesto a las once, pero los fines de semana duermo hasta tarde.",
+     "en": "I go to bed at eleven, but at weekends I sleep in."
+    }
+   ]
+  },
+  {
+   "id": "dlg-plan",
+   "title": "Making a plan",
+   "lines": [
+    {
+     "id": "dlg-plan-1",
+     "who": "A",
+     "es": "¿Qué vas a hacer el sábado?",
+     "en": "What are you going to do on Saturday?"
+    },
+    {
+     "id": "dlg-plan-2",
+     "who": "B",
+     "es": "No tengo planes. ¿Por qué?",
+     "en": "I have no plans. Why?"
+    },
+    {
+     "id": "dlg-plan-3",
+     "who": "A",
+     "es": "¿Quieres ir al cine?",
+     "en": "Do you want to go to the cinema?"
+    },
+    {
+     "id": "dlg-plan-4",
+     "who": "B",
+     "es": "Me encanta la idea, pero tengo que trabajar por la mañana.",
+     "en": "I love the idea, but I have to work in the morning."
+    },
+    {
+     "id": "dlg-plan-5",
+     "who": "A",
+     "es": "¿Podemos quedar por la tarde, a las seis?",
+     "en": "Can we meet in the afternoon, at six?"
+    },
+    {
+     "id": "dlg-plan-6",
+     "who": "B",
+     "es": "Perfecto. ¿Dónde quedamos?",
+     "en": "Perfect. Where shall we meet?"
+    },
+    {
+     "id": "dlg-plan-7",
+     "who": "A",
+     "es": "En la plaza, delante del cine.",
+     "en": "In the square, in front of the cinema."
+    },
+    {
+     "id": "dlg-plan-8",
+     "who": "B",
+     "es": "Vale, hasta el sábado.",
+     "en": "OK, see you on Saturday."
+    }
+   ]
+  },
+  {
+   "id": "dlg-doctor",
+   "title": "At the doctor",
+   "lines": [
+    {
+     "id": "dlg-doctor-1",
+     "who": "A",
+     "es": "Buenos días. ¿Qué le pasa?",
+     "en": "Good morning. What's the matter?"
+    },
+    {
+     "id": "dlg-doctor-2",
+     "who": "B",
+     "es": "Me duele la garganta y tengo fiebre.",
+     "en": "My throat hurts and I have a fever."
+    },
+    {
+     "id": "dlg-doctor-3",
+     "who": "A",
+     "es": "¿Desde cuándo?",
+     "en": "Since when?"
+    },
+    {
+     "id": "dlg-doctor-4",
+     "who": "B",
+     "es": "Desde ayer. También me duele la cabeza y tengo tos.",
+     "en": "Since yesterday. My head hurts too and I have a cough."
+    },
+    {
+     "id": "dlg-doctor-5",
+     "who": "A",
+     "es": "Tiene que descansar y beber mucha agua. Le doy unas pastillas para la fiebre.",
+     "en": "You have to rest and drink lots of water. I'll give you some pills for the fever."
+    },
+    {
+     "id": "dlg-doctor-6",
+     "who": "B",
+     "es": "Gracias, doctora. ¿Puedo ir a trabajar mañana?",
+     "en": "Thank you, doctor. Can I go to work tomorrow?"
+    },
+    {
+     "id": "dlg-doctor-7",
+     "who": "A",
+     "es": "No. Es mejor quedarse en casa dos días.",
+     "en": "No. It's better to stay at home for two days."
+    },
+    {
+     "id": "dlg-doctor-8",
+     "who": "B",
+     "es": "Vale. Muchas gracias.",
+     "en": "OK. Thank you very much."
+    }
+   ]
+  },
+  {
+   "id": "dlg-clothes",
+   "title": "Buying clothes",
+   "lines": [
+    {
+     "id": "dlg-clothes-1",
+     "who": "A",
+     "es": "Hola, ¿puedo ayudarle?",
+     "en": "Hello, can I help you?"
+    },
+    {
+     "id": "dlg-clothes-2",
+     "who": "B",
+     "es": "Sí, busco una chaqueta. Me gusta esta, pero me queda grande.",
+     "en": "Yes, I'm looking for a jacket. I like this one, but it's too big for me."
+    },
+    {
+     "id": "dlg-clothes-3",
+     "who": "A",
+     "es": "¿Qué talla tiene?",
+     "en": "What size are you?"
+    },
+    {
+     "id": "dlg-clothes-4",
+     "who": "B",
+     "es": "La cuarenta. ¿La tiene en negro?",
+     "en": "A forty. Do you have it in black?"
+    },
+    {
+     "id": "dlg-clothes-5",
+     "who": "A",
+     "es": "Sí, aquí tiene. El probador está allí, a la derecha.",
+     "en": "Yes, here you are. The fitting room is over there, on the right."
+    },
+    {
+     "id": "dlg-clothes-6",
+     "who": "B",
+     "es": "Me queda bien. ¿Es más cara que la azul?",
+     "en": "It fits well. Is it more expensive than the blue one?"
+    },
+    {
+     "id": "dlg-clothes-7",
+     "who": "A",
+     "es": "No, es más barata. Cuesta treinta euros.",
+     "en": "No, it's cheaper. It costs thirty euros."
+    },
+    {
+     "id": "dlg-clothes-8",
+     "who": "B",
+     "es": "Perfecto, me la llevo.",
+     "en": "Perfect, I'll take it."
+    }
+   ]
+  }
+ ]
+}

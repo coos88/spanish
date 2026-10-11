@@ -1,0 +1,2889 @@
+{
+ "id": 3,
+ "title": "Tell what happened",
+ "goal": "Talk about yesterday, last week and your holidays: past events, background description, and a story that hangs together.",
+ "canDo": [
+  "Say what you did yesterday, last weekend or on holiday, in the right past tense",
+  "Report something recent or today's news with the present perfect (he perdido, hemos comido)",
+  "Describe how things were in the past: the weather, a place, a person, a habit",
+  "Tell a short story in order (primero, luego, al final) and ask for or give simple directions"
+ ],
+ "themes": {
+  "past": "Talking about the past",
+  "travel": "Travel & holidays",
+  "life": "Life events",
+  "story": "Connectors & storytelling"
+ },
+ "vocab": [
+  {
+   "id": "anoche",
+   "es": "anoche",
+   "en": "last night",
+   "t": "past"
+  },
+  {
+   "id": "anteayer",
+   "es": "anteayer",
+   "en": "the day before yesterday",
+   "t": "past"
+  },
+  {
+   "id": "ayer-por-la-manana",
+   "es": "ayer por la mañana",
+   "en": "yesterday morning",
+   "t": "past"
+  },
+  {
+   "id": "ayer-por-la-tarde",
+   "es": "ayer por la tarde",
+   "en": "yesterday afternoon",
+   "t": "past"
+  },
+  {
+   "id": "la-semana-pasada",
+   "es": "la semana pasada",
+   "en": "last week",
+   "t": "past"
+  },
+  {
+   "id": "el-mes-pasado",
+   "es": "el mes pasado",
+   "en": "last month",
+   "t": "past"
+  },
+  {
+   "id": "el-ano-pasado",
+   "es": "el año pasado",
+   "en": "last year",
+   "t": "past"
+  },
+  {
+   "id": "el-fin-de-semana-pasado",
+   "es": "el fin de semana pasado",
+   "en": "last weekend",
+   "t": "past"
+  },
+  {
+   "id": "el-verano-pasado",
+   "es": "el verano pasado",
+   "en": "last summer",
+   "t": "past"
+  },
+  {
+   "id": "hace-dos-dias",
+   "es": "hace dos días",
+   "en": "two days ago",
+   "t": "past"
+  },
+  {
+   "id": "hace-un-ano",
+   "es": "hace un año",
+   "en": "a year ago",
+   "t": "past"
+  },
+  {
+   "id": "hace-mucho-tiempo",
+   "es": "hace mucho tiempo",
+   "en": "a long time ago",
+   "t": "past"
+  },
+  {
+   "id": "hace-poco",
+   "es": "hace poco",
+   "en": "a little while ago",
+   "t": "past"
+  },
+  {
+   "id": "el-otro-dia",
+   "es": "el otro día",
+   "en": "the other day",
+   "t": "past"
+  },
+  {
+   "id": "una-vez",
+   "es": "una vez",
+   "en": "once / one time",
+   "t": "past"
+  },
+  {
+   "id": "esta-manana",
+   "es": "esta mañana",
+   "en": "this morning",
+   "t": "past"
+  },
+  {
+   "id": "esta-semana",
+   "es": "esta semana",
+   "en": "this week",
+   "t": "past"
+  },
+  {
+   "id": "este-ano",
+   "es": "este año",
+   "en": "this year",
+   "t": "past"
+  },
+  {
+   "id": "ya",
+   "es": "ya",
+   "en": "already",
+   "t": "past"
+  },
+  {
+   "id": "todavia-no",
+   "es": "todavía no",
+   "en": "not yet",
+   "t": "past"
+  },
+  {
+   "id": "de-nino",
+   "es": "de niño",
+   "en": "as a child (f: de niña)",
+   "t": "past"
+  },
+  {
+   "id": "primero",
+   "es": "primero",
+   "en": "first",
+   "t": "story"
+  },
+  {
+   "id": "entonces",
+   "es": "entonces",
+   "en": "then / so",
+   "t": "story"
+  },
+  {
+   "id": "mientras",
+   "es": "mientras",
+   "en": "while",
+   "t": "story"
+  },
+  {
+   "id": "al-final",
+   "es": "al final",
+   "en": "in the end",
+   "t": "story"
+  },
+  {
+   "id": "por-fin",
+   "es": "por fin",
+   "en": "at last / finally",
+   "t": "story"
+  },
+  {
+   "id": "de-repente",
+   "es": "de repente",
+   "en": "suddenly",
+   "t": "story"
+  },
+  {
+   "id": "asi-que",
+   "es": "así que",
+   "en": "so (therefore)",
+   "t": "story"
+  },
+  {
+   "id": "cuando-conj",
+   "es": "cuando",
+   "en": "when (not a question: no accent)",
+   "t": "story"
+  },
+  {
+   "id": "ademas",
+   "es": "además",
+   "en": "besides / what's more",
+   "t": "story"
+  },
+  {
+   "id": "el-viaje",
+   "es": "el viaje",
+   "en": "the trip / journey",
+   "t": "travel"
+  },
+  {
+   "id": "viajar",
+   "es": "viajar",
+   "en": "to travel",
+   "t": "travel"
+  },
+  {
+   "id": "las-vacaciones",
+   "es": "las vacaciones",
+   "en": "the holidays (always plural)",
+   "t": "travel"
+  },
+  {
+   "id": "el-pasaporte",
+   "es": "el pasaporte",
+   "en": "the passport",
+   "t": "travel"
+  },
+  {
+   "id": "la-maleta",
+   "es": "la maleta",
+   "en": "the suitcase",
+   "t": "travel"
+  },
+  {
+   "id": "el-equipaje",
+   "es": "el equipaje",
+   "en": "the luggage",
+   "t": "travel"
+  },
+  {
+   "id": "el-avion",
+   "es": "el avión",
+   "en": "the plane",
+   "t": "travel"
+  },
+  {
+   "id": "el-vuelo",
+   "es": "el vuelo",
+   "en": "the flight",
+   "t": "travel"
+  },
+  {
+   "id": "el-mapa",
+   "es": "el mapa",
+   "en": "the map (masculine)",
+   "t": "travel"
+  },
+  {
+   "id": "la-piscina",
+   "es": "la piscina",
+   "en": "the swimming pool (LatAm: la alberca / la pileta)",
+   "t": "travel"
+  },
+  {
+   "id": "el-castillo",
+   "es": "el castillo",
+   "en": "the castle",
+   "t": "travel"
+  },
+  {
+   "id": "el-pueblo",
+   "es": "el pueblo",
+   "en": "the village / small town",
+   "t": "travel"
+  },
+  {
+   "id": "el-mar",
+   "es": "el mar",
+   "en": "the sea",
+   "t": "travel"
+  },
+  {
+   "id": "la-isla",
+   "es": "la isla",
+   "en": "the island",
+   "t": "travel"
+  },
+  {
+   "id": "la-montana",
+   "es": "la montaña",
+   "en": "the mountain",
+   "t": "travel"
+  },
+  {
+   "id": "el-barco",
+   "es": "el barco",
+   "en": "the boat",
+   "t": "travel"
+  },
+  {
+   "id": "la-catedral",
+   "es": "la catedral",
+   "en": "the cathedral",
+   "t": "travel"
+  },
+  {
+   "id": "el-sol",
+   "es": "el sol",
+   "en": "the sun",
+   "t": "travel"
+  },
+  {
+   "id": "la-foto",
+   "es": "la foto",
+   "en": "the photo (feminine: la foto)",
+   "t": "travel"
+  },
+  {
+   "id": "la-gente",
+   "es": "la gente",
+   "en": "the people (singular in Spanish: la gente es...)",
+   "t": "travel"
+  },
+  {
+   "id": "el-calor",
+   "es": "el calor",
+   "en": "the heat (hace calor = it's hot)",
+   "t": "travel"
+  },
+  {
+   "id": "la-cartera",
+   "es": "la cartera",
+   "en": "the wallet",
+   "t": "travel"
+  },
+  {
+   "id": "la-comisaria",
+   "es": "la comisaría",
+   "en": "the police station",
+   "t": "travel"
+  },
+  {
+   "id": "la-embajada",
+   "es": "la embajada",
+   "en": "the embassy",
+   "t": "travel"
+  },
+  {
+   "id": "la-denuncia",
+   "es": "la denuncia",
+   "en": "the police report",
+   "t": "travel"
+  },
+  {
+   "id": "robar",
+   "es": "robar",
+   "en": "to steal",
+   "t": "travel"
+  },
+  {
+   "id": "perder",
+   "es": "perder",
+   "en": "to lose / to miss (a train)",
+   "t": "travel"
+  },
+  {
+   "id": "llegar",
+   "es": "llegar",
+   "en": "to arrive",
+   "t": "travel"
+  },
+  {
+   "id": "visitar",
+   "es": "visitar",
+   "en": "to visit",
+   "t": "travel"
+  },
+  {
+   "id": "nadar",
+   "es": "nadar",
+   "en": "to swim",
+   "t": "travel"
+  },
+  {
+   "id": "reservar",
+   "es": "reservar",
+   "en": "to book / to reserve",
+   "t": "travel"
+  },
+  {
+   "id": "dar-un-paseo",
+   "es": "dar un paseo",
+   "en": "to go for a walk",
+   "t": "travel"
+  },
+  {
+   "id": "creer",
+   "es": "creer",
+   "en": "to think / to believe",
+   "t": "travel"
+  },
+  {
+   "id": "genial",
+   "es": "genial",
+   "en": "great / brilliant",
+   "t": "travel"
+  },
+  {
+   "id": "tranquilo",
+   "es": "tranquilo",
+   "en": "quiet / calm",
+   "t": "travel"
+  },
+  {
+   "id": "especial",
+   "es": "especial",
+   "en": "special",
+   "t": "travel"
+  },
+  {
+   "id": "nacer",
+   "es": "nacer",
+   "en": "to be born (nací = I was born)",
+   "t": "life"
+  },
+  {
+   "id": "la-boda",
+   "es": "la boda",
+   "en": "the wedding",
+   "t": "life"
+  },
+  {
+   "id": "casarse",
+   "es": "casarse",
+   "en": "to get married",
+   "t": "life"
+  },
+  {
+   "id": "la-fiesta",
+   "es": "la fiesta",
+   "en": "the party",
+   "t": "life"
+  },
+  {
+   "id": "el-cumpleanos",
+   "es": "el cumpleaños",
+   "en": "the birthday",
+   "t": "life"
+  },
+  {
+   "id": "el-regalo",
+   "es": "el regalo",
+   "en": "the present / gift",
+   "t": "life"
+  },
+  {
+   "id": "mudarse",
+   "es": "mudarse",
+   "en": "to move house",
+   "t": "life"
+  },
+  {
+   "id": "terminar",
+   "es": "terminar",
+   "en": "to finish",
+   "t": "life"
+  },
+  {
+   "id": "la-universidad",
+   "es": "la universidad",
+   "en": "the university",
+   "t": "life"
+  },
+  {
+   "id": "el-abuelo",
+   "es": "el abuelo",
+   "en": "the grandfather",
+   "t": "life"
+  },
+  {
+   "id": "la-abuela",
+   "es": "la abuela",
+   "en": "the grandmother",
+   "t": "life"
+  },
+  {
+   "id": "la-vida",
+   "es": "la vida",
+   "en": "the life",
+   "t": "life"
+  },
+  {
+   "id": "joven",
+   "es": "joven",
+   "en": "young",
+   "t": "life"
+  },
+  {
+   "id": "feliz",
+   "es": "feliz",
+   "en": "happy",
+   "t": "life"
+  },
+  {
+   "id": "bailar",
+   "es": "bailar",
+   "en": "to dance",
+   "t": "life"
+  },
+  {
+   "id": "morir",
+   "es": "morir",
+   "en": "to die (murió = he/she died)",
+   "t": "life"
+  },
+  {
+   "id": "perdone",
+   "es": "perdone",
+   "en": "excuse me (to a stranger, usted)",
+   "t": "directions"
+  },
+  {
+   "id": "disculpe",
+   "es": "disculpe",
+   "en": "excuse me / sorry (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "espere",
+   "es": "espere",
+   "en": "wait (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "mire",
+   "es": "mire",
+   "en": "look (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "gire",
+   "es": "gire",
+   "en": "turn (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "siga",
+   "es": "siga",
+   "en": "keep going / continue (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "tome",
+   "es": "tome",
+   "en": "take (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "cruce",
+   "es": "cruce",
+   "en": "cross (usted)",
+   "t": "directions"
+  },
+  {
+   "id": "hay-que",
+   "es": "hay que",
+   "en": "one has to / you need to",
+   "t": "directions"
+  },
+  {
+   "id": "la-esquina",
+   "es": "la esquina",
+   "en": "the corner",
+   "t": "directions"
+  },
+  {
+   "id": "el-semaforo",
+   "es": "el semáforo",
+   "en": "the traffic light",
+   "t": "directions"
+  },
+  {
+   "id": "el-puente",
+   "es": "el puente",
+   "en": "the bridge",
+   "t": "directions"
+  },
+  {
+   "id": "la-salida",
+   "es": "la salida",
+   "en": "the exit",
+   "t": "directions"
+  },
+  {
+   "id": "la-entrada",
+   "es": "la entrada",
+   "en": "the entrance / the (museum) ticket",
+   "t": "directions"
+  },
+  {
+   "id": "el-camino",
+   "es": "el camino",
+   "en": "the way / the path",
+   "t": "directions"
+  },
+  {
+   "id": "enfrente-de",
+   "es": "enfrente de",
+   "en": "opposite",
+   "t": "directions"
+  },
+  {
+   "id": "al-lado-de",
+   "es": "al lado de",
+   "en": "next to",
+   "t": "directions"
+  },
+  {
+   "id": "la-primera-calle",
+   "es": "la primera calle",
+   "en": "the first street",
+   "t": "directions"
+  },
+  {
+   "id": "la-segunda-calle",
+   "es": "la segunda calle",
+   "en": "the second street",
+   "t": "directions"
+  },
+  {
+   "id": "soler",
+   "es": "soler",
+   "en": "to usually do (solía comer = I used to eat)",
+   "t": "past"
+  }
+ ],
+ "phrases": [
+  {
+   "id": "p-que-hiciste-ayer",
+   "es": "¿Qué hiciste ayer?",
+   "en": "What did you do yesterday? (informal)",
+   "t": "past"
+  },
+  {
+   "id": "p-ayer-fui-al-cine",
+   "es": "Ayer fui al cine.",
+   "en": "Yesterday I went to the cinema.",
+   "t": "past"
+  },
+  {
+   "id": "p-no-hice-nada-especial",
+   "es": "No hice nada especial.",
+   "en": "I didn't do anything special.",
+   "t": "past"
+  },
+  {
+   "id": "p-lo-pase-muy-bien",
+   "es": "Lo pasé muy bien.",
+   "en": "I had a great time.",
+   "t": "past"
+  },
+  {
+   "id": "p-fue-genial",
+   "es": "Fue genial.",
+   "en": "It was great.",
+   "t": "past"
+  },
+  {
+   "id": "p-hace-dos-anos-vivi",
+   "es": "Hace dos años viví en Madrid.",
+   "en": "Two years ago I lived in Madrid.",
+   "t": "past"
+  },
+  {
+   "id": "p-ya-he-comido",
+   "es": "Ya he comido, gracias.",
+   "en": "I've already eaten, thanks.",
+   "t": "past"
+  },
+  {
+   "id": "p-todavia-no-he-terminado",
+   "es": "Todavía no he terminado.",
+   "en": "I haven't finished yet.",
+   "t": "past"
+  },
+  {
+   "id": "p-hoy-he-trabajado-mucho",
+   "es": "Hoy he trabajado mucho.",
+   "en": "I've worked a lot today. (Spain; LatAm: Hoy trabajé mucho.)",
+   "t": "past"
+  },
+  {
+   "id": "p-nunca-he-estado-en",
+   "es": "Nunca he estado en México.",
+   "en": "I've never been to Mexico.",
+   "t": "past"
+  },
+  {
+   "id": "p-cuando-era-pequeno",
+   "es": "Cuando era pequeño, vivía en un pueblo.",
+   "en": "When I was little, I lived in a village. (f: pequeña)",
+   "t": "past"
+  },
+  {
+   "id": "p-estaba-muy-cansado",
+   "es": "Estaba muy cansado.",
+   "en": "I was very tired. (f: cansada)",
+   "t": "past"
+  },
+  {
+   "id": "p-que-tal-el-fin-de-semana",
+   "es": "¿Qué tal el fin de semana?",
+   "en": "How was your weekend?",
+   "t": "past"
+  },
+  {
+   "id": "p-que-tal-el-viaje",
+   "es": "¿Qué tal el viaje?",
+   "en": "How was the trip?",
+   "t": "travel"
+  },
+  {
+   "id": "p-fuimos-a-la-playa",
+   "es": "Fuimos a la playa una semana.",
+   "en": "We went to the beach for a week.",
+   "t": "travel"
+  },
+  {
+   "id": "p-hacia-buen-tiempo",
+   "es": "Hacía buen tiempo.",
+   "en": "The weather was nice.",
+   "t": "travel"
+  },
+  {
+   "id": "p-habia-mucha-gente",
+   "es": "Había mucha gente.",
+   "en": "There were a lot of people.",
+   "t": "travel"
+  },
+  {
+   "id": "p-he-perdido-la-cartera",
+   "es": "He perdido la cartera.",
+   "en": "I've lost my wallet. (Spain; LatAm: Perdí la cartera.)",
+   "t": "travel"
+  },
+  {
+   "id": "p-me-han-robado-el-movil",
+   "es": "Me han robado el móvil.",
+   "en": "My phone has been stolen.",
+   "t": "travel"
+  },
+  {
+   "id": "p-donde-lo-perdio",
+   "es": "¿Dónde lo perdió?",
+   "en": "Where did you lose it? (formal)",
+   "t": "travel"
+  },
+  {
+   "id": "p-creo-que-en-el-tren",
+   "es": "No lo sé. Creo que en el tren.",
+   "en": "I don't know. I think on the train.",
+   "t": "travel"
+  },
+  {
+   "id": "p-tiene-que-poner-una-denuncia",
+   "es": "Tiene que poner una denuncia.",
+   "en": "You have to file a police report. (formal)",
+   "t": "travel"
+  },
+  {
+   "id": "p-naci-en",
+   "es": "Nací en el año dos mil.",
+   "en": "I was born in the year 2000.",
+   "t": "life"
+  },
+  {
+   "id": "p-nos-casamos",
+   "es": "Nos casamos el año pasado.",
+   "en": "We got married last year.",
+   "t": "life"
+  },
+  {
+   "id": "p-mi-hija-nacio",
+   "es": "Mi hija nació en mayo.",
+   "en": "My daughter was born in May.",
+   "t": "life"
+  },
+  {
+   "id": "p-me-mude",
+   "es": "Me mudé a Madrid hace un año.",
+   "en": "I moved to Madrid a year ago.",
+   "t": "life"
+  },
+  {
+   "id": "p-primero-y-luego",
+   "es": "Primero fuimos al museo y luego comimos.",
+   "en": "First we went to the museum and then we ate.",
+   "t": "story"
+  },
+  {
+   "id": "p-al-final-volvimos",
+   "es": "Al final, volvimos a casa en taxi.",
+   "en": "In the end, we went home by taxi.",
+   "t": "story"
+  },
+  {
+   "id": "p-de-repente-empezo-a-llover",
+   "es": "De repente, empezó a llover.",
+   "en": "Suddenly, it started to rain.",
+   "t": "story"
+  },
+  {
+   "id": "p-perdone-donde-esta-el-museo",
+   "es": "Perdone, ¿dónde está el museo?",
+   "en": "Excuse me, where is the museum?",
+   "t": "directions"
+  },
+  {
+   "id": "p-siga-recto-y-gire",
+   "es": "Siga todo recto y gire a la izquierda.",
+   "en": "Go straight on and turn left.",
+   "t": "directions"
+  },
+  {
+   "id": "p-tome-la-primera-calle",
+   "es": "Tome la primera calle a la derecha.",
+   "en": "Take the first street on the right.",
+   "t": "directions"
+  },
+  {
+   "id": "p-hay-que-cruzar-la-plaza",
+   "es": "Hay que cruzar la plaza.",
+   "en": "You have to cross the square.",
+   "t": "directions"
+  },
+  {
+   "id": "p-esta-a-cinco-minutos",
+   "es": "Está a cinco minutos a pie.",
+   "en": "It's five minutes on foot.",
+   "t": "directions"
+  },
+  {
+   "id": "p-espere-un-momento",
+   "es": "Espere un momento, por favor.",
+   "en": "Wait a moment, please.",
+   "t": "directions"
+  },
+  {
+   "id": "p-mire-esta-alli",
+   "es": "Mire, está allí.",
+   "en": "Look, it's over there.",
+   "t": "directions"
+  },
+  {
+   "id": "p-digame",
+   "es": "¿Dígame?",
+   "en": "Hello? (answering the phone in Spain; also: Tell me / How can I help?)",
+   "t": "directions"
+  }
+ ],
+ "verbs": [
+  {
+   "id": "v3-hablar",
+   "inf": "hablar",
+   "en": "to speak",
+   "type": "regular -ar",
+   "forms": [
+    "hablo",
+    "hablas",
+    "habla",
+    "hablamos",
+    "habláis",
+    "hablan"
+   ],
+   "tenses": {
+    "pret": [
+     "hablé",
+     "hablaste",
+     "habló",
+     "hablamos",
+     "hablasteis",
+     "hablaron"
+    ],
+    "imp": [
+     "hablaba",
+     "hablabas",
+     "hablaba",
+     "hablábamos",
+     "hablabais",
+     "hablaban"
+    ],
+    "part": "hablado"
+   }
+  },
+  {
+   "id": "v3-comer",
+   "inf": "comer",
+   "en": "to eat",
+   "type": "regular -er",
+   "forms": [
+    "como",
+    "comes",
+    "come",
+    "comemos",
+    "coméis",
+    "comen"
+   ],
+   "tenses": {
+    "pret": [
+     "comí",
+     "comiste",
+     "comió",
+     "comimos",
+     "comisteis",
+     "comieron"
+    ],
+    "imp": [
+     "comía",
+     "comías",
+     "comía",
+     "comíamos",
+     "comíais",
+     "comían"
+    ],
+    "part": "comido"
+   }
+  },
+  {
+   "id": "v3-vivir",
+   "inf": "vivir",
+   "en": "to live",
+   "type": "regular -ir",
+   "forms": [
+    "vivo",
+    "vives",
+    "vive",
+    "vivimos",
+    "vivís",
+    "viven"
+   ],
+   "tenses": {
+    "pret": [
+     "viví",
+     "viviste",
+     "vivió",
+     "vivimos",
+     "vivisteis",
+     "vivieron"
+    ],
+    "imp": [
+     "vivía",
+     "vivías",
+     "vivía",
+     "vivíamos",
+     "vivíais",
+     "vivían"
+    ],
+    "part": "vivido"
+   }
+  },
+  {
+   "id": "v3-ir",
+   "inf": "ir",
+   "en": "to go",
+   "type": "irregular (preterite = ser)",
+   "forms": [
+    "voy",
+    "vas",
+    "va",
+    "vamos",
+    "vais",
+    "van"
+   ],
+   "tenses": {
+    "pret": [
+     "fui",
+     "fuiste",
+     "fue",
+     "fuimos",
+     "fuisteis",
+     "fueron"
+    ],
+    "imp": [
+     "iba",
+     "ibas",
+     "iba",
+     "íbamos",
+     "ibais",
+     "iban"
+    ],
+    "part": "ido"
+   }
+  },
+  {
+   "id": "v3-ser",
+   "inf": "ser",
+   "en": "to be (identity / description)",
+   "type": "irregular (preterite = ir)",
+   "forms": [
+    "soy",
+    "eres",
+    "es",
+    "somos",
+    "sois",
+    "son"
+   ],
+   "tenses": {
+    "pret": [
+     "fui",
+     "fuiste",
+     "fue",
+     "fuimos",
+     "fuisteis",
+     "fueron"
+    ],
+    "imp": [
+     "era",
+     "eras",
+     "era",
+     "éramos",
+     "erais",
+     "eran"
+    ],
+    "part": "sido"
+   }
+  },
+  {
+   "id": "v3-estar",
+   "inf": "estar",
+   "en": "to be (state / location)",
+   "type": "irregular",
+   "forms": [
+    "estoy",
+    "estás",
+    "está",
+    "estamos",
+    "estáis",
+    "están"
+   ],
+   "tenses": {
+    "pret": [
+     "estuve",
+     "estuviste",
+     "estuvo",
+     "estuvimos",
+     "estuvisteis",
+     "estuvieron"
+    ],
+    "imp": [
+     "estaba",
+     "estabas",
+     "estaba",
+     "estábamos",
+     "estabais",
+     "estaban"
+    ],
+    "part": "estado"
+   }
+  },
+  {
+   "id": "v3-tener",
+   "inf": "tener",
+   "en": "to have",
+   "type": "irregular",
+   "forms": [
+    "tengo",
+    "tienes",
+    "tiene",
+    "tenemos",
+    "tenéis",
+    "tienen"
+   ],
+   "tenses": {
+    "pret": [
+     "tuve",
+     "tuviste",
+     "tuvo",
+     "tuvimos",
+     "tuvisteis",
+     "tuvieron"
+    ],
+    "imp": [
+     "tenía",
+     "tenías",
+     "tenía",
+     "teníamos",
+     "teníais",
+     "tenían"
+    ],
+    "part": "tenido"
+   }
+  },
+  {
+   "id": "v3-hacer",
+   "inf": "hacer",
+   "en": "to do / make",
+   "type": "irregular",
+   "forms": [
+    "hago",
+    "haces",
+    "hace",
+    "hacemos",
+    "hacéis",
+    "hacen"
+   ],
+   "tenses": {
+    "pret": [
+     "hice",
+     "hiciste",
+     "hizo",
+     "hicimos",
+     "hicisteis",
+     "hicieron"
+    ],
+    "imp": [
+     "hacía",
+     "hacías",
+     "hacía",
+     "hacíamos",
+     "hacíais",
+     "hacían"
+    ],
+    "part": "hecho"
+   }
+  },
+  {
+   "id": "v3-poder",
+   "inf": "poder",
+   "en": "to be able to",
+   "type": "irregular (o→ue; preterite pud-)",
+   "forms": [
+    "puedo",
+    "puedes",
+    "puede",
+    "podemos",
+    "podéis",
+    "pueden"
+   ],
+   "tenses": {
+    "pret": [
+     "pude",
+     "pudiste",
+     "pudo",
+     "pudimos",
+     "pudisteis",
+     "pudieron"
+    ],
+    "imp": [
+     "podía",
+     "podías",
+     "podía",
+     "podíamos",
+     "podíais",
+     "podían"
+    ],
+    "part": "podido"
+   }
+  },
+  {
+   "id": "v3-dar",
+   "inf": "dar",
+   "en": "to give",
+   "type": "irregular (no accents in the preterite)",
+   "forms": [
+    "doy",
+    "das",
+    "da",
+    "damos",
+    "dais",
+    "dan"
+   ],
+   "tenses": {
+    "pret": [
+     "di",
+     "diste",
+     "dio",
+     "dimos",
+     "disteis",
+     "dieron"
+    ],
+    "imp": [
+     "daba",
+     "dabas",
+     "daba",
+     "dábamos",
+     "dabais",
+     "daban"
+    ],
+    "part": "dado"
+   }
+  },
+  {
+   "id": "v3-ver",
+   "inf": "ver",
+   "en": "to see",
+   "type": "irregular (no accents in the preterite)",
+   "forms": [
+    "veo",
+    "ves",
+    "ve",
+    "vemos",
+    "veis",
+    "ven"
+   ],
+   "tenses": {
+    "pret": [
+     "vi",
+     "viste",
+     "vio",
+     "vimos",
+     "visteis",
+     "vieron"
+    ],
+    "imp": [
+     "veía",
+     "veías",
+     "veía",
+     "veíamos",
+     "veíais",
+     "veían"
+    ],
+    "part": "visto"
+   }
+  },
+  {
+   "id": "v3-volver",
+   "inf": "volver",
+   "en": "to return / go back",
+   "type": "stem-changing o→ue (participle vuelto)",
+   "forms": [
+    "vuelvo",
+    "vuelves",
+    "vuelve",
+    "volvemos",
+    "volvéis",
+    "vuelven"
+   ],
+   "tenses": {
+    "pret": [
+     "volví",
+     "volviste",
+     "volvió",
+     "volvimos",
+     "volvisteis",
+     "volvieron"
+    ],
+    "imp": [
+     "volvía",
+     "volvías",
+     "volvía",
+     "volvíamos",
+     "volvíais",
+     "volvían"
+    ],
+    "part": "vuelto"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "l-c3-markers",
+   "title": "Past time markers",
+   "summary": "ayer, anoche, la semana pasada, hace + time, ya / todavía no",
+   "cards": [
+    {
+     "rule": "Point to the past with a marker: **ayer** (yesterday), **anoche** (last night), **anteayer**, **la semana pasada**, **el mes pasado**, **el año pasado**. The marker usually goes first or last in the sentence.",
+     "examples": [
+      {
+       "id": "s-c3-anoche-comi",
+       "es": "Anoche comí en un restaurante.",
+       "en": "Last night I ate in a restaurant."
+      },
+      {
+       "id": "s-c3-semana-pasada-fui",
+       "es": "La semana pasada fui a Madrid.",
+       "en": "Last week I went to Madrid."
+      },
+      {
+       "id": "s-c3-ano-pasado-viaje",
+       "es": "Viajé mucho el año pasado.",
+       "en": "I travelled a lot last year."
+      }
+     ],
+     "trap": "pasado agrees with the noun: el año pasado, la semana pasada. Not *la semana pasado*."
+    },
+    {
+     "rule": "**hace** + time = ago: **hace dos días** (two days ago), **hace un año**, **hace mucho tiempo**. hace never changes, whatever the subject.",
+     "examples": [
+      {
+       "id": "s-c3-llegue-hace",
+       "es": "Llegué a Madrid hace dos días.",
+       "en": "I arrived in Madrid two days ago."
+      },
+      {
+       "id": "s-c3-hace-un-ano-compre",
+       "es": "Hace un año compré un coche.",
+       "en": "A year ago I bought a car."
+      },
+      {
+       "id": "s-c3-comimos-hace-poco",
+       "es": "Comimos hace poco.",
+       "en": "We ate a little while ago."
+      }
+     ],
+     "trap": "hace goes before the time, never after it. 'Two days ago' is hace dos días, not *dos días hace*."
+    },
+    {
+     "rule": "**ya** = already, **todavía no** = not yet. **Todavía no** goes before the verb; **ya** usually does too: **Ya he comido.** **Todavía no he terminado.** In a question, **¿Ya...?** means 'yet?'.",
+     "examples": [
+      {
+       "id": "s-c3-ya-he-comido",
+       "es": "Ya he comido, gracias.",
+       "en": "I've already eaten, thanks."
+      },
+      {
+       "id": "s-c3-todavia-no-he-terminado",
+       "es": "Todavía no he terminado.",
+       "en": "I haven't finished yet."
+      },
+      {
+       "id": "s-c3-ya-has-reservado",
+       "es": "¿Ya has reservado el hotel?",
+       "en": "Have you booked the hotel yet?"
+      }
+     ],
+     "note": "In Latin America you will also hear the simple past here: Ya comí. Todavía no terminé."
+    }
+   ],
+   "drills": [
+    "d-c3-markers-1",
+    "d-c3-markers-2",
+    "d-c3-markers-3",
+    "d-c3-markers-4",
+    "d-c3-markers-5",
+    "d-c3-markers-6",
+    "d-c3-markers-7",
+    "d-c3-markers-8"
+   ]
+  },
+  {
+   "id": "l-c3-preterito",
+   "title": "Preterite: regular verbs",
+   "summary": "hablé, comí, viví: finished events in the past",
+   "cards": [
+    {
+     "rule": "The **pretérito indefinido** tells finished events: what happened. **-ar** endings: -é, -aste, -ó, -amos, -asteis, -aron. **hablé, hablaste, habló, hablamos, hablasteis, hablaron**.",
+     "examples": [
+      {
+       "id": "s-c3-hable-con-mi-madre",
+       "es": "Ayer hablé con mi madre.",
+       "en": "Yesterday I spoke with my mother."
+      },
+      {
+       "id": "s-c3-viajamos-a-sevilla",
+       "es": "Viajamos a Sevilla el mes pasado.",
+       "en": "We travelled to Seville last month."
+      },
+      {
+       "id": "s-c3-compraste-el-billete",
+       "es": "¿Compraste el billete?",
+       "en": "Did you buy the ticket?"
+      }
+     ],
+     "trap": "The accent carries meaning: hablo = I speak, habló = he/she spoke. Say the stress on the last syllable."
+    },
+    {
+     "rule": "**-er** and **-ir** verbs share one set: -í, -iste, -ió, -imos, -isteis, -ieron. **comí, comiste, comió, comimos, comisteis, comieron**; **viví, viviste, vivió, vivimos, vivisteis, vivieron**.",
+     "examples": [
+      {
+       "id": "s-c3-anoche-comimos-pescado",
+       "es": "Anoche comimos pescado.",
+       "en": "Last night we ate fish."
+      },
+      {
+       "id": "s-c3-mi-abuela-vivio",
+       "es": "Mi abuela vivió en Francia diez años.",
+       "en": "My grandmother lived in France for ten years."
+      },
+      {
+       "id": "s-c3-comisteis-bien",
+       "es": "¿Comisteis bien?",
+       "en": "Did you (all) eat well?"
+      }
+     ],
+     "trap": "hablamos and vivimos look the same in present and past. The time marker decides: ayer hablamos = we spoke."
+    },
+    {
+     "rule": "Spelling fixes in the **yo** form only, to keep the sound: -gar → **-gué** (llegué), -car → **-qué** (busqué), -zar → **-cé** (empecé). The other forms are regular: llegó, empezó.",
+     "examples": [
+      {
+       "id": "s-c3-llegue-tarde",
+       "es": "Llegué tarde al trabajo.",
+       "en": "I arrived late at work."
+      },
+      {
+       "id": "s-c3-empece-a-estudiar",
+       "es": "Empecé a estudiar español el año pasado.",
+       "en": "I started studying Spanish last year."
+      },
+      {
+       "id": "s-c3-ana-llego-a-las-diez",
+       "es": "Ana llegó a las diez.",
+       "en": "Ana arrived at ten."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-c3-pret-1",
+    "d-c3-pret-2",
+    "d-c3-pret-3",
+    "d-c3-pret-4",
+    "d-c3-pret-5",
+    "d-c3-pret-6",
+    "d-c3-pret-7",
+    "d-c3-pret-8"
+   ],
+   "dialogue": "dlg-c3-ayer"
+  },
+  {
+   "id": "l-c3-irregulares",
+   "title": "Eight key irregular preterites",
+   "summary": "fui, hice, tuve, estuve, pude, di, vi: no accents",
+   "cards": [
+    {
+     "rule": "**ser** and **ir** share one past: **fui, fuiste, fue, fuimos, fuisteis, fueron**. Context tells you which: fui a Madrid = I went; fue genial = it was. No accents anywhere.",
+     "examples": [
+      {
+       "id": "s-c3-ayer-fui-al-museo",
+       "es": "Ayer fui al museo.",
+       "en": "Yesterday I went to the museum."
+      },
+      {
+       "id": "s-c3-el-viaje-fue-genial",
+       "es": "El viaje fue genial.",
+       "en": "The trip was great."
+      },
+      {
+       "id": "s-c3-fuimos-a-la-playa",
+       "es": "Fuimos a la playa el domingo.",
+       "en": "We went to the beach on Sunday."
+      }
+     ]
+    },
+    {
+     "rule": "Strong irregulars change the stem and take endings -e, -iste, -o, -imos, -isteis, -ieron with no accent: **hacer → hice, hizo**; **tener → tuve**; **estar → estuve**; **poder → pude**.",
+     "examples": [
+      {
+       "id": "s-c3-que-hiciste-ayer",
+       "es": "¿Qué hiciste ayer?",
+       "en": "What did you do yesterday?"
+      },
+      {
+       "id": "s-c3-tuvimos-un-problema",
+       "es": "Tuvimos un problema con el coche.",
+       "en": "We had a problem with the car."
+      },
+      {
+       "id": "s-c3-estuve-en-barcelona",
+       "es": "Estuve en Barcelona dos días.",
+       "en": "I was in Barcelona for two days."
+      }
+     ],
+     "trap": "hizo takes a z (él/ella/usted), and hice has no accent: the stress stays on hi-, unlike regular comí.",
+     "note": "pude / no pude often means 'managed to / couldn't': No pude dormir = I couldn't sleep."
+    },
+    {
+     "rule": "**dar** and **ver** are short and regular-looking, but with no accents: **di, diste, dio, dimos, disteis, dieron**; **vi, viste, vio, vimos, visteis, vieron**.",
+     "examples": [
+      {
+       "id": "s-c3-vi-una-pelicula",
+       "es": "Vi una película muy buena.",
+       "en": "I saw a very good film."
+      },
+      {
+       "id": "s-c3-le-di-el-regalo",
+       "es": "Le di el regalo a mi madre.",
+       "en": "I gave the present to my mother."
+      },
+      {
+       "id": "s-c3-viste-el-castillo",
+       "es": "¿Viste el castillo?",
+       "en": "Did you see the castle?"
+      }
+     ],
+     "trap": "One syllable, no accent: vi, vio, di, dio, fui, fue. Writing *vió* or *fué* is a classic mistake."
+    }
+   ],
+   "drills": [
+    "d-c3-irreg-1",
+    "d-c3-irreg-2",
+    "d-c3-irreg-3",
+    "d-c3-irreg-4",
+    "d-c3-irreg-5",
+    "d-c3-irreg-6",
+    "d-c3-irreg-7",
+    "d-c3-irreg-8"
+   ],
+   "dialogue": "dlg-c3-vacaciones"
+  },
+  {
+   "id": "l-c3-perfecto",
+   "title": "Present perfect: he hecho",
+   "summary": "he, has, ha, hemos, habéis, han + participle; Spain uses it for today and this week",
+   "cards": [
+    {
+     "rule": "**haber** + participle: **he, has, ha, hemos, habéis, han** + hablado / comido / vivido. -ar → **-ado**, -er / -ir → **-ido**. The participle never changes.",
+     "examples": [
+      {
+       "id": "s-c3-hoy-he-trabajado",
+       "es": "Hoy he trabajado mucho.",
+       "en": "I've worked a lot today."
+      },
+      {
+       "id": "s-c3-has-comido-ya",
+       "es": "¿Has comido ya?",
+       "en": "Have you eaten yet?"
+      },
+      {
+       "id": "s-c3-hemos-vivido-aqui",
+       "es": "Hemos vivido aquí tres años.",
+       "en": "We have lived here for three years."
+      }
+     ],
+     "trap": "Nothing goes between haber and the participle: Lo he visto, not *He lo visto*. And never *he comí*."
+    },
+    {
+     "rule": "Irregular participles to memorise: **hecho** (hacer), **dicho** (decir), **visto** (ver), **puesto** (poner), **escrito** (escribir), **vuelto** (volver), **abierto** (abrir).",
+     "examples": [
+      {
+       "id": "s-c3-que-has-hecho-hoy",
+       "es": "¿Qué has hecho hoy?",
+       "en": "What have you done today?"
+      },
+      {
+       "id": "s-c3-he-visto-a-luis",
+       "es": "He visto a Luis esta mañana.",
+       "en": "I saw Luis this morning."
+      },
+      {
+       "id": "s-c3-todavia-no-hemos-vuelto",
+       "es": "Todavía no hemos vuelto a casa.",
+       "en": "We haven't gone back home yet."
+      }
+     ]
+    },
+    {
+     "rule": "Spain uses it when the time is still open: **hoy, esta semana, este año**, and for 'ever / never': **Nunca he estado en Cuba.** Closed time (ayer, el año pasado) takes the indefinido.",
+     "examples": [
+      {
+       "id": "s-c3-este-ano-he-viajado",
+       "es": "Este año he viajado mucho.",
+       "en": "This year I have travelled a lot."
+      },
+      {
+       "id": "s-c3-nunca-he-estado-en-cuba",
+       "es": "Nunca he estado en Cuba.",
+       "en": "I have never been to Cuba."
+      },
+      {
+       "id": "s-c3-ayer-comi-paella",
+       "es": "Ayer comí paella.",
+       "en": "Yesterday I ate paella."
+      }
+     ],
+     "note": "Latin America prefers the simple past almost everywhere: Hoy trabajé mucho. Nunca estuve en Cuba. Both are understood on both sides."
+    }
+   ],
+   "drills": [
+    "d-c3-perf-1",
+    "d-c3-perf-2",
+    "d-c3-perf-3",
+    "d-c3-perf-4",
+    "d-c3-perf-5",
+    "d-c3-perf-6",
+    "d-c3-perf-7",
+    "d-c3-perf-8"
+   ],
+   "dialogue": "dlg-c3-pasaporte"
+  },
+  {
+   "id": "l-c3-imperfecto",
+   "title": "Imperfect: setting the scene",
+   "summary": "era, tenía, estaba, había, hacía: description, states and habits",
+   "cards": [
+    {
+     "rule": "The **imperfecto** paints the background: how things were, not what happened. **-ar**: -aba, -abas, -aba, -ábamos, -abais, -aban. **-er / -ir**: -ía, -ías, -ía, -íamos, -íais, -ían. Only three irregulars: **era, iba, veía**.",
+     "examples": [
+      {
+       "id": "s-c3-hacia-buen-tiempo",
+       "es": "Hacía buen tiempo.",
+       "en": "The weather was nice."
+      },
+      {
+       "id": "s-c3-el-hotel-era-pequeno",
+       "es": "El hotel era pequeño pero bonito.",
+       "en": "The hotel was small but nice."
+      },
+      {
+       "id": "s-c3-habia-mucha-gente",
+       "es": "Había mucha gente en la playa.",
+       "en": "There were a lot of people on the beach."
+      }
+     ]
+    },
+    {
+     "rule": "Five forms do most of the work: **era** (was: what it was like), **estaba** (was: where / how), **tenía** (had, age), **había** (there was / were, one form), **hacía** (weather).",
+     "examples": [
+      {
+       "id": "s-c3-mi-abuelo-era-tranquilo",
+       "es": "Mi abuelo era muy tranquilo.",
+       "en": "My grandfather was very calm."
+      },
+      {
+       "id": "s-c3-estabamos-cansados",
+       "es": "Estábamos muy cansados.",
+       "en": "We were very tired."
+      },
+      {
+       "id": "s-c3-tenia-veinte-anos",
+       "es": "Tenía veinte años en la foto.",
+       "en": "She was twenty in the photo."
+      }
+     ],
+     "trap": "Age and 'there was' are description: tenía veinte años, había un castillo. Not *tuvo veinte años*."
+    },
+    {
+     "rule": "Habits in the past: **siempre**, **todos los días**, or **solía** + infinitive (used to). Rule of thumb: background and habits = imperfecto, events = indefinido. **Vivía en Madrid cuando conocí a Ana.**",
+     "examples": [
+      {
+       "id": "s-c3-de-nino-iba",
+       "es": "De niño, iba a la playa todos los días.",
+       "en": "As a child, I went to the beach every day."
+      },
+      {
+       "id": "s-c3-solia-comer",
+       "es": "Solía comer en un bar pequeño.",
+       "en": "I used to eat in a small bar."
+      },
+      {
+       "id": "s-c3-vivia-cuando-conoci",
+       "es": "Vivía en Madrid cuando conocí a Ana.",
+       "en": "I was living in Madrid when I met Ana."
+      }
+     ],
+     "note": "You will get this wrong sometimes and still be understood. Keep it simple: describe with era / estaba / había, tell events with fui / hice / comí."
+    }
+   ],
+   "drills": [
+    "d-c3-imp-1",
+    "d-c3-imp-2",
+    "d-c3-imp-3",
+    "d-c3-imp-4",
+    "d-c3-imp-5",
+    "d-c3-imp-6",
+    "d-c3-imp-7",
+    "d-c3-imp-8"
+   ]
+  },
+  {
+   "id": "l-c3-story",
+   "title": "Connectors: telling a story",
+   "summary": "primero, luego, después, entonces, pero, porque, mientras, al final",
+   "cards": [
+    {
+     "rule": "Put events in order: **primero** (first), **luego** / **después** (then, afterwards), **entonces** (then, so), **al final** (in the end), **por fin** (at last).",
+     "examples": [
+      {
+       "id": "s-c3-primero-museo-luego",
+       "es": "Primero fuimos al museo y luego comimos.",
+       "en": "First we went to the museum and then we ate."
+      },
+      {
+       "id": "s-c3-despues-dimos-un-paseo",
+       "es": "Después, dimos un paseo por la playa.",
+       "en": "Afterwards, we went for a walk on the beach."
+      },
+      {
+       "id": "s-c3-al-final-volvimos",
+       "es": "Al final, volvimos a casa en taxi.",
+       "en": "In the end, we went home by taxi."
+      }
+     ]
+    },
+    {
+     "rule": "Link ideas: **pero** (but), **porque** (because), **así que** (so), **mientras** (while). mientras + imperfecto shows two things at once: **Mientras comíamos, llovía.**",
+     "examples": [
+      {
+       "id": "s-c3-queria-ir-pero-llovia",
+       "es": "Quería ir a la playa, pero llovía.",
+       "en": "I wanted to go to the beach, but it was raining."
+      },
+      {
+       "id": "s-c3-no-salimos-porque",
+       "es": "No salimos porque estábamos cansados.",
+       "en": "We didn't go out because we were tired."
+      },
+      {
+       "id": "s-c3-mientras-comiamos",
+       "es": "Mientras comíamos, empezó a llover.",
+       "en": "While we were eating, it started to rain."
+      }
+     ],
+     "trap": "porque (one word, no accent) = because. ¿Por qué? (two words, accent) = why?"
+    },
+    {
+     "rule": "Story recipe: time marker, background in the imperfecto, events in the indefinido, then **al final**. **De repente** (suddenly) introduces a new event.",
+     "examples": [
+      {
+       "id": "s-c3-el-verano-pasado-fuimos",
+       "es": "El verano pasado fuimos a Mallorca.",
+       "en": "Last summer we went to Mallorca."
+      },
+      {
+       "id": "s-c3-hacia-calor-y-habia",
+       "es": "Hacía mucho calor y había mucha gente.",
+       "en": "It was very hot and there were a lot of people."
+      },
+      {
+       "id": "s-c3-de-repente-empezo",
+       "es": "De repente, empezó a llover y volvimos al hotel.",
+       "en": "Suddenly it started to rain and we went back to the hotel."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-c3-story-1",
+    "d-c3-story-2",
+    "d-c3-story-3",
+    "d-c3-story-4",
+    "d-c3-story-5",
+    "d-c3-story-6",
+    "d-c3-story-7",
+    "d-c3-story-8"
+   ],
+   "dialogue": "dlg-c3-finde"
+  },
+  {
+   "id": "l-c3-directions",
+   "title": "Directions and polite requests",
+   "summary": "perdone, dígame, espere, mire, siga, gire, tome, cruce + hay que",
+   "cards": [
+    {
+     "rule": "Learn these as fixed polite words (usted): **perdone** / **disculpe** (excuse me), **dígame** (tell me / hello?), **espere** (wait), **mire** (look). They open a conversation with a stranger.",
+     "examples": [
+      {
+       "id": "s-c3-perdone-donde-esta",
+       "es": "Perdone, ¿dónde está la estación?",
+       "en": "Excuse me, where is the station?"
+      },
+      {
+       "id": "s-c3-espere-un-momento",
+       "es": "Espere un momento, por favor.",
+       "en": "Wait a moment, please."
+      },
+      {
+       "id": "s-c3-mire-el-museo-esta-alli",
+       "es": "Mire, el museo está allí.",
+       "en": "Look, the museum is over there."
+      }
+     ],
+     "note": "¿Dígame? or ¿Diga? is how people in Spain answer the phone. In Latin America: ¿Aló? or ¿Bueno?"
+    },
+    {
+     "rule": "Giving directions: **siga** todo recto (go straight on), **gire** a la derecha (turn right), **tome** la primera calle (take the first street), **cruce** la plaza (cross the square).",
+     "examples": [
+      {
+       "id": "s-c3-siga-recto-y-gire",
+       "es": "Siga todo recto y gire a la izquierda.",
+       "en": "Go straight on and turn left."
+      },
+      {
+       "id": "s-c3-tome-la-segunda-calle",
+       "es": "Tome la segunda calle a la derecha.",
+       "en": "Take the second street on the right."
+      },
+      {
+       "id": "s-c3-cruce-el-puente",
+       "es": "Cruce el puente. El hotel está enfrente.",
+       "en": "Cross the bridge. The hotel is opposite."
+      }
+     ],
+     "trap": "These are usted forms. To a friend you would hear sigue, gira, toma, cruza. Keep the usted set: it is always safe with strangers."
+    },
+    {
+     "rule": "**hay que** + infinitive = one has to / you need to. It never changes: **Hay que cruzar la plaza.** Distance: **está a cinco minutos a pie**, **está a dos calles**.",
+     "examples": [
+      {
+       "id": "s-c3-hay-que-cruzar",
+       "es": "Hay que cruzar la plaza.",
+       "en": "You have to cross the square."
+      },
+      {
+       "id": "s-c3-hay-que-tomar-el-metro",
+       "es": "Hay que tomar el metro.",
+       "en": "You need to take the metro."
+      },
+      {
+       "id": "s-c3-esta-a-diez-minutos",
+       "es": "Está a diez minutos a pie.",
+       "en": "It's ten minutes on foot."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-c3-dir-1",
+    "d-c3-dir-2",
+    "d-c3-dir-3",
+    "d-c3-dir-4",
+    "d-c3-dir-5",
+    "d-c3-dir-6",
+    "d-c3-dir-7",
+    "d-c3-dir-8"
+   ]
+  }
+ ],
+ "drills": [
+  {
+   "id": "d-c3-markers-1",
+   "type": "choose",
+   "prompt": "___ fui al cine.",
+   "options": [
+    "Ayer",
+    "Mañana",
+    "Ahora"
+   ],
+   "answer": [
+    "Ayer"
+   ],
+   "explain": "fui is past, so the marker must be past: ayer.",
+   "full": {
+    "id": "d-c3-markers-1-f",
+    "es": "Ayer fui al cine."
+   }
+  },
+  {
+   "id": "d-c3-markers-2",
+   "type": "gap",
+   "prompt": "Llegué a Madrid ___ dos días.",
+   "hint": "ago",
+   "answer": [
+    "hace"
+   ],
+   "explain": "hace + time = ago. It goes before the time.",
+   "full": {
+    "id": "d-c3-markers-2-f",
+    "es": "Llegué a Madrid hace dos días."
+   }
+  },
+  {
+   "id": "d-c3-markers-3",
+   "type": "choose",
+   "prompt": "Nos casamos el ___ pasado.",
+   "options": [
+    "año",
+    "semana",
+    "ayer"
+   ],
+   "answer": [
+    "año"
+   ],
+   "explain": "el año pasado. semana is feminine: la semana pasada.",
+   "full": {
+    "id": "d-c3-markers-3-f",
+    "es": "Nos casamos el año pasado."
+   }
+  },
+  {
+   "id": "d-c3-markers-4",
+   "type": "gap",
+   "prompt": "___ he terminado.",
+   "hint": "not yet",
+   "answer": [
+    "Todavía no",
+    "Aún no"
+   ],
+   "explain": "todavía no = not yet; it goes before he + participle.",
+   "full": {
+    "id": "d-c3-markers-4-f",
+    "es": "Todavía no he terminado."
+   }
+  },
+  {
+   "id": "d-c3-markers-5",
+   "type": "choose",
+   "prompt": "¿___ has comido?",
+   "options": [
+    "Ya",
+    "Todavía",
+    "Hace"
+   ],
+   "answer": [
+    "Ya"
+   ],
+   "explain": "¿Ya...? asks 'already / yet?'. todavía would need no.",
+   "full": {
+    "id": "d-c3-markers-5-f",
+    "es": "¿Ya has comido?"
+   }
+  },
+  {
+   "id": "d-c3-markers-6",
+   "type": "gap",
+   "prompt": "Fui a Sevilla la semana ___.",
+   "hint": "last",
+   "answer": [
+    "pasada"
+   ],
+   "explain": "pasado agrees with la semana: pasada.",
+   "full": {
+    "id": "d-c3-markers-6-f",
+    "es": "Fui a Sevilla la semana pasada."
+   }
+  },
+  {
+   "id": "d-c3-markers-7",
+   "type": "build",
+   "prompt": "Last night I ate in a restaurant.",
+   "answer": [
+    "Anoche comí en un restaurante.",
+    "Comí en un restaurante anoche.",
+    "Comí anoche en un restaurante."
+   ],
+   "explain": "anoche = last night; the marker can open or close the sentence.",
+   "full": {
+    "id": "d-c3-markers-7-f",
+    "es": "Anoche comí en un restaurante."
+   }
+  },
+  {
+   "id": "d-c3-markers-8",
+   "type": "translate",
+   "prompt": "a long time ago",
+   "answer": [
+    "hace mucho tiempo",
+    "hace mucho"
+   ],
+   "explain": "hace + mucho tiempo. No extra word for 'ago'.",
+   "full": {
+    "id": "d-c3-markers-8-f",
+    "es": "hace mucho tiempo"
+   }
+  },
+  {
+   "id": "d-c3-pret-1",
+   "type": "gap",
+   "prompt": "Ayer ___ con mi hermana.",
+   "hint": "hablar (yo)",
+   "answer": [
+    "hablé"
+   ],
+   "explain": "-ar, yo: -é with an accent on the last syllable.",
+   "full": {
+    "id": "d-c3-pret-1-f",
+    "es": "Ayer hablé con mi hermana."
+   }
+  },
+  {
+   "id": "d-c3-pret-2",
+   "type": "gap",
+   "prompt": "Anoche Ana ___ en casa.",
+   "hint": "comer (ella)",
+   "answer": [
+    "comió"
+   ],
+   "explain": "-er, él/ella: -ió with an accent.",
+   "full": {
+    "id": "d-c3-pret-2-f",
+    "es": "Anoche Ana comió en casa."
+   }
+  },
+  {
+   "id": "d-c3-pret-3",
+   "type": "choose",
+   "prompt": "Nosotros ___ a Sevilla el mes pasado.",
+   "options": [
+    "viajamos",
+    "viajaron",
+    "viajasteis"
+   ],
+   "answer": [
+    "viajamos"
+   ],
+   "explain": "nosotros: -amos. Same as the present; el mes pasado makes it past.",
+   "full": {
+    "id": "d-c3-pret-3-f",
+    "es": "Nosotros viajamos a Sevilla el mes pasado."
+   }
+  },
+  {
+   "id": "d-c3-pret-4",
+   "type": "gap",
+   "prompt": "¿___ bien en el hotel anoche?",
+   "hint": "comer (vosotros), indefinido",
+   "answer": [
+    "Comisteis"
+   ],
+   "explain": "vosotros, -er: -isteis.",
+   "full": {
+    "id": "d-c3-pret-4-f",
+    "es": "¿Comisteis bien en el hotel anoche?"
+   }
+  },
+  {
+   "id": "d-c3-pret-5",
+   "type": "choose",
+   "prompt": "Mis padres ___ en Francia tres años.",
+   "options": [
+    "vivieron",
+    "vivimos",
+    "vivió"
+   ],
+   "answer": [
+    "vivieron"
+   ],
+   "explain": "mis padres = ellos: -ieron.",
+   "full": {
+    "id": "d-c3-pret-5-f",
+    "es": "Mis padres vivieron en Francia tres años."
+   }
+  },
+  {
+   "id": "d-c3-pret-6",
+   "type": "gap",
+   "prompt": "___ a Madrid hace dos días.",
+   "hint": "llegar (yo)",
+   "answer": [
+    "Llegué"
+   ],
+   "explain": "-gar verbs: the yo form is -gué, to keep the hard g sound.",
+   "full": {
+    "id": "d-c3-pret-6-f",
+    "es": "Llegué a Madrid hace dos días."
+   }
+  },
+  {
+   "id": "d-c3-pret-7",
+   "type": "build",
+   "prompt": "Yesterday I bought a map.",
+   "answer": [
+    "Ayer compré un mapa.",
+    "Compré un mapa ayer."
+   ],
+   "explain": "comprar, yo: compré. el mapa is masculine.",
+   "full": {
+    "id": "d-c3-pret-7-f",
+    "es": "Ayer compré un mapa."
+   }
+  },
+  {
+   "id": "d-c3-pret-8",
+   "type": "translate",
+   "prompt": "Did you (tú) eat yesterday?",
+   "answer": [
+    "¿Comiste ayer?",
+    "¿Ayer comiste?",
+    "¿Tú comiste ayer?",
+    "¿Comiste tú ayer?"
+   ],
+   "explain": "tú, -er: -iste. No accent.",
+   "full": {
+    "id": "d-c3-pret-8-f",
+    "es": "¿Comiste ayer?"
+   }
+  },
+  {
+   "id": "d-c3-irreg-1",
+   "type": "gap",
+   "prompt": "Ayer ___ al cine.",
+   "hint": "ir (yo)",
+   "answer": [
+    "fui"
+   ],
+   "explain": "ir in the past: fui. No accent.",
+   "full": {
+    "id": "d-c3-irreg-1-f",
+    "es": "Ayer fui al cine."
+   }
+  },
+  {
+   "id": "d-c3-irreg-2",
+   "type": "choose",
+   "prompt": "El viaje ___ muy bonito.",
+   "options": [
+    "fue",
+    "fui",
+    "fueron"
+   ],
+   "answer": [
+    "fue"
+   ],
+   "explain": "ser, él (el viaje): fue. Same form as ir.",
+   "full": {
+    "id": "d-c3-irreg-2-f",
+    "es": "El viaje fue muy bonito."
+   }
+  },
+  {
+   "id": "d-c3-irreg-3",
+   "type": "gap",
+   "prompt": "¿Qué ___ el fin de semana?",
+   "hint": "hacer (tú)",
+   "answer": [
+    "hiciste"
+   ],
+   "explain": "hacer: hic- + -iste.",
+   "full": {
+    "id": "d-c3-irreg-3-f",
+    "es": "¿Qué hiciste el fin de semana?"
+   }
+  },
+  {
+   "id": "d-c3-irreg-4",
+   "type": "gap",
+   "prompt": "Ayer Ana ___ un problema con el coche.",
+   "hint": "tener (ella)",
+   "answer": [
+    "tuvo"
+   ],
+   "explain": "tener: tuv- + -o, no accent.",
+   "full": {
+    "id": "d-c3-irreg-4-f",
+    "es": "Ayer Ana tuvo un problema con el coche."
+   }
+  },
+  {
+   "id": "d-c3-irreg-5",
+   "type": "choose",
+   "prompt": "Anoche no ___ dormir.",
+   "options": [
+    "pude",
+    "podí",
+    "puedo"
+   ],
+   "answer": [
+    "pude"
+   ],
+   "explain": "poder: pud- + -e. No pude = I couldn't.",
+   "full": {
+    "id": "d-c3-irreg-5-f",
+    "es": "Anoche no pude dormir."
+   }
+  },
+  {
+   "id": "d-c3-irreg-6",
+   "type": "gap",
+   "prompt": "El año pasado ___ en Italia dos semanas.",
+   "hint": "estar (nosotros)",
+   "answer": [
+    "estuvimos"
+   ],
+   "explain": "estar: estuv- + -imos.",
+   "full": {
+    "id": "d-c3-irreg-6-f",
+    "es": "El año pasado estuvimos en Italia dos semanas."
+   }
+  },
+  {
+   "id": "d-c3-irreg-7",
+   "type": "choose",
+   "prompt": "Ayer ___ a mi abuela.",
+   "options": [
+    "vi",
+    "veí",
+    "veo"
+   ],
+   "answer": [
+    "vi"
+   ],
+   "explain": "ver, yo: vi. One syllable, no accent.",
+   "full": {
+    "id": "d-c3-irreg-7-f",
+    "es": "Ayer vi a mi abuela."
+   }
+  },
+  {
+   "id": "d-c3-irreg-8",
+   "type": "build",
+   "prompt": "She gave me a present.",
+   "answer": [
+    "Ella me dio un regalo."
+   ],
+   "explain": "dar, ella: dio, no accent. me goes before the verb.",
+   "full": {
+    "id": "d-c3-irreg-8-f",
+    "es": "Ella me dio un regalo."
+   }
+  },
+  {
+   "id": "d-c3-perf-1",
+   "type": "gap",
+   "prompt": "Hoy ___ trabajado mucho.",
+   "hint": "haber (yo)",
+   "answer": [
+    "he"
+   ],
+   "explain": "he + participle. hoy is open time, so Spain uses the perfect.",
+   "full": {
+    "id": "d-c3-perf-1-f",
+    "es": "Hoy he trabajado mucho."
+   }
+  },
+  {
+   "id": "d-c3-perf-2",
+   "type": "gap",
+   "prompt": "¿Qué has ___ hoy?",
+   "hint": "hacer",
+   "answer": [
+    "hecho"
+   ],
+   "explain": "hacer has the irregular participle hecho.",
+   "full": {
+    "id": "d-c3-perf-2-f",
+    "es": "¿Qué has hecho hoy?"
+   }
+  },
+  {
+   "id": "d-c3-perf-3",
+   "type": "choose",
+   "prompt": "Todavía no ___ comido.",
+   "options": [
+    "hemos",
+    "hamos",
+    "habemos"
+   ],
+   "answer": [
+    "hemos"
+   ],
+   "explain": "nosotros: hemos.",
+   "full": {
+    "id": "d-c3-perf-3-f",
+    "es": "Todavía no hemos comido."
+   }
+  },
+  {
+   "id": "d-c3-perf-4",
+   "type": "gap",
+   "prompt": "Nunca he ___ en Cuba.",
+   "hint": "estar",
+   "answer": [
+    "estado"
+   ],
+   "explain": "-ar verbs: -ado. estar is regular here.",
+   "full": {
+    "id": "d-c3-perf-4-f",
+    "es": "Nunca he estado en Cuba."
+   }
+  },
+  {
+   "id": "d-c3-perf-5",
+   "type": "choose",
+   "prompt": "Esta mañana ___ a Luis.",
+   "options": [
+    "he visto",
+    "he veído",
+    "he vido"
+   ],
+   "answer": [
+    "he visto"
+   ],
+   "explain": "ver: visto. esta mañana is still today, so the perfect.",
+   "full": {
+    "id": "d-c3-perf-5-f",
+    "es": "Esta mañana he visto a Luis."
+   }
+  },
+  {
+   "id": "d-c3-perf-6",
+   "type": "gap",
+   "prompt": "Mis padres todavía no han ___ de Sevilla.",
+   "hint": "volver",
+   "answer": [
+    "vuelto"
+   ],
+   "explain": "volver: irregular participle vuelto.",
+   "full": {
+    "id": "d-c3-perf-6-f",
+    "es": "Mis padres todavía no han vuelto de Sevilla."
+   }
+  },
+  {
+   "id": "d-c3-perf-7",
+   "type": "build",
+   "prompt": "I have lost my passport.",
+   "answer": [
+    "He perdido mi pasaporte."
+   ],
+   "explain": "he + perdido. Nothing goes between them.",
+   "full": {
+    "id": "d-c3-perf-7-f",
+    "es": "He perdido mi pasaporte."
+   }
+  },
+  {
+   "id": "d-c3-perf-8",
+   "type": "translate",
+   "prompt": "I've already eaten.",
+   "answer": [
+    "Ya he comido.",
+    "He comido ya."
+   ],
+   "explain": "ya goes before he + comido.",
+   "full": {
+    "id": "d-c3-perf-8-f",
+    "es": "Ya he comido."
+   }
+  },
+  {
+   "id": "d-c3-imp-1",
+   "type": "gap",
+   "prompt": "El hotel ___ pequeño pero bonito.",
+   "hint": "ser (él), description",
+   "answer": [
+    "era"
+   ],
+   "explain": "Describing what something was like: era.",
+   "full": {
+    "id": "d-c3-imp-1-f",
+    "es": "El hotel era pequeño pero bonito."
+   }
+  },
+  {
+   "id": "d-c3-imp-2",
+   "type": "gap",
+   "prompt": "___ mucha gente en la plaza.",
+   "hint": "haber (imperfecto), there was",
+   "answer": [
+    "Había"
+   ],
+   "explain": "había = there was / there were, one form.",
+   "full": {
+    "id": "d-c3-imp-2-f",
+    "es": "Había mucha gente en la plaza."
+   }
+  },
+  {
+   "id": "d-c3-imp-3",
+   "type": "choose",
+   "prompt": "Cuando ___ pequeño, vivía en un pueblo.",
+   "options": [
+    "era",
+    "fui",
+    "soy"
+   ],
+   "answer": [
+    "era"
+   ],
+   "explain": "Background in the past: era.",
+   "full": {
+    "id": "d-c3-imp-3-f",
+    "es": "Cuando era pequeño, vivía en un pueblo."
+   }
+  },
+  {
+   "id": "d-c3-imp-4",
+   "type": "gap",
+   "prompt": "___ buen tiempo y fuimos a la playa.",
+   "hint": "hacer (weather), imperfecto",
+   "answer": [
+    "Hacía"
+   ],
+   "explain": "Weather is background: hacía. The event is fuimos.",
+   "full": {
+    "id": "d-c3-imp-4-f",
+    "es": "Hacía buen tiempo y fuimos a la playa."
+   }
+  },
+  {
+   "id": "d-c3-imp-5",
+   "type": "choose",
+   "prompt": "Mi abuela ___ veinte años en la foto.",
+   "options": [
+    "tenía",
+    "tuvo",
+    "tiene"
+   ],
+   "answer": [
+    "tenía"
+   ],
+   "explain": "Age in the past is description: tenía.",
+   "full": {
+    "id": "d-c3-imp-5-f",
+    "es": "Mi abuela tenía veinte años en la foto."
+   }
+  },
+  {
+   "id": "d-c3-imp-6",
+   "type": "gap",
+   "prompt": "De niño, ___ a la playa todos los días.",
+   "hint": "ir (yo), habit",
+   "answer": [
+    "iba"
+   ],
+   "explain": "A habit: imperfecto. ir is irregular: iba. (Girls say: de niña.)",
+   "full": {
+    "id": "d-c3-imp-6-f",
+    "es": "De niño, iba a la playa todos los días."
+   }
+  },
+  {
+   "id": "d-c3-imp-7",
+   "type": "build",
+   "prompt": "I used to eat in a small bar.",
+   "answer": [
+    "Solía comer en un bar pequeño."
+   ],
+   "explain": "solía + infinitive = used to.",
+   "full": {
+    "id": "d-c3-imp-7-f",
+    "es": "Solía comer en un bar pequeño."
+   }
+  },
+  {
+   "id": "d-c3-imp-8",
+   "type": "choose",
+   "prompt": "Vivía en Madrid cuando ___ a Ana.",
+   "options": [
+    "conocí",
+    "conocía",
+    "conozco"
+   ],
+   "answer": [
+    "conocí"
+   ],
+   "explain": "Meeting someone is an event: indefinido conocí.",
+   "full": {
+    "id": "d-c3-imp-8-f",
+    "es": "Vivía en Madrid cuando conocí a Ana."
+   }
+  },
+  {
+   "id": "d-c3-story-1",
+   "type": "choose",
+   "prompt": "___ fuimos al museo y luego comimos.",
+   "options": [
+    "Primero",
+    "Al final",
+    "Mientras"
+   ],
+   "answer": [
+    "Primero"
+   ],
+   "explain": "primero... luego: first... then.",
+   "full": {
+    "id": "d-c3-story-1-f",
+    "es": "Primero fuimos al museo y luego comimos."
+   }
+  },
+  {
+   "id": "d-c3-story-2",
+   "type": "gap",
+   "prompt": "Quería ir a la playa, ___ llovía.",
+   "hint": "but",
+   "answer": [
+    "pero"
+   ],
+   "explain": "pero = but.",
+   "full": {
+    "id": "d-c3-story-2-f",
+    "es": "Quería ir a la playa, pero llovía."
+   }
+  },
+  {
+   "id": "d-c3-story-3",
+   "type": "gap",
+   "prompt": "No salimos ___ estábamos cansados.",
+   "hint": "because",
+   "answer": [
+    "porque"
+   ],
+   "explain": "porque, one word, no accent = because.",
+   "full": {
+    "id": "d-c3-story-3-f",
+    "es": "No salimos porque estábamos cansados."
+   }
+  },
+  {
+   "id": "d-c3-story-4",
+   "type": "choose",
+   "prompt": "___ comíamos, empezó a llover.",
+   "options": [
+    "Mientras",
+    "Porque",
+    "Luego"
+   ],
+   "answer": [
+    "Mientras"
+   ],
+   "explain": "mientras + imperfecto: while we were eating.",
+   "full": {
+    "id": "d-c3-story-4-f",
+    "es": "Mientras comíamos, empezó a llover."
+   }
+  },
+  {
+   "id": "d-c3-story-5",
+   "type": "choose",
+   "prompt": "Primero visitamos el castillo y ___ fuimos al mar.",
+   "options": [
+    "luego",
+    "primero",
+    "mientras"
+   ],
+   "answer": [
+    "luego"
+   ],
+   "explain": "luego = then, the next step.",
+   "full": {
+    "id": "d-c3-story-5-f",
+    "es": "Primero visitamos el castillo y luego fuimos al mar."
+   }
+  },
+  {
+   "id": "d-c3-story-6",
+   "type": "gap",
+   "prompt": "___, volvimos a casa en taxi.",
+   "hint": "in the end",
+   "answer": [
+    "Al final",
+    "Finalmente"
+   ],
+   "explain": "al final = in the end.",
+   "full": {
+    "id": "d-c3-story-6-f",
+    "es": "Al final, volvimos a casa en taxi."
+   }
+  },
+  {
+   "id": "d-c3-story-7",
+   "type": "build",
+   "prompt": "First we ate and then we went to the beach.",
+   "answer": [
+    "Primero comimos y luego fuimos a la playa."
+   ],
+   "explain": "primero + event, y luego + event.",
+   "full": {
+    "id": "d-c3-story-7-f",
+    "es": "Primero comimos y luego fuimos a la playa."
+   }
+  },
+  {
+   "id": "d-c3-story-8",
+   "type": "translate",
+   "prompt": "Suddenly, it started to rain.",
+   "answer": [
+    "De repente, empezó a llover.",
+    "De repente empezó a llover."
+   ],
+   "explain": "de repente + an event in the indefinido: empezó.",
+   "full": {
+    "id": "d-c3-story-8-f",
+    "es": "De repente, empezó a llover."
+   }
+  },
+  {
+   "id": "d-c3-dir-1",
+   "type": "choose",
+   "prompt": "___, ¿dónde está la estación?",
+   "options": [
+    "Perdone",
+    "Espere",
+    "Mire"
+   ],
+   "answer": [
+    "Perdone"
+   ],
+   "explain": "perdone opens a question to a stranger.",
+   "full": {
+    "id": "d-c3-dir-1-f",
+    "es": "Perdone, ¿dónde está la estación?"
+   }
+  },
+  {
+   "id": "d-c3-dir-2",
+   "type": "gap",
+   "prompt": "___ todo recto y gire a la derecha.",
+   "hint": "keep going (usted)",
+   "answer": [
+    "Siga"
+   ],
+   "explain": "siga = keep going / continue (usted).",
+   "full": {
+    "id": "d-c3-dir-2-f",
+    "es": "Siga todo recto y gire a la derecha."
+   }
+  },
+  {
+   "id": "d-c3-dir-3",
+   "type": "choose",
+   "prompt": "___ la primera calle a la izquierda.",
+   "options": [
+    "Tome",
+    "Tomo",
+    "Tomamos"
+   ],
+   "answer": [
+    "Tome"
+   ],
+   "explain": "tome is the polite command; tomo = I take.",
+   "full": {
+    "id": "d-c3-dir-3-f",
+    "es": "Tome la primera calle a la izquierda."
+   }
+  },
+  {
+   "id": "d-c3-dir-4",
+   "type": "gap",
+   "prompt": "___ que cruzar la plaza.",
+   "hint": "one has to",
+   "answer": [
+    "Hay"
+   ],
+   "explain": "hay que + infinitive: impersonal, never changes.",
+   "full": {
+    "id": "d-c3-dir-4-f",
+    "es": "Hay que cruzar la plaza."
+   }
+  },
+  {
+   "id": "d-c3-dir-5",
+   "type": "choose",
+   "prompt": "___ un momento, por favor.",
+   "options": [
+    "Espere",
+    "Esperar",
+    "Espero"
+   ],
+   "answer": [
+    "Espere"
+   ],
+   "explain": "espere = wait (usted). espero = I wait.",
+   "full": {
+    "id": "d-c3-dir-5-f",
+    "es": "Espere un momento, por favor."
+   }
+  },
+  {
+   "id": "d-c3-dir-6",
+   "type": "gap",
+   "prompt": "Está a cinco minutos ___ pie.",
+   "hint": "on foot",
+   "answer": [
+    "a"
+   ],
+   "explain": "a pie = on foot; está a + distance.",
+   "full": {
+    "id": "d-c3-dir-6-f",
+    "es": "Está a cinco minutos a pie."
+   }
+  },
+  {
+   "id": "d-c3-dir-7",
+   "type": "build",
+   "prompt": "Turn left at the traffic light.",
+   "answer": [
+    "Gire a la izquierda en el semáforo.",
+    "En el semáforo gire a la izquierda."
+   ],
+   "explain": "gire a la izquierda; en el semáforo = at the traffic light.",
+   "full": {
+    "id": "d-c3-dir-7-f",
+    "es": "Gire a la izquierda en el semáforo."
+   }
+  },
+  {
+   "id": "d-c3-dir-8",
+   "type": "translate",
+   "prompt": "Excuse me, where is the museum?",
+   "answer": [
+    "Perdone, ¿dónde está el museo?",
+    "Disculpe, ¿dónde está el museo?",
+    "Perdón, ¿dónde está el museo?"
+   ],
+   "explain": "perdone / disculpe + ¿dónde está...?",
+   "full": {
+    "id": "d-c3-dir-8-f",
+    "es": "Perdone, ¿dónde está el museo?"
+   }
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "dlg-c3-ayer",
+   "title": "What did you do yesterday?",
+   "lines": [
+    {
+     "id": "dlg-c3-ayer-1",
+     "who": "A",
+     "es": "¿Qué hiciste ayer?",
+     "en": "What did you do yesterday?"
+    },
+    {
+     "id": "dlg-c3-ayer-2",
+     "who": "B",
+     "es": "Por la mañana trabajé y por la tarde fui al cine.",
+     "en": "In the morning I worked and in the afternoon I went to the cinema."
+    },
+    {
+     "id": "dlg-c3-ayer-3",
+     "who": "A",
+     "es": "¿Qué viste?",
+     "en": "What did you see?"
+    },
+    {
+     "id": "dlg-c3-ayer-4",
+     "who": "B",
+     "es": "Una película española. Fue muy buena.",
+     "en": "A Spanish film. It was very good."
+    },
+    {
+     "id": "dlg-c3-ayer-5",
+     "who": "A",
+     "es": "¿Fuiste con Marta?",
+     "en": "Did you go with Marta?"
+    },
+    {
+     "id": "dlg-c3-ayer-6",
+     "who": "B",
+     "es": "Sí. Después cenamos en un restaurante italiano.",
+     "en": "Yes. Afterwards we had dinner in an Italian restaurant."
+    },
+    {
+     "id": "dlg-c3-ayer-7",
+     "who": "A",
+     "es": "¡Qué bien! Yo no hice nada especial.",
+     "en": "Nice! I didn't do anything special."
+    }
+   ]
+  },
+  {
+   "id": "dlg-c3-vacaciones",
+   "title": "A holiday story",
+   "lines": [
+    {
+     "id": "dlg-c3-vacaciones-1",
+     "who": "A",
+     "es": "¿Qué tal las vacaciones?",
+     "en": "How were the holidays?"
+    },
+    {
+     "id": "dlg-c3-vacaciones-2",
+     "who": "B",
+     "es": "Fueron geniales. Fuimos a Mallorca una semana.",
+     "en": "They were great. We went to Mallorca for a week."
+    },
+    {
+     "id": "dlg-c3-vacaciones-3",
+     "who": "A",
+     "es": "¿Qué tiempo hacía?",
+     "en": "What was the weather like?"
+    },
+    {
+     "id": "dlg-c3-vacaciones-4",
+     "who": "B",
+     "es": "Hacía mucho calor, pero el hotel tenía piscina.",
+     "en": "It was very hot, but the hotel had a pool."
+    },
+    {
+     "id": "dlg-c3-vacaciones-5",
+     "who": "A",
+     "es": "¿Y qué hicisteis?",
+     "en": "And what did you do?"
+    },
+    {
+     "id": "dlg-c3-vacaciones-6",
+     "who": "B",
+     "es": "Primero descansamos en la playa y luego visitamos un castillo.",
+     "en": "First we rested on the beach and then we visited a castle."
+    },
+    {
+     "id": "dlg-c3-vacaciones-7",
+     "who": "A",
+     "es": "¿Comisteis bien?",
+     "en": "Did you eat well?"
+    },
+    {
+     "id": "dlg-c3-vacaciones-8",
+     "who": "B",
+     "es": "Muy bien. Al final no queríamos volver.",
+     "en": "Very well. In the end we didn't want to come back."
+    }
+   ]
+  },
+  {
+   "id": "dlg-c3-pasaporte",
+   "title": "A lost passport",
+   "lines": [
+    {
+     "id": "dlg-c3-pasaporte-1",
+     "who": "A",
+     "es": "Buenos días. He perdido mi pasaporte.",
+     "en": "Good morning. I've lost my passport."
+    },
+    {
+     "id": "dlg-c3-pasaporte-2",
+     "who": "B",
+     "es": "¿Dónde lo perdió?",
+     "en": "Where did you lose it?"
+    },
+    {
+     "id": "dlg-c3-pasaporte-3",
+     "who": "A",
+     "es": "No lo sé. Creo que en el tren, esta mañana.",
+     "en": "I don't know. I think on the train, this morning."
+    },
+    {
+     "id": "dlg-c3-pasaporte-4",
+     "who": "B",
+     "es": "¿Ha mirado en el hotel?",
+     "en": "Have you looked in the hotel?"
+    },
+    {
+     "id": "dlg-c3-pasaporte-5",
+     "who": "A",
+     "es": "Sí, ya he mirado en la habitación y no está.",
+     "en": "Yes, I've already looked in the room and it's not there."
+    },
+    {
+     "id": "dlg-c3-pasaporte-6",
+     "who": "B",
+     "es": "Tiene que poner una denuncia. Espere un momento, por favor.",
+     "en": "You have to file a police report. Wait a moment, please."
+    },
+    {
+     "id": "dlg-c3-pasaporte-7",
+     "who": "A",
+     "es": "¿Y después?",
+     "en": "And then?"
+    },
+    {
+     "id": "dlg-c3-pasaporte-8",
+     "who": "B",
+     "es": "Después, hay que ir a la embajada. Está a diez minutos a pie.",
+     "en": "Then you have to go to the embassy. It's ten minutes on foot."
+    }
+   ]
+  },
+  {
+   "id": "dlg-c3-finde",
+   "title": "Weekend recap",
+   "lines": [
+    {
+     "id": "dlg-c3-finde-1",
+     "who": "A",
+     "es": "¿Qué tal el fin de semana?",
+     "en": "How was your weekend?"
+    },
+    {
+     "id": "dlg-c3-finde-2",
+     "who": "B",
+     "es": "Muy tranquilo. El sábado me quedé en casa porque llovía.",
+     "en": "Very quiet. On Saturday I stayed at home because it was raining."
+    },
+    {
+     "id": "dlg-c3-finde-3",
+     "who": "A",
+     "es": "¿Y el domingo?",
+     "en": "And on Sunday?"
+    },
+    {
+     "id": "dlg-c3-finde-4",
+     "who": "B",
+     "es": "El domingo fui a la boda de una amiga.",
+     "en": "On Sunday I went to a friend's wedding."
+    },
+    {
+     "id": "dlg-c3-finde-5",
+     "who": "A",
+     "es": "¡Qué bien! ¿Había mucha gente?",
+     "en": "Nice! Were there many people?"
+    },
+    {
+     "id": "dlg-c3-finde-6",
+     "who": "B",
+     "es": "Sí, mucha. Comimos, bailamos y volví a casa a las tres.",
+     "en": "Yes, lots. We ate, we danced and I got home at three."
+    },
+    {
+     "id": "dlg-c3-finde-7",
+     "who": "A",
+     "es": "¿Y hoy? ¿Has descansado?",
+     "en": "And today? Have you rested?"
+    },
+    {
+     "id": "dlg-c3-finde-8",
+     "who": "B",
+     "es": "Todavía no. ¡Estoy muy cansado!",
+     "en": "Not yet. I'm very tired!"
+    }
+   ]
+  }
+ ]
+}

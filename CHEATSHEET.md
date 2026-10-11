@@ -1,5 +1,6 @@
 # Spanish cheat sheet (for English speakers)
 
+This is the one-page reference. The step-by-step lessons with drills are in [chapters/](chapters/1/README.md) and the app's **Learn** tab.
 Default is **Spain** Spanish. Latin American differences are marked *LatAm*.
 Hear everything in the [app](https://coos88.github.io/spanish/).
 

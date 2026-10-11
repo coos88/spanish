@@ -63,11 +63,11 @@ Spain eats later than most: breakfast 7-9, a mid-morning snack, **lunch (la comi
 - *¿Cómo se dice «...» en español?* Ask for the word instead of freezing.
 - Describe around the word you don't know: *la cosa para abrir botellas* (the thing to open bottles).
 - Say *vale* (Spain) / *ok* / *claro* a lot: they mean "OK", "sure", "of course".
-- Don't translate word-by-word from English. Learn **whole phrases** (see [PHRASES.md](PHRASES.md)).
+- Don't translate word-by-word from English. Learn **whole phrases** (see [the phrase lists](chapters/1/PHRASES.md)).
 - Listen daily, even if you understand 10%. Spanish pronunciation is regular, so reading along with audio is a fast way to train your ear. The app's *Hear it → English* quiz is built for this.
 
 ## How to study with this repo (15 min/day)
 1. 5 min: flashcards in the app (only what's due).
 2. 5 min: one quiz round, alternate *hear it* and *type it*.
-3. 5 min: a verb drill, or read one section of the [cheat sheet](CHEATSHEET.md) and then do the matching [exercise](exercises/).
+3. 5 min: the next lesson in the app's Learn tab (or a verb drill).
 4. Once a week: repeat one weak exercise from scratch without looking.

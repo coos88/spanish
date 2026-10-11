@@ -1,12 +1,12 @@
 // Offline support. All URLs are relative to the SW scope so this works on /spanish/ (GitHub Pages) and / (Docker).
 // Bump CACHE on every deploy that changes the shell, otherwise old files can linger.
-const CACHE = 'es-v3';
+const CACHE = 'es-v5';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icon.svg',
-  'data/vocab.json', 'data/phrases.json', 'data/verbs.json'];
+  'data/vocab.json', 'data/phrases.json', 'data/verbs.json', 'data/ch1.json', 'data/ch2.json', 'data/ch3.json'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE)
-    .then((c) => c.addAll(SHELL.map((p) => new URL(p, self.registration.scope).href)))
+    .then((c) => Promise.all(SHELL.map((p) => c.add(new URL(p, self.registration.scope).href).catch(() => {}))))
     .then(() => self.skipWaiting()));
 });
 

@@ -1,0 +1,2215 @@
+{
+ "id": 1,
+ "title": "Survive and introduce yourself",
+ "goal": "Pronounce what you read, build simple sentences in the present tense, and handle first meetings, cafés and directions.",
+ "canDo": [
+  "Greet people and introduce yourself",
+  "Say where you are from, your age and what you do",
+  "Order food and drink and ask the price",
+  "Ask where things are and tell the time"
+ ],
+ "themes": {
+  "prepositions": "Possessives & little words",
+  "things": "Everyday things & jobs"
+ },
+ "vocab": [
+  {
+   "id": "mi",
+   "es": "mi",
+   "en": "my",
+   "t": "prepositions"
+  },
+  {
+   "id": "tu",
+   "es": "tu",
+   "en": "your (informal)",
+   "t": "prepositions"
+  },
+  {
+   "id": "su",
+   "es": "su",
+   "en": "his / her / your (formal) / their",
+   "t": "prepositions"
+  },
+  {
+   "id": "nuestro",
+   "es": "nuestro",
+   "en": "our (m)",
+   "t": "prepositions"
+  },
+  {
+   "id": "en",
+   "es": "en",
+   "en": "in / on / at",
+   "t": "prepositions"
+  },
+  {
+   "id": "de",
+   "es": "de",
+   "en": "of / from",
+   "t": "prepositions"
+  },
+  {
+   "id": "a",
+   "es": "a",
+   "en": "to / at",
+   "t": "prepositions"
+  },
+  {
+   "id": "con",
+   "es": "con",
+   "en": "with",
+   "t": "prepositions"
+  },
+  {
+   "id": "sin",
+   "es": "sin",
+   "en": "without",
+   "t": "prepositions"
+  },
+  {
+   "id": "para",
+   "es": "para",
+   "en": "for / in order to",
+   "t": "prepositions"
+  },
+  {
+   "id": "cerca-de",
+   "es": "cerca de",
+   "en": "near",
+   "t": "prepositions"
+  },
+  {
+   "id": "lejos-de",
+   "es": "lejos de",
+   "en": "far from",
+   "t": "prepositions"
+  },
+  {
+   "id": "mucho",
+   "es": "mucho",
+   "en": "a lot / much",
+   "t": "prepositions"
+  },
+  {
+   "id": "poco",
+   "es": "poco",
+   "en": "a little / not much",
+   "t": "prepositions"
+  },
+  {
+   "id": "tampoco",
+   "es": "tampoco",
+   "en": "neither / not either",
+   "t": "prepositions"
+  },
+  {
+   "id": "el-medico",
+   "es": "el médico",
+   "en": "the doctor (f: la médica)",
+   "t": "things"
+  },
+  {
+   "id": "el-profesor",
+   "es": "el profesor",
+   "en": "the teacher (f: la profesora)",
+   "t": "things"
+  },
+  {
+   "id": "el-estudiante",
+   "es": "el estudiante",
+   "en": "the student (f: la estudiante)",
+   "t": "things"
+  },
+  {
+   "id": "el-camarero",
+   "es": "el camarero",
+   "en": "the waiter (f: la camarera)",
+   "t": "things"
+  },
+  {
+   "id": "el-libro",
+   "es": "el libro",
+   "en": "the book",
+   "t": "things"
+  },
+  {
+   "id": "la-mesa",
+   "es": "la mesa",
+   "en": "the table",
+   "t": "things"
+  },
+  {
+   "id": "el-gato",
+   "es": "el gato",
+   "en": "the cat",
+   "t": "things"
+  },
+  {
+   "id": "el-perro",
+   "es": "el perro",
+   "en": "the dog",
+   "t": "things"
+  },
+  {
+   "id": "el-euro",
+   "es": "el euro",
+   "en": "the euro",
+   "t": "things"
+  },
+  {
+   "id": "la-tarjeta",
+   "es": "la tarjeta",
+   "en": "the card",
+   "t": "things"
+  },
+  {
+   "id": "el-dinero",
+   "es": "el dinero",
+   "en": "the money",
+   "t": "things"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "l-sounds",
+   "title": "Sounds, stress and accent marks",
+   "summary": "Spanish is spelled as it sounds. Learn the rules once.",
+   "cards": [
+    {
+     "rule": "Five pure vowels: **a e i o u**, always short and clear. **H** is silent. **J** and **g** (before e/i) sound like a rough *h*. **Ñ** sounds like *ny*. **V** sounds like **b**.",
+     "examples": [
+      {
+       "id": "s-hola-ahora",
+       "es": "Hola, ¿cómo estás ahora?",
+       "en": "Hi, how are you now?"
+      },
+      {
+       "id": "s-jamon-gente",
+       "es": "El jamón y la gente.",
+       "en": "The ham and the people."
+      },
+      {
+       "id": "s-espanol",
+       "es": "Hablo español.",
+       "en": "I speak Spanish."
+      }
+     ],
+     "note": "In Spain, **c** before e/i and **z** sound like *th* (cena, zumo). In Latin America they sound like *s*."
+    },
+    {
+     "rule": "Stress: a word ending in a **vowel, n or s** is stressed on the second-to-last syllable (**ha**-bla, **ca**-sa). Any other consonant: stress the last syllable (ha-**blar**, ciu-**dad**). An **accent mark** shows an exception (can-**ción**).",
+     "examples": [
+      {
+       "id": "s-hablan",
+       "es": "Ellos hablan despacio.",
+       "en": "They speak slowly."
+      },
+      {
+       "id": "s-ciudad",
+       "es": "La ciudad es grande.",
+       "en": "The city is big."
+      },
+      {
+       "id": "s-cancion",
+       "es": "Me gusta esta canción.",
+       "en": "I like this song."
+      }
+     ]
+    },
+    {
+     "rule": "An accent mark can also tell two words apart: **tú** (you) / **tu** (your), **él** (he) / **el** (the), **sí** (yes) / **si** (if), **más** (more), **cómo** (how).",
+     "examples": [
+      {
+       "id": "s-tu-tu",
+       "es": "Tú tienes tu libro.",
+       "en": "You have your book."
+      },
+      {
+       "id": "s-el-el",
+       "es": "Él es el hermano de Ana.",
+       "en": "He is Ana's brother."
+      }
+     ],
+     "trap": "Question words always carry an accent: **¿Cómo? ¿Qué? ¿Dónde? ¿Cuándo?**"
+    }
+   ],
+   "drills": [
+    "d-sounds-1",
+    "d-sounds-2",
+    "d-sounds-3",
+    "d-sounds-4",
+    "d-sounds-5",
+    "d-sounds-6"
+   ]
+  },
+  {
+   "id": "l-gender",
+   "title": "Gender and articles",
+   "summary": "Every noun is masculine or feminine. Learn the article with the word.",
+   "cards": [
+    {
+     "rule": "Every noun is **masculine** or **feminine**. Words ending in **-o** are usually masculine (**el** libro), words in **-a** usually feminine (**la** casa). Plural: **los** / **las**.",
+     "examples": [
+      {
+       "id": "s-el-libro",
+       "es": "El libro es nuevo.",
+       "en": "The book is new."
+      },
+      {
+       "id": "s-la-casa",
+       "es": "La casa es grande.",
+       "en": "The house is big."
+      },
+      {
+       "id": "s-los-amigos",
+       "es": "Los amigos están aquí.",
+       "en": "The friends are here."
+      }
+     ]
+    },
+    {
+     "rule": "Endings **-ción, -sión, -dad** are feminine; **-or** is masculine. Exceptions to learn: **el día**, **el mapa**, **la mano**. Feminine nouns **beginning with a stressed a** use *el*: **el agua**.",
+     "examples": [
+      {
+       "id": "s-la-ciudad",
+       "es": "La ciudad es bonita.",
+       "en": "The city is pretty."
+      },
+      {
+       "id": "s-el-dia",
+       "es": "Hoy es un buen día.",
+       "en": "Today is a good day."
+      },
+      {
+       "id": "s-el-agua",
+       "es": "El agua está fría.",
+       "en": "The water is cold."
+      }
+     ],
+     "trap": "Learn the article with every noun: **la mano**, not just *mano*."
+    },
+    {
+     "rule": "\"A / some\": **un** (m), **una** (f), **unos** (m pl), **unas** (f pl).",
+     "examples": [
+      {
+       "id": "s-un-hermano",
+       "es": "Tengo un hermano.",
+       "en": "I have a brother."
+      },
+      {
+       "id": "s-una-hermana",
+       "es": "Tengo una hermana.",
+       "en": "I have a sister."
+      },
+      {
+       "id": "s-unos-libros",
+       "es": "Hay unos libros en la mesa.",
+       "en": "There are some books on the table."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-gender-1",
+    "d-gender-2",
+    "d-gender-3",
+    "d-gender-4",
+    "d-gender-5",
+    "d-gender-6",
+    "d-gender-7",
+    "d-gender-8"
+   ]
+  },
+  {
+   "id": "l-adjectives",
+   "title": "Plurals and adjectives",
+   "summary": "Adjectives agree with the noun and follow it.",
+   "cards": [
+    {
+     "rule": "Plurals: vowel + **-s** (casa → casas); consonant + **-es** (ciudad → ciudades); **-z** → **-ces** (lápiz → lápices).",
+     "examples": [
+      {
+       "id": "s-casas",
+       "es": "Las casas son bonitas.",
+       "en": "The houses are pretty."
+      },
+      {
+       "id": "s-ciudades",
+       "es": "Hay dos ciudades grandes.",
+       "en": "There are two big cities."
+      },
+      {
+       "id": "s-lapices",
+       "es": "Tengo tres lápices.",
+       "en": "I have three pencils."
+      }
+     ]
+    },
+    {
+     "rule": "Adjectives **agree** in gender and number and usually come **after** the noun: **un coche rojo, una casa roja, unos coches rojos**. Adjectives in **-e** or most consonants don't change for gender (grande, azul), except nationalities: **holandés / holandesa**.",
+     "examples": [
+      {
+       "id": "s-coche-rojo",
+       "es": "Tengo un coche rojo.",
+       "en": "I have a red car."
+      },
+      {
+       "id": "s-casa-roja",
+       "es": "Tengo una casa roja.",
+       "en": "I have a red house."
+      },
+      {
+       "id": "s-mujer-inteligente",
+       "es": "Ella es una mujer inteligente.",
+       "en": "She is an intelligent woman."
+      }
+     ],
+     "trap": "Not *una blanca casa*: the adjective follows the noun."
+    }
+   ],
+   "drills": [
+    "d-adjectives-1",
+    "d-adjectives-2",
+    "d-adjectives-3",
+    "d-adjectives-4",
+    "d-adjectives-5",
+    "d-adjectives-6",
+    "d-adjectives-7",
+    "d-adjectives-8"
+   ]
+  },
+  {
+   "id": "l-present",
+   "title": "Present tense and tú / usted",
+   "summary": "Regular verbs: drop -ar/-er/-ir and add the endings.",
+   "cards": [
+    {
+     "rule": "Drop **-ar / -er / -ir**, add endings. **-ar**: -o, -as, -a, -amos, -áis, -an. **-er**: -o, -es, -e, -emos, -éis, -en. **-ir**: -o, -es, -e, -imos, -ís, -en.",
+     "examples": [
+      {
+       "id": "s-hablo",
+       "es": "Hablo español.",
+       "en": "I speak Spanish."
+      },
+      {
+       "id": "s-comemos",
+       "es": "Comemos a las dos.",
+       "en": "We eat at two."
+      },
+      {
+       "id": "s-viven",
+       "es": "Ellos viven en Madrid.",
+       "en": "They live in Madrid."
+      }
+     ],
+     "trap": "Skip the pronoun: *Hablo español*, not *Yo hablo español* (unless you contrast)."
+    },
+    {
+     "rule": "**tú** is informal (friends, family, peers). **usted** is formal (strangers, older people) and uses the **he/she** verb form. Plural *you*: **vosotros** (informal, Spain) / **ustedes**.",
+     "examples": [
+      {
+       "id": "s-como-estas",
+       "es": "¿Cómo estás, Ana?",
+       "en": "How are you, Ana?"
+      },
+      {
+       "id": "s-como-esta-usted",
+       "es": "¿Cómo está usted, señora?",
+       "en": "How are you, madam?"
+      },
+      {
+       "id": "s-vive-usted",
+       "es": "¿Vive usted aquí?",
+       "en": "Do you live here?"
+      }
+     ],
+     "note": "In Latin America *vosotros* isn't used: everyone says *ustedes*."
+    }
+   ],
+   "drills": [
+    "d-present-1",
+    "d-present-2",
+    "d-present-3",
+    "d-present-4",
+    "d-present-5",
+    "d-present-6",
+    "d-present-7",
+    "d-present-8"
+   ],
+   "dialogue": "dlg-meeting"
+  },
+  {
+   "id": "l-ser-estar",
+   "title": "ser vs estar",
+   "summary": "Two verbs for \"to be\".",
+   "cards": [
+    {
+     "rule": "**ser** = what something *is*: identity, origin, profession, characteristics, time. **soy, eres, es, somos, sois, son**.",
+     "examples": [
+      {
+       "id": "s-soy-holandes",
+       "es": "Soy holandés.",
+       "en": "I am Dutch."
+      },
+      {
+       "id": "s-mi-madre-medica",
+       "es": "Mi madre es médica.",
+       "en": "My mother is a doctor."
+      },
+      {
+       "id": "s-son-las-tres",
+       "es": "Son las tres.",
+       "en": "It is three o'clock."
+      }
+     ]
+    },
+    {
+     "rule": "**estar** = how or where something *is*: location and temporary state. **estoy, estás, está, estamos, estáis, están**.",
+     "examples": [
+      {
+       "id": "s-madrid-esta",
+       "es": "Madrid está en España.",
+       "en": "Madrid is in Spain."
+      },
+      {
+       "id": "s-estoy-cansado",
+       "es": "Estoy cansado.",
+       "en": "I am tired."
+      },
+      {
+       "id": "s-cafe-frio",
+       "es": "El café está frío.",
+       "en": "The coffee is cold."
+      }
+     ],
+     "trap": "*Ser aburrido* = to be boring, *estar aburrido* = to be bored. Same adjective, different meaning."
+    }
+   ],
+   "drills": [
+    "d-ser-estar-1",
+    "d-ser-estar-2",
+    "d-ser-estar-3",
+    "d-ser-estar-4",
+    "d-ser-estar-5",
+    "d-ser-estar-6",
+    "d-ser-estar-7",
+    "d-ser-estar-8",
+    "d-ser-estar-9"
+   ]
+  },
+  {
+   "id": "l-tener-hay",
+   "title": "tener and hay",
+   "summary": "Having, ages, feelings, and \"there is / there are\".",
+   "cards": [
+    {
+     "rule": "**tengo, tienes, tiene, tenemos, tenéis, tienen.** Spanish uses *tener* for age and feelings: **tengo 30 años, tengo hambre / sed / frío / calor / sueño**. **tener que** + infinitive = must.",
+     "examples": [
+      {
+       "id": "s-tengo-anos",
+       "es": "Tengo treinta años.",
+       "en": "I am thirty years old."
+      },
+      {
+       "id": "s-tenemos-frio",
+       "es": "Tenemos frío.",
+       "en": "We are cold."
+      },
+      {
+       "id": "s-tienen-que",
+       "es": "Tienen que trabajar.",
+       "en": "They have to work."
+      }
+     ],
+     "trap": "Never *Soy hambriento*: hunger, thirst and age are things you *have*."
+    },
+    {
+     "rule": "**hay** = there is / there are (one form for both). Use **hay** for something new, **está / están** for something already known.",
+     "examples": [
+      {
+       "id": "s-hay-banco",
+       "es": "Hay un banco cerca.",
+       "en": "There is a bank nearby."
+      },
+      {
+       "id": "s-donde-esta-banco",
+       "es": "¿Dónde está el banco?",
+       "en": "Where is the bank?"
+      },
+      {
+       "id": "s-no-hay-problema",
+       "es": "No hay problema.",
+       "en": "No problem."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-tener-hay-1",
+    "d-tener-hay-2",
+    "d-tener-hay-3",
+    "d-tener-hay-4",
+    "d-tener-hay-5",
+    "d-tener-hay-6",
+    "d-tener-hay-7",
+    "d-tener-hay-8",
+    "d-tener-hay-9"
+   ]
+  },
+  {
+   "id": "l-questions",
+   "title": "Negation and questions",
+   "summary": "Put no before the verb. Question words always take an accent.",
+   "cards": [
+    {
+     "rule": "Negative: **no** before the verb. Double negatives are correct: **No tengo nada. No hablo con nadie.** Yes/no question: same words, raised voice, and **¿ ?**.",
+     "examples": [
+      {
+       "id": "s-no-hablo",
+       "es": "No hablo inglés.",
+       "en": "I don't speak English."
+      },
+      {
+       "id": "s-no-tengo-nada",
+       "es": "No tengo nada.",
+       "en": "I have nothing."
+      },
+      {
+       "id": "s-hablas-espanol",
+       "es": "¿Hablas español?",
+       "en": "Do you speak Spanish?"
+      }
+     ]
+    },
+    {
+     "rule": "**¿qué?** what · **¿quién?** who · **¿dónde?** where · **¿cuándo?** when · **¿cómo?** how · **¿por qué?** why (**porque** = because) · **¿cuánto?** how much · **¿cuál?** which.",
+     "examples": [
+      {
+       "id": "s-como-te-llamas",
+       "es": "¿Cómo te llamas?",
+       "en": "What's your name?"
+      },
+      {
+       "id": "s-donde-esta-bano",
+       "es": "¿Dónde está el baño?",
+       "en": "Where is the bathroom?"
+      },
+      {
+       "id": "s-cuanto-cuesta",
+       "es": "¿Cuánto cuesta?",
+       "en": "How much does it cost?"
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-questions-1",
+    "d-questions-2",
+    "d-questions-3",
+    "d-questions-4",
+    "d-questions-5",
+    "d-questions-6",
+    "d-questions-7",
+    "d-questions-8"
+   ]
+  },
+  {
+   "id": "l-numbers-time",
+   "title": "Numbers, time and days",
+   "summary": "Count to 100, tell the time, name the days.",
+   "cards": [
+    {
+     "rule": "**11** once · **12** doce · **15** quince · **16** dieciséis · **20** veinte · **21** veintiuno · **30** treinta · **40** cuarenta · **50** cincuenta · **100** cien. From 31 up: tens + **y** + unit, as separate words (treinta y uno).",
+     "examples": [
+      {
+       "id": "s-tengo-treinta",
+       "es": "Tengo treinta años.",
+       "en": "I am thirty."
+      },
+      {
+       "id": "s-cuarenta-y-cinco",
+       "es": "Son cuarenta y cinco euros.",
+       "en": "That's forty-five euros."
+      },
+      {
+       "id": "s-veintiun",
+       "es": "Tengo veintiún años.",
+       "en": "I am twenty-one."
+      }
+     ],
+     "note": "**uno** becomes **un** before a masculine noun: *un euro*, *veintiún años*."
+    },
+    {
+     "rule": "Time: **Es la una.** / **Son las dos, las tres...** Then **y cuarto**, **y media**, **menos cuarto**. Days are lowercase: lunes, martes, miércoles, jueves, viernes, sábado, domingo.",
+     "examples": [
+      {
+       "id": "s-es-la-una",
+       "es": "Es la una.",
+       "en": "It's one o'clock."
+      },
+      {
+       "id": "s-tres-y-media",
+       "es": "Son las tres y media.",
+       "en": "It's half past three."
+      },
+      {
+       "id": "s-ocho-menos-cuarto",
+       "es": "Son las ocho menos cuarto.",
+       "en": "It's a quarter to eight."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-numbers-time-1",
+    "d-numbers-time-2",
+    "d-numbers-time-3",
+    "d-numbers-time-4",
+    "d-numbers-time-5",
+    "d-numbers-time-6",
+    "d-numbers-time-7",
+    "d-numbers-time-8",
+    "d-numbers-time-9"
+   ]
+  },
+  {
+   "id": "l-gustar",
+   "title": "gustar: liking things",
+   "summary": "The thing you like is the subject; the verb agrees with it.",
+   "cards": [
+    {
+     "rule": "Literally \"it is pleasing to me\". **me, te, le, nos, os, les** + **gusta** (one thing or a verb) / **gustan** (several things).",
+     "examples": [
+      {
+       "id": "s-me-gusta-cafe",
+       "es": "Me gusta el café.",
+       "en": "I like coffee."
+      },
+      {
+       "id": "s-me-gustan-gatos",
+       "es": "Me gustan los gatos.",
+       "en": "I like cats."
+      },
+      {
+       "id": "s-te-gusta-bailar",
+       "es": "¿Te gusta bailar?",
+       "en": "Do you like dancing?"
+      }
+     ],
+     "trap": "Not *Yo gusto el café*. The thing liked is the subject."
+    },
+    {
+     "rule": "Negative: **no** goes first. Similar verbs: **encantar** (love), **interesar**. **No me gusta la sopa. Me encanta el chocolate.**",
+     "examples": [
+      {
+       "id": "s-no-nos-gusta-sopa",
+       "es": "No nos gusta la sopa.",
+       "en": "We don't like soup."
+      },
+      {
+       "id": "s-le-gusta-ciudad",
+       "es": "A ella le gusta la ciudad.",
+       "en": "She likes the city."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-gustar-1",
+    "d-gustar-2",
+    "d-gustar-3",
+    "d-gustar-4",
+    "d-gustar-5",
+    "d-gustar-6",
+    "d-gustar-7",
+    "d-gustar-8"
+   ],
+   "dialogue": "dlg-cafe"
+  },
+  {
+   "id": "l-possessives",
+   "title": "Possessives and little words",
+   "summary": "my, your, our, and the prepositions you need to say where things are.",
+   "cards": [
+    {
+     "rule": "**mi** (my), **tu** (your), **su** (his / her / your formal / their), **nuestro/a** (our), **vuestro/a** (your pl). They agree with the *thing owned*, not the owner. Add **-s** for plurals: **mis amigos, tus libros**.",
+     "examples": [
+      {
+       "id": "s-mi-hermano",
+       "es": "Este es mi hermano.",
+       "en": "This is my brother."
+      },
+      {
+       "id": "s-tu-casa",
+       "es": "¿Dónde está tu casa?",
+       "en": "Where is your house?"
+      },
+      {
+       "id": "s-nuestra-casa",
+       "es": "Es nuestra casa.",
+       "en": "It is our house."
+      }
+     ],
+     "trap": "**su** can mean his, her, your (formal) or their. Context decides."
+    },
+    {
+     "rule": "**en** in/on/at · **de** of/from · **a** to · **con** with · **sin** without · **para** for · **cerca de** near · **lejos de** far from. **a + el = al**, **de + el = del**.",
+     "examples": [
+      {
+       "id": "s-vivo-en",
+       "es": "Vivo en Madrid.",
+       "en": "I live in Madrid."
+      },
+      {
+       "id": "s-cafe-con-leche",
+       "es": "Un café con leche, por favor.",
+       "en": "A coffee with milk, please."
+      },
+      {
+       "id": "s-cerca-de-aqui",
+       "es": "El banco está cerca de aquí.",
+       "en": "The bank is near here."
+      },
+      {
+       "id": "s-voy-al",
+       "es": "Voy al banco.",
+       "en": "I'm going to the bank."
+      }
+     ]
+    }
+   ],
+   "drills": [
+    "d-possessives-1",
+    "d-possessives-2",
+    "d-possessives-3",
+    "d-possessives-4",
+    "d-possessives-5",
+    "d-possessives-6",
+    "d-possessives-7",
+    "d-possessives-8",
+    "d-possessives-9",
+    "d-possessives-10",
+    "d-possessives-11"
+   ],
+   "dialogue": "dlg-directions"
+  }
+ ],
+ "drills": [
+  {
+   "id": "d-sounds-1",
+   "type": "choose",
+   "prompt": "___ tienes mi libro.",
+   "options": [
+    "Tu",
+    "Tú"
+   ],
+   "answer": [
+    "Tú"
+   ],
+   "explain": "Tú = you (subject). Tu = your.",
+   "full": {
+    "id": "d-sounds-1-f",
+    "es": "Tú tienes mi libro."
+   }
+  },
+  {
+   "id": "d-sounds-2",
+   "type": "choose",
+   "prompt": "¿Quieres café? —___, gracias.",
+   "options": [
+    "Si",
+    "Sí"
+   ],
+   "answer": [
+    "Sí"
+   ],
+   "explain": "Sí with accent = yes. Si = if.",
+   "full": {
+    "id": "d-sounds-2-f",
+    "es": "¿Quieres café? Sí, gracias."
+   }
+  },
+  {
+   "id": "d-sounds-3",
+   "type": "choose",
+   "prompt": "___ es mi hermano.",
+   "options": [
+    "El",
+    "Él"
+   ],
+   "answer": [
+    "Él"
+   ],
+   "explain": "Él = he. El = the.",
+   "full": {
+    "id": "d-sounds-3-f",
+    "es": "Él es mi hermano."
+   }
+  },
+  {
+   "id": "d-sounds-4",
+   "type": "choose",
+   "prompt": "Quiero ___ café.",
+   "options": [
+    "mas",
+    "más"
+   ],
+   "answer": [
+    "más"
+   ],
+   "explain": "Más = more, with accent.",
+   "full": {
+    "id": "d-sounds-4-f",
+    "es": "Quiero más café."
+   }
+  },
+  {
+   "id": "d-sounds-5",
+   "type": "choose",
+   "prompt": "¿___ estás?",
+   "options": [
+    "Como",
+    "Cómo"
+   ],
+   "answer": [
+    "Cómo"
+   ],
+   "explain": "Question words take an accent.",
+   "full": {
+    "id": "d-sounds-5-f",
+    "es": "¿Cómo estás?"
+   }
+  },
+  {
+   "id": "d-sounds-6",
+   "type": "choose",
+   "prompt": "Es ___ casa.",
+   "options": [
+    "tu",
+    "tú"
+   ],
+   "answer": [
+    "tu"
+   ],
+   "explain": "Tu = your (before a noun), no accent.",
+   "full": {
+    "id": "d-sounds-6-f",
+    "es": "Es tu casa."
+   }
+  },
+  {
+   "id": "d-gender-1",
+   "type": "gap",
+   "prompt": "___ casa es grande.",
+   "hint": "the",
+   "answer": [
+    "la"
+   ],
+   "explain": "Casa ends in -a: feminine.",
+   "full": {
+    "id": "d-gender-1-f",
+    "es": "La casa es grande."
+   }
+  },
+  {
+   "id": "d-gender-2",
+   "type": "gap",
+   "prompt": "___ libro es nuevo.",
+   "hint": "the",
+   "answer": [
+    "el"
+   ],
+   "explain": "Libro ends in -o: masculine.",
+   "full": {
+    "id": "d-gender-2-f",
+    "es": "El libro es nuevo."
+   }
+  },
+  {
+   "id": "d-gender-3",
+   "type": "gap",
+   "prompt": "___ ciudad es bonita.",
+   "hint": "the",
+   "answer": [
+    "la"
+   ],
+   "explain": "-dad nouns are feminine.",
+   "full": {
+    "id": "d-gender-3-f",
+    "es": "La ciudad es bonita."
+   }
+  },
+  {
+   "id": "d-gender-4",
+   "type": "gap",
+   "prompt": "___ día es bonito.",
+   "hint": "the",
+   "answer": [
+    "el"
+   ],
+   "explain": "Día is a masculine exception.",
+   "full": {
+    "id": "d-gender-4-f",
+    "es": "El día es bonito."
+   }
+  },
+  {
+   "id": "d-gender-5",
+   "type": "gap",
+   "prompt": "___ amigas están aquí.",
+   "hint": "the (f pl)",
+   "answer": [
+    "las"
+   ],
+   "explain": "Feminine plural: las.",
+   "full": {
+    "id": "d-gender-5-f",
+    "es": "Las amigas están aquí."
+   }
+  },
+  {
+   "id": "d-gender-6",
+   "type": "choose",
+   "prompt": "Tengo ___ hermana.",
+   "options": [
+    "un",
+    "una"
+   ],
+   "answer": [
+    "una"
+   ],
+   "explain": "Hermana is feminine singular.",
+   "full": {
+    "id": "d-gender-6-f",
+    "es": "Tengo una hermana."
+   }
+  },
+  {
+   "id": "d-gender-7",
+   "type": "choose",
+   "prompt": "Hay ___ libros en la mesa.",
+   "options": [
+    "unos",
+    "unas"
+   ],
+   "answer": [
+    "unos"
+   ],
+   "explain": "Libros is masculine plural.",
+   "full": {
+    "id": "d-gender-7-f",
+    "es": "Hay unos libros en la mesa."
+   }
+  },
+  {
+   "id": "d-gender-8",
+   "type": "translate",
+   "prompt": "I have a brother.",
+   "answer": [
+    "Tengo un hermano.",
+    "Yo tengo un hermano."
+   ],
+   "explain": "Tener + un (masculine).",
+   "full": {
+    "id": "d-gender-8-f",
+    "es": "Tengo un hermano."
+   }
+  },
+  {
+   "id": "d-adjectives-1",
+   "type": "gap",
+   "prompt": "Los libros son ___.",
+   "hint": "nuevo",
+   "answer": [
+    "nuevos"
+   ],
+   "explain": "Masculine plural: nuevo → nuevos.",
+   "full": {
+    "id": "d-adjectives-1-f",
+    "es": "Los libros son nuevos."
+   }
+  },
+  {
+   "id": "d-adjectives-2",
+   "type": "gap",
+   "prompt": "La casa es ___.",
+   "hint": "blanco",
+   "answer": [
+    "blanca"
+   ],
+   "explain": "Feminine singular: blanco → blanca.",
+   "full": {
+    "id": "d-adjectives-2-f",
+    "es": "La casa es blanca."
+   }
+  },
+  {
+   "id": "d-adjectives-3",
+   "type": "gap",
+   "prompt": "Las ciudades son ___.",
+   "hint": "grande",
+   "answer": [
+    "grandes"
+   ],
+   "explain": "Grande only adds -s in the plural.",
+   "full": {
+    "id": "d-adjectives-3-f",
+    "es": "Las ciudades son grandes."
+   }
+  },
+  {
+   "id": "d-adjectives-4",
+   "type": "gap",
+   "prompt": "Una ciudad, dos ___.",
+   "hint": "ciudad",
+   "answer": [
+    "ciudades"
+   ],
+   "explain": "Ends in a consonant: add -es.",
+   "full": {
+    "id": "d-adjectives-4-f",
+    "es": "Una ciudad, dos ciudades."
+   }
+  },
+  {
+   "id": "d-adjectives-5",
+   "type": "choose",
+   "prompt": "Tengo un coche ___.",
+   "options": [
+    "rojo",
+    "roja"
+   ],
+   "answer": [
+    "rojo"
+   ],
+   "explain": "Coche is masculine.",
+   "full": {
+    "id": "d-adjectives-5-f",
+    "es": "Tengo un coche rojo."
+   }
+  },
+  {
+   "id": "d-adjectives-6",
+   "type": "choose",
+   "prompt": "Tengo una casa ___.",
+   "options": [
+    "pequeño",
+    "pequeña"
+   ],
+   "answer": [
+    "pequeña"
+   ],
+   "explain": "Casa is feminine.",
+   "full": {
+    "id": "d-adjectives-6-f",
+    "es": "Tengo una casa pequeña."
+   }
+  },
+  {
+   "id": "d-adjectives-7",
+   "type": "build",
+   "prompt": "I have a red car.",
+   "answer": [
+    "Tengo un coche rojo."
+   ],
+   "explain": "Adjective after the noun.",
+   "full": {
+    "id": "d-adjectives-7-f",
+    "es": "Tengo un coche rojo."
+   }
+  },
+  {
+   "id": "d-adjectives-8",
+   "type": "translate",
+   "prompt": "the big cities",
+   "answer": [
+    "las ciudades grandes",
+    "las grandes ciudades"
+   ],
+   "explain": "Feminine plural agreement.",
+   "full": {
+    "id": "d-adjectives-8-f",
+    "es": "Las ciudades grandes."
+   }
+  },
+  {
+   "id": "d-present-1",
+   "type": "gap",
+   "prompt": "Yo ___ español.",
+   "hint": "hablar",
+   "answer": [
+    "hablo"
+   ],
+   "explain": "Yo form of hablar: -o.",
+   "full": {
+    "id": "d-present-1-f",
+    "es": "Yo hablo español."
+   }
+  },
+  {
+   "id": "d-present-2",
+   "type": "gap",
+   "prompt": "Tú ___ mucho.",
+   "hint": "comer",
+   "answer": [
+    "comes"
+   ],
+   "explain": "Tú form of comer: -es.",
+   "full": {
+    "id": "d-present-2-f",
+    "es": "Tú comes mucho."
+   }
+  },
+  {
+   "id": "d-present-3",
+   "type": "gap",
+   "prompt": "Ella ___ en Madrid.",
+   "hint": "vivir",
+   "answer": [
+    "vive"
+   ],
+   "explain": "Ella form of vivir: -e.",
+   "full": {
+    "id": "d-present-3-f",
+    "es": "Ella vive en Madrid."
+   }
+  },
+  {
+   "id": "d-present-4",
+   "type": "gap",
+   "prompt": "Nosotros ___ aquí.",
+   "hint": "trabajar",
+   "answer": [
+    "trabajamos"
+   ],
+   "explain": "Nosotros form: -amos.",
+   "full": {
+    "id": "d-present-4-f",
+    "es": "Nosotros trabajamos aquí."
+   }
+  },
+  {
+   "id": "d-present-5",
+   "type": "gap",
+   "prompt": "Ellos ___ agua.",
+   "hint": "beber",
+   "answer": [
+    "beben"
+   ],
+   "explain": "Ellos form of beber: -en.",
+   "full": {
+    "id": "d-present-5-f",
+    "es": "Ellos beben agua."
+   }
+  },
+  {
+   "id": "d-present-6",
+   "type": "choose",
+   "prompt": "Señora López, ¿___ habla inglés?",
+   "options": [
+    "tú",
+    "usted"
+   ],
+   "answer": [
+    "usted"
+   ],
+   "explain": "Formal address: usted.",
+   "full": {
+    "id": "d-present-6-f",
+    "es": "Señora López, ¿usted habla inglés?"
+   }
+  },
+  {
+   "id": "d-present-7",
+   "type": "translate",
+   "prompt": "I don't speak English.",
+   "answer": [
+    "No hablo inglés.",
+    "Yo no hablo inglés."
+   ],
+   "explain": "No goes before the verb.",
+   "full": {
+    "id": "d-present-7-f",
+    "es": "No hablo inglés."
+   }
+  },
+  {
+   "id": "d-present-8",
+   "type": "translate",
+   "prompt": "We live here.",
+   "answer": [
+    "Vivimos aquí.",
+    "Nosotros vivimos aquí.",
+    "Nosotras vivimos aquí."
+   ],
+   "explain": "Nosotros form of vivir: -imos.",
+   "full": {
+    "id": "d-present-8-f",
+    "es": "Vivimos aquí."
+   }
+  },
+  {
+   "id": "d-ser-estar-1",
+   "type": "gap",
+   "prompt": "Yo ___ holandés.",
+   "hint": "ser",
+   "answer": [
+    "soy"
+   ],
+   "explain": "Identity or origin: ser.",
+   "full": {
+    "id": "d-ser-estar-1-f",
+    "es": "Yo soy holandés."
+   }
+  },
+  {
+   "id": "d-ser-estar-2",
+   "type": "gap",
+   "prompt": "Nosotros ___ en casa.",
+   "hint": "estar",
+   "answer": [
+    "estamos"
+   ],
+   "explain": "Location: estar.",
+   "full": {
+    "id": "d-ser-estar-2-f",
+    "es": "Nosotros estamos en casa."
+   }
+  },
+  {
+   "id": "d-ser-estar-3",
+   "type": "gap",
+   "prompt": "Ellos ___ cansados.",
+   "hint": "estar",
+   "answer": [
+    "están"
+   ],
+   "explain": "Temporary state: estar.",
+   "full": {
+    "id": "d-ser-estar-3-f",
+    "es": "Ellos están cansados."
+   }
+  },
+  {
+   "id": "d-ser-estar-4",
+   "type": "choose",
+   "prompt": "La fiesta ___ el sábado.",
+   "options": [
+    "es",
+    "está"
+   ],
+   "answer": [
+    "es"
+   ],
+   "explain": "Events and dates use ser.",
+   "full": {
+    "id": "d-ser-estar-4-f",
+    "es": "La fiesta es el sábado."
+   }
+  },
+  {
+   "id": "d-ser-estar-5",
+   "type": "choose",
+   "prompt": "Madrid ___ en España.",
+   "options": [
+    "es",
+    "está"
+   ],
+   "answer": [
+    "está"
+   ],
+   "explain": "Location: estar.",
+   "full": {
+    "id": "d-ser-estar-5-f",
+    "es": "Madrid está en España."
+   }
+  },
+  {
+   "id": "d-ser-estar-6",
+   "type": "choose",
+   "prompt": "Mi madre ___ médica.",
+   "options": [
+    "es",
+    "está"
+   ],
+   "answer": [
+    "es"
+   ],
+   "explain": "Profession: ser.",
+   "full": {
+    "id": "d-ser-estar-6-f",
+    "es": "Mi madre es médica."
+   }
+  },
+  {
+   "id": "d-ser-estar-7",
+   "type": "choose",
+   "prompt": "Hoy ___ cansado.",
+   "options": [
+    "soy",
+    "estoy"
+   ],
+   "answer": [
+    "estoy"
+   ],
+   "explain": "Temporary state: estar.",
+   "full": {
+    "id": "d-ser-estar-7-f",
+    "es": "Hoy estoy cansado."
+   }
+  },
+  {
+   "id": "d-ser-estar-8",
+   "type": "translate",
+   "prompt": "I am tired.",
+   "answer": [
+    "Estoy cansado.",
+    "Estoy cansada.",
+    "Yo estoy cansado.",
+    "Yo estoy cansada."
+   ],
+   "explain": "Temporary state; cansado/a by gender.",
+   "full": {
+    "id": "d-ser-estar-8-f",
+    "es": "Estoy cansado."
+   }
+  },
+  {
+   "id": "d-ser-estar-9",
+   "type": "translate",
+   "prompt": "Where are you from?",
+   "answer": [
+    "¿De dónde eres?",
+    "¿De dónde eres tú?",
+    "¿De dónde es usted?",
+    "¿De dónde sois?"
+   ],
+   "explain": "Origin: ser + de.",
+   "full": {
+    "id": "d-ser-estar-9-f",
+    "es": "¿De dónde eres?"
+   }
+  },
+  {
+   "id": "d-tener-hay-1",
+   "type": "gap",
+   "prompt": "Yo ___ hambre.",
+   "hint": "tener",
+   "answer": [
+    "tengo"
+   ],
+   "explain": "Hunger: tener.",
+   "full": {
+    "id": "d-tener-hay-1-f",
+    "es": "Yo tengo hambre."
+   }
+  },
+  {
+   "id": "d-tener-hay-2",
+   "type": "gap",
+   "prompt": "Ella ___ veinticinco años.",
+   "hint": "tener",
+   "answer": [
+    "tiene"
+   ],
+   "explain": "Age: tener.",
+   "full": {
+    "id": "d-tener-hay-2-f",
+    "es": "Ella tiene veinticinco años."
+   }
+  },
+  {
+   "id": "d-tener-hay-3",
+   "type": "gap",
+   "prompt": "Nosotros ___ frío.",
+   "hint": "tener",
+   "answer": [
+    "tenemos"
+   ],
+   "explain": "Feeling cold: tener.",
+   "full": {
+    "id": "d-tener-hay-3-f",
+    "es": "Nosotros tenemos frío."
+   }
+  },
+  {
+   "id": "d-tener-hay-4",
+   "type": "gap",
+   "prompt": "Ellos ___ que trabajar.",
+   "hint": "tener",
+   "answer": [
+    "tienen"
+   ],
+   "explain": "Tener que = must.",
+   "full": {
+    "id": "d-tener-hay-4-f",
+    "es": "Ellos tienen que trabajar."
+   }
+  },
+  {
+   "id": "d-tener-hay-5",
+   "type": "choose",
+   "prompt": "___ un banco cerca.",
+   "options": [
+    "Hay",
+    "Está"
+   ],
+   "answer": [
+    "Hay"
+   ],
+   "explain": "Introducing something new: hay.",
+   "full": {
+    "id": "d-tener-hay-5-f",
+    "es": "Hay un banco cerca."
+   }
+  },
+  {
+   "id": "d-tener-hay-6",
+   "type": "choose",
+   "prompt": "¿Dónde ___ el banco?",
+   "options": [
+    "hay",
+    "está"
+   ],
+   "answer": [
+    "está"
+   ],
+   "explain": "Asking where a known thing is: estar.",
+   "full": {
+    "id": "d-tener-hay-6-f",
+    "es": "¿Dónde está el banco?"
+   }
+  },
+  {
+   "id": "d-tener-hay-7",
+   "type": "choose",
+   "prompt": "En la mesa ___ tres libros.",
+   "options": [
+    "hay",
+    "están"
+   ],
+   "answer": [
+    "hay"
+   ],
+   "explain": "New items: hay.",
+   "full": {
+    "id": "d-tener-hay-7-f",
+    "es": "En la mesa hay tres libros."
+   }
+  },
+  {
+   "id": "d-tener-hay-8",
+   "type": "translate",
+   "prompt": "I am thirsty.",
+   "answer": [
+    "Tengo sed.",
+    "Yo tengo sed."
+   ],
+   "explain": "Thirst: tener.",
+   "full": {
+    "id": "d-tener-hay-8-f",
+    "es": "Tengo sed."
+   }
+  },
+  {
+   "id": "d-tener-hay-9",
+   "type": "translate",
+   "prompt": "There is no problem.",
+   "answer": [
+    "No hay problema."
+   ],
+   "explain": "No + hay.",
+   "full": {
+    "id": "d-tener-hay-9-f",
+    "es": "No hay problema."
+   }
+  },
+  {
+   "id": "d-questions-1",
+   "type": "gap",
+   "prompt": "¿___ te llamas?",
+   "hint": "how",
+   "answer": [
+    "Cómo"
+   ],
+   "explain": "How are you called = what's your name.",
+   "full": {
+    "id": "d-questions-1-f",
+    "es": "¿Cómo te llamas?"
+   }
+  },
+  {
+   "id": "d-questions-2",
+   "type": "gap",
+   "prompt": "¿___ está el baño?",
+   "hint": "where",
+   "answer": [
+    "Dónde"
+   ],
+   "explain": "Where: dónde.",
+   "full": {
+    "id": "d-questions-2-f",
+    "es": "¿Dónde está el baño?"
+   }
+  },
+  {
+   "id": "d-questions-3",
+   "type": "gap",
+   "prompt": "¿___ cuesta?",
+   "hint": "how much",
+   "answer": [
+    "Cuánto"
+   ],
+   "explain": "How much: cuánto.",
+   "full": {
+    "id": "d-questions-3-f",
+    "es": "¿Cuánto cuesta?"
+   }
+  },
+  {
+   "id": "d-questions-4",
+   "type": "choose",
+   "prompt": "¿___ estudias español?",
+   "options": [
+    "Por qué",
+    "Porque"
+   ],
+   "answer": [
+    "Por qué"
+   ],
+   "explain": "Two words, accent on qué, for why.",
+   "full": {
+    "id": "d-questions-4-f",
+    "es": "¿Por qué estudias español?"
+   }
+  },
+  {
+   "id": "d-questions-5",
+   "type": "choose",
+   "prompt": "No tengo ___.",
+   "options": [
+    "nada",
+    "algo"
+   ],
+   "answer": [
+    "nada"
+   ],
+   "explain": "Double negative: no ... nada.",
+   "full": {
+    "id": "d-questions-5-f",
+    "es": "No tengo nada."
+   }
+  },
+  {
+   "id": "d-questions-6",
+   "type": "build",
+   "prompt": "I do not speak English well.",
+   "answer": [
+    "No hablo bien inglés."
+   ],
+   "explain": "No before the verb; bien after it.",
+   "full": {
+    "id": "d-questions-6-f",
+    "es": "No hablo bien inglés."
+   }
+  },
+  {
+   "id": "d-questions-7",
+   "type": "build",
+   "prompt": "Where is the bathroom?",
+   "answer": [
+    "¿Dónde está el baño?"
+   ],
+   "explain": "Question word first, then verb.",
+   "full": {
+    "id": "d-questions-7-f",
+    "es": "¿Dónde está el baño?"
+   }
+  },
+  {
+   "id": "d-questions-8",
+   "type": "translate",
+   "prompt": "How much does it cost?",
+   "answer": [
+    "¿Cuánto cuesta?",
+    "¿Cuánto vale?"
+   ],
+   "explain": "Cuánto + cuesta (or vale).",
+   "full": {
+    "id": "d-questions-8-f",
+    "es": "¿Cuánto cuesta?"
+   }
+  },
+  {
+   "id": "d-numbers-time-1",
+   "type": "gap",
+   "prompt": "Tengo ___ años. (30)",
+   "hint": "30",
+   "answer": [
+    "treinta"
+   ],
+   "explain": "30 = treinta.",
+   "full": {
+    "id": "d-numbers-time-1-f",
+    "es": "Tengo treinta años."
+   }
+  },
+  {
+   "id": "d-numbers-time-2",
+   "type": "gap",
+   "prompt": "Son las ___ y media. (3)",
+   "hint": "3",
+   "answer": [
+    "tres"
+   ],
+   "explain": "3 = tres.",
+   "full": {
+    "id": "d-numbers-time-2-f",
+    "es": "Son las tres y media."
+   }
+  },
+  {
+   "id": "d-numbers-time-3",
+   "type": "gap",
+   "prompt": "Dos más tres son ___.",
+   "hint": "5",
+   "answer": [
+    "cinco"
+   ],
+   "explain": "2 + 3 = cinco.",
+   "full": {
+    "id": "d-numbers-time-3-f",
+    "es": "Dos más tres son cinco."
+   }
+  },
+  {
+   "id": "d-numbers-time-4",
+   "type": "gap",
+   "prompt": "Cuarenta y ___. (45)",
+   "hint": "5",
+   "answer": [
+    "cinco"
+   ],
+   "explain": "45 = cuarenta y cinco.",
+   "full": {
+    "id": "d-numbers-time-4-f",
+    "es": "Cuarenta y cinco."
+   }
+  },
+  {
+   "id": "d-numbers-time-5",
+   "type": "gap",
+   "prompt": "El día después del lunes es el ___.",
+   "answer": [
+    "martes"
+   ],
+   "explain": "Monday, Tuesday: lunes, martes.",
+   "full": {
+    "id": "d-numbers-time-5-f",
+    "es": "El día después del lunes es el martes."
+   }
+  },
+  {
+   "id": "d-numbers-time-6",
+   "type": "choose",
+   "prompt": "___ la una.",
+   "options": [
+    "Es",
+    "Son"
+   ],
+   "answer": [
+    "Es"
+   ],
+   "explain": "Singular hour (one o'clock): es.",
+   "full": {
+    "id": "d-numbers-time-6-f",
+    "es": "Es la una."
+   }
+  },
+  {
+   "id": "d-numbers-time-7",
+   "type": "choose",
+   "prompt": "___ las tres.",
+   "options": [
+    "Es",
+    "Son"
+   ],
+   "answer": [
+    "Son"
+   ],
+   "explain": "Plural hours: son.",
+   "full": {
+    "id": "d-numbers-time-7-f",
+    "es": "Son las tres."
+   }
+  },
+  {
+   "id": "d-numbers-time-8",
+   "type": "build",
+   "prompt": "It is a quarter to eight.",
+   "answer": [
+    "Son las ocho menos cuarto."
+   ],
+   "explain": "Hour, then menos cuarto.",
+   "full": {
+    "id": "d-numbers-time-8-f",
+    "es": "Son las ocho menos cuarto."
+   }
+  },
+  {
+   "id": "d-numbers-time-9",
+   "type": "translate",
+   "prompt": "It is half past four.",
+   "answer": [
+    "Son las cuatro y media."
+   ],
+   "explain": "Y media = half past.",
+   "full": {
+    "id": "d-numbers-time-9-f",
+    "es": "Son las cuatro y media."
+   }
+  },
+  {
+   "id": "d-gustar-1",
+   "type": "choose",
+   "prompt": "Me ___ el café.",
+   "options": [
+    "gusta",
+    "gustan"
+   ],
+   "answer": [
+    "gusta"
+   ],
+   "explain": "One thing: gusta.",
+   "full": {
+    "id": "d-gustar-1-f",
+    "es": "Me gusta el café."
+   }
+  },
+  {
+   "id": "d-gustar-2",
+   "type": "choose",
+   "prompt": "Me ___ los gatos.",
+   "options": [
+    "gusta",
+    "gustan"
+   ],
+   "answer": [
+    "gustan"
+   ],
+   "explain": "Several things: gustan.",
+   "full": {
+    "id": "d-gustar-2-f",
+    "es": "Me gustan los gatos."
+   }
+  },
+  {
+   "id": "d-gustar-3",
+   "type": "choose",
+   "prompt": "No ___ gusta la sopa. (we)",
+   "options": [
+    "me",
+    "te",
+    "nos",
+    "les"
+   ],
+   "answer": [
+    "nos"
+   ],
+   "explain": "Nos = to us.",
+   "full": {
+    "id": "d-gustar-3-f",
+    "es": "No nos gusta la sopa."
+   }
+  },
+  {
+   "id": "d-gustar-4",
+   "type": "gap",
+   "prompt": "¿___ gusta bailar? (tú)",
+   "hint": "to you",
+   "answer": [
+    "Te"
+   ],
+   "explain": "Te = to you (informal).",
+   "full": {
+    "id": "d-gustar-4-f",
+    "es": "¿Te gusta bailar?"
+   }
+  },
+  {
+   "id": "d-gustar-5",
+   "type": "gap",
+   "prompt": "A ella le ___ la ciudad.",
+   "hint": "gustar",
+   "answer": [
+    "gusta"
+   ],
+   "explain": "One thing: gusta.",
+   "full": {
+    "id": "d-gustar-5-f",
+    "es": "A ella le gusta la ciudad."
+   }
+  },
+  {
+   "id": "d-gustar-6",
+   "type": "translate",
+   "prompt": "I like coffee.",
+   "answer": [
+    "Me gusta el café.",
+    "A mí me gusta el café."
+   ],
+   "explain": "Me gusta + thing.",
+   "full": {
+    "id": "d-gustar-6-f",
+    "es": "Me gusta el café."
+   }
+  },
+  {
+   "id": "d-gustar-7",
+   "type": "translate",
+   "prompt": "She likes cats.",
+   "answer": [
+    "Le gustan los gatos.",
+    "A ella le gustan los gatos."
+   ],
+   "explain": "Plural thing: gustan.",
+   "full": {
+    "id": "d-gustar-7-f",
+    "es": "Le gustan los gatos."
+   }
+  },
+  {
+   "id": "d-gustar-8",
+   "type": "build",
+   "prompt": "I do not like soup.",
+   "answer": [
+    "No me gusta la sopa."
+   ],
+   "explain": "No first.",
+   "full": {
+    "id": "d-gustar-8-f",
+    "es": "No me gusta la sopa."
+   }
+  },
+  {
+   "id": "d-possessives-1",
+   "type": "gap",
+   "prompt": "Este es ___ hermano. (my)",
+   "hint": "my",
+   "answer": [
+    "mi"
+   ],
+   "explain": "My = mi.",
+   "full": {
+    "id": "d-possessives-1-f",
+    "es": "Este es mi hermano."
+   }
+  },
+  {
+   "id": "d-possessives-2",
+   "type": "gap",
+   "prompt": "¿Dónde está ___ casa? (your, tú)",
+   "hint": "your",
+   "answer": [
+    "tu"
+   ],
+   "explain": "Your (informal) = tu.",
+   "full": {
+    "id": "d-possessives-2-f",
+    "es": "¿Dónde está tu casa?"
+   }
+  },
+  {
+   "id": "d-possessives-3",
+   "type": "gap",
+   "prompt": "Ella habla con ___ madre. (her)",
+   "hint": "her",
+   "answer": [
+    "su"
+   ],
+   "explain": "Her = su.",
+   "full": {
+    "id": "d-possessives-3-f",
+    "es": "Ella habla con su madre."
+   }
+  },
+  {
+   "id": "d-possessives-4",
+   "type": "gap",
+   "prompt": "Es ___ casa. (our)",
+   "hint": "our",
+   "answer": [
+    "nuestra"
+   ],
+   "explain": "Casa is feminine: nuestra.",
+   "full": {
+    "id": "d-possessives-4-f",
+    "es": "Es nuestra casa."
+   }
+  },
+  {
+   "id": "d-possessives-5",
+   "type": "gap",
+   "prompt": "Es el coche ___ Ana. (of)",
+   "hint": "of",
+   "answer": [
+    "de"
+   ],
+   "explain": "Ownership: de.",
+   "full": {
+    "id": "d-possessives-5-f",
+    "es": "Es el coche de Ana."
+   }
+  },
+  {
+   "id": "d-possessives-6",
+   "type": "gap",
+   "prompt": "Voy ___ la playa. (to)",
+   "hint": "to",
+   "answer": [
+    "a"
+   ],
+   "explain": "Going to: a.",
+   "full": {
+    "id": "d-possessives-6-f",
+    "es": "Voy a la playa."
+   }
+  },
+  {
+   "id": "d-possessives-7",
+   "type": "gap",
+   "prompt": "Un café ___ leche, por favor. (with)",
+   "hint": "with",
+   "answer": [
+    "con"
+   ],
+   "explain": "With: con.",
+   "full": {
+    "id": "d-possessives-7-f",
+    "es": "Un café con leche, por favor."
+   }
+  },
+  {
+   "id": "d-possessives-8",
+   "type": "gap",
+   "prompt": "El banco está ___ de aquí. (near)",
+   "hint": "near",
+   "answer": [
+    "cerca"
+   ],
+   "explain": "Cerca de = near.",
+   "full": {
+    "id": "d-possessives-8-f",
+    "es": "El banco está cerca de aquí."
+   }
+  },
+  {
+   "id": "d-possessives-9",
+   "type": "choose",
+   "prompt": "Vivo ___ Madrid.",
+   "options": [
+    "en",
+    "a"
+   ],
+   "answer": [
+    "en"
+   ],
+   "explain": "Living in a place: en.",
+   "full": {
+    "id": "d-possessives-9-f",
+    "es": "Vivo en Madrid."
+   }
+  },
+  {
+   "id": "d-possessives-10",
+   "type": "build",
+   "prompt": "I go with my friends.",
+   "answer": [
+    "Voy con mis amigos."
+   ],
+   "explain": "Mis agrees with plural amigos.",
+   "full": {
+    "id": "d-possessives-10-f",
+    "es": "Voy con mis amigos."
+   }
+  },
+  {
+   "id": "d-possessives-11",
+   "type": "translate",
+   "prompt": "my friend (f)",
+   "answer": [
+    "mi amiga"
+   ],
+   "explain": "Mi does not change for gender.",
+   "full": {
+    "id": "d-possessives-11-f",
+    "es": "Mi amiga."
+   }
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "dlg-meeting",
+   "title": "Meeting someone",
+   "lines": [
+    {
+     "id": "dlg-meeting-1",
+     "who": "A",
+     "es": "¡Hola! ¿Cómo te llamas?",
+     "en": "Hi! What's your name?"
+    },
+    {
+     "id": "dlg-meeting-2",
+     "who": "B",
+     "es": "Me llamo Luis. ¿Y tú?",
+     "en": "My name is Luis. And you?"
+    },
+    {
+     "id": "dlg-meeting-3",
+     "who": "A",
+     "es": "Me llamo Ana. Mucho gusto.",
+     "en": "I'm Ana. Nice to meet you."
+    },
+    {
+     "id": "dlg-meeting-4",
+     "who": "B",
+     "es": "Encantado. ¿De dónde eres?",
+     "en": "Pleased to meet you. Where are you from?"
+    },
+    {
+     "id": "dlg-meeting-5",
+     "who": "A",
+     "es": "Soy de Sevilla. ¿Y tú?",
+     "en": "I'm from Seville. And you?"
+    },
+    {
+     "id": "dlg-meeting-6",
+     "who": "B",
+     "es": "Soy de los Países Bajos, pero vivo en Madrid.",
+     "en": "I'm from the Netherlands, but I live in Madrid."
+    },
+    {
+     "id": "dlg-meeting-7",
+     "who": "A",
+     "es": "¡Qué bien! ¿Hablas español?",
+     "en": "Great! Do you speak Spanish?"
+    },
+    {
+     "id": "dlg-meeting-8",
+     "who": "B",
+     "es": "Un poco. Más despacio, por favor.",
+     "en": "A little. More slowly, please."
+    }
+   ]
+  },
+  {
+   "id": "dlg-cafe",
+   "title": "At a café",
+   "lines": [
+    {
+     "id": "dlg-cafe-1",
+     "who": "Camarero",
+     "es": "Buenas tardes. ¿Qué desea?",
+     "en": "Good afternoon. What would you like?"
+    },
+    {
+     "id": "dlg-cafe-2",
+     "who": "Cliente",
+     "es": "Quisiera un café con leche, por favor.",
+     "en": "I'd like a coffee with milk, please."
+    },
+    {
+     "id": "dlg-cafe-3",
+     "who": "Camarero",
+     "es": "¿Algo más?",
+     "en": "Anything else?"
+    },
+    {
+     "id": "dlg-cafe-4",
+     "who": "Cliente",
+     "es": "Sí, un zumo de naranja.",
+     "en": "Yes, an orange juice."
+    },
+    {
+     "id": "dlg-cafe-5",
+     "who": "Camarero",
+     "es": "Muy bien. Son tres euros.",
+     "en": "Very good. That's three euros."
+    },
+    {
+     "id": "dlg-cafe-6",
+     "who": "Cliente",
+     "es": "¿Puedo pagar con tarjeta?",
+     "en": "Can I pay by card?"
+    },
+    {
+     "id": "dlg-cafe-7",
+     "who": "Camarero",
+     "es": "Sí, claro.",
+     "en": "Yes, of course."
+    },
+    {
+     "id": "dlg-cafe-8",
+     "who": "Cliente",
+     "es": "Gracias. Hasta luego.",
+     "en": "Thanks. See you later."
+    }
+   ]
+  },
+  {
+   "id": "dlg-directions",
+   "title": "Asking the way",
+   "lines": [
+    {
+     "id": "dlg-directions-1",
+     "who": "Turista",
+     "es": "Perdone, ¿dónde está la estación?",
+     "en": "Excuse me, where is the station?"
+    },
+    {
+     "id": "dlg-directions-2",
+     "who": "Señora",
+     "es": "Siga todo recto.",
+     "en": "Keep going straight."
+    },
+    {
+     "id": "dlg-directions-3",
+     "who": "Turista",
+     "es": "¿Y después?",
+     "en": "And then?"
+    },
+    {
+     "id": "dlg-directions-4",
+     "who": "Señora",
+     "es": "Gire a la derecha. Está allí.",
+     "en": "Turn right. It's there."
+    },
+    {
+     "id": "dlg-directions-5",
+     "who": "Turista",
+     "es": "¿Está lejos de aquí?",
+     "en": "Is it far from here?"
+    },
+    {
+     "id": "dlg-directions-6",
+     "who": "Señora",
+     "es": "No, está a cinco minutos.",
+     "en": "No, it's five minutes away."
+    },
+    {
+     "id": "dlg-directions-7",
+     "who": "Turista",
+     "es": "Muchas gracias.",
+     "en": "Thank you very much."
+    },
+    {
+     "id": "dlg-directions-8",
+     "who": "Señora",
+     "es": "De nada.",
+     "en": "You're welcome."
+    }
+   ]
+  }
+ ]
+}
